@@ -19,8 +19,8 @@ def extract_price(html: str) -> list[dict[str, Any]]:
     # 支持多种价格格式的匹配模式
     price_patterns = [
         re.compile(r'\$(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*/?\s*month', re.IGNORECASE),  # $7.99/month
-        re.compile(r'(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)\s*/?\s*month', re.IGNORECASE),
-        re.compile(r'([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)\s*(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*/?\s*month', re.IGNORECASE)
+        re.compile(r'(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR|AU\$|kr|R\$|Ft|Kč)\s*/?\s*month', re.IGNORECASE),
+        re.compile(r'([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR|AU\$|kr|R\$|Ft|Kč)\s*(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*/?\s*month', re.IGNORECASE)
     ]
     
     for plan_name in plan_names:
@@ -82,7 +82,7 @@ def extract_from_full_text_fallback(text_content: str, plan_names: list[str]) ->
     found_plans = {}
     
     # 简化的价格模式
-    price_pattern = re.compile(r'(\$?\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)?\s*/?\s*month', re.IGNORECASE)
+    price_pattern = re.compile(r'(\$?\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR|AU\$|kr|R\$|Ft|Kč)?\s*/?\s*month', re.IGNORECASE)
     
     lines = text_content.split('\n')
     
@@ -189,9 +189,20 @@ def extract_from_full_text(text_content: str, plan_names: list[str]) -> list[dic
     return list(found_plans.values())
 
 
+def get_actual_country_code(country_code: str) -> str:
+    """将用户输入的国家代码映射到实际的Netflix URL代码"""
+    country_mapping = {
+        'uk': 'gb',  # 用户查uk，实际调用gb
+        # 可以在这里添加其他需要映射的国家
+    }
+    return country_mapping.get(country_code.lower(), country_code.lower())
+
+
 async def fetch_netflix_prices(country_code: str) -> list[dict[str, Any]]:
     """获取特定国家的Netflix价格信息"""
-    url = f'https://help.netflix.com/en/node/24926/{country_code.lower()}'
+    # 获取实际要调用的国家代码
+    actual_country_code = get_actual_country_code(country_code)
+    url = f'https://help.netflix.com/en/node/24926/{actual_country_code}'
     
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
@@ -208,12 +219,12 @@ async def fetch_netflix_prices(country_code: str) -> list[dict[str, Any]]:
             html = await page.content()
             
             # 尝试多种提取方法
-            plans = extract_price_advanced(html, country_code)
+            plans = extract_price_advanced(html, actual_country_code)
             
             # 如果第一种方法没有获取到所有套餐，尝试备用方法
             if len(plans) < 3:  # 期望至少有3个套餐
                 text_content = await page.inner_text('body')
-                backup_plans = extract_from_page_text_detailed(text_content, country_code)
+                backup_plans = extract_from_page_text_detailed(text_content, actual_country_code)
                 
                 # 合并结果，去重
                 existing_plans = {plan['plan'] for plan in plans}
@@ -221,7 +232,7 @@ async def fetch_netflix_prices(country_code: str) -> list[dict[str, Any]]:
                     if backup_plan['plan'] not in existing_plans:
                         plans.append(backup_plan)
             
-            # 添加国家代码信息
+            # 添加国家代码信息 - 使用用户原始输入的代码
             for plan in plans:
                 plan['country_code'] = country_code.upper()
                 plan['source_url'] = url
@@ -248,6 +259,10 @@ def extract_price_advanced(html: str, country_code: str) -> list[dict[str, Any]]
     plan_price_patterns = [
         # 匹配 "Mobile: Rs 250/month" 格式 (巴基斯坦等国家)
         re.compile(r'(Basic|Standard|Premium|Mobile):\s*(Rs)\s*(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)\s*/\s*month', re.IGNORECASE),
+        # 匹配 "Standard: AU$18.99 / month" 格式 (澳大利亚等国家)
+        re.compile(r'(Basic|Standard|Premium|Mobile):\s*(AU\$|kr|R\$|Ft|Kč)\s*(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)\s*/\s*month', re.IGNORECASE),
+        # 匹配 "Standard: £12.99 / month" 格式 (英国)
+        re.compile(r'(Basic|Standard|Premium|Mobile|Standard\s+with\s+adverts):\s*(£)\s*(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)\s*/\s*month', re.IGNORECASE),
         # 匹配 "Premium: ARS15,999/ month" 和 "Standard: ARS11,999 / month" 格式 (阿根廷等国家)
         re.compile(r'(Basic|Standard|Premium|Mobile):\s*([A-Z]{3})(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)\s*/\s*month', re.IGNORECASE),
         # 备用匹配
@@ -274,7 +289,27 @@ def extract_price_advanced(html: str, country_code: str) -> list[dict[str, Any]]
                 # 将Rs转换为PKR
                 if currency == 'Rs':
                     currency = get_default_currency(country_code)
-            elif i < 3:  # 阿根廷格式: (plan, currency, amount)
+            elif i == 1:  # AU$, kr 等格式: (plan, currency, amount)
+                plan_name = match[0].strip()
+                currency = match[1].strip()  # "AU$", "kr", etc.
+                price_amount = match[2].strip()
+                # 转换特殊货币符号
+                currency_mapping = {
+                    'AU$': 'AUD', 'kr': get_default_currency(country_code), 
+                    'R$': 'BRL', 'Ft': 'HUF', 'Kč': 'CZK'
+                }
+                currency = currency_mapping.get(currency, currency)
+            elif i == 2:  # £ 格式: (plan, currency, amount)
+                plan_name = match[0].strip()
+                currency = match[1].strip()  # "£"
+                price_amount = match[2].strip()
+                # 将 Standard with adverts 标准化
+                if 'adverts' in plan_name.lower():
+                    plan_name = 'Standard with ads'
+                # 将£转换为GBP
+                if currency == '£':
+                    currency = 'GBP'
+            elif i < 5:  # 阿根廷格式: (plan, currency, amount)
                 plan_name = match[0].strip()
                 currency = match[1].strip()
                 price_amount = match[2].strip()
@@ -374,10 +409,11 @@ def extract_from_page_text_detailed(text_content: str, country_code: str) -> lis
 def get_default_currency(country_code: str) -> str:
     """获取国家的默认货币"""
     currency_map = {
-        'US': 'USD', 'CA': 'CAD', 'UK': 'GBP', 'AU': 'AUD', 'DE': 'EUR',
+        'US': 'USD', 'CA': 'CAD', 'UK': 'GBP', 'GB': 'GBP', 'AU': 'AUD', 'DE': 'EUR',
         'FR': 'EUR', 'IT': 'EUR', 'ES': 'EUR', 'NL': 'EUR', 'BR': 'BRL',
         'MX': 'MXN', 'AR': 'ARS', 'CL': 'CLP', 'CO': 'COP', 'PE': 'PEN',
-        'JP': 'JPY', 'KR': 'KRW', 'IN': 'INR', 'NG': 'NGN', 'ZA': 'ZAR', 'PK': 'PKR'
+        'JP': 'JPY', 'KR': 'KRW', 'IN': 'INR', 'NG': 'NGN', 'ZA': 'ZAR', 'PK': 'PKR',
+        'SE': 'SEK', 'DK': 'DKK', 'NO': 'NOK', 'HU': 'HUF', 'CZ': 'CZK', 'NZ': 'NZD'
     }
     return currency_map.get(country_code.upper(), 'USD')
 
