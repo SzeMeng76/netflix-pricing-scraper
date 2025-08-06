@@ -19,8 +19,8 @@ def extract_price(html: str) -> list[dict[str, Any]]:
     # 支持多种价格格式的匹配模式
     price_patterns = [
         re.compile(r'\$(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*/?\s*month', re.IGNORECASE),  # $7.99/month
-        re.compile(r'(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN)\s*/?\s*month', re.IGNORECASE),
-        re.compile(r'([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN)\s*(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*/?\s*month', re.IGNORECASE)
+        re.compile(r'(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)\s*/?\s*month', re.IGNORECASE),
+        re.compile(r'([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)\s*(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*/?\s*month', re.IGNORECASE)
     ]
     
     for plan_name in plan_names:
@@ -82,7 +82,7 @@ def extract_from_full_text_fallback(text_content: str, plan_names: list[str]) ->
     found_plans = {}
     
     # 简化的价格模式
-    price_pattern = re.compile(r'(\$?\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN)?\s*/?\s*month', re.IGNORECASE)
+    price_pattern = re.compile(r'(\$?\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)?\s*/?\s*month', re.IGNORECASE)
     
     lines = text_content.split('\n')
     
@@ -129,9 +129,9 @@ def extract_from_full_text(text_content: str, plan_names: list[str]) -> list[dic
     
     # 改进的价格模式匹配 - 支持更多格式
     price_patterns = [
-        re.compile(r'(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN)\s*/?\s*(month|mo)', re.IGNORECASE),
-        re.compile(r'([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN)\s*(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*/?\s*(month|mo)', re.IGNORECASE),
-        re.compile(r'(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN)', re.IGNORECASE)
+        re.compile(r'(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)\s*/?\s*(month|mo)', re.IGNORECASE),
+        re.compile(r'([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)\s*(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*/?\s*(month|mo)', re.IGNORECASE),
+        re.compile(r'(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)', re.IGNORECASE)
     ]
     
     # 将文本按行分割
@@ -246,16 +246,18 @@ def extract_price_advanced(html: str, country_code: str) -> list[dict[str, Any]]
     
     # 定义更精确的套餐和价格模式
     plan_price_patterns = [
+        # 匹配 "Mobile: Rs 250/month" 格式 (巴基斯坦等国家)
+        re.compile(r'(Basic|Standard|Premium|Mobile):\s*(Rs)\s*(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)\s*/\s*month', re.IGNORECASE),
         # 匹配 "Premium: ARS15,999/ month" 和 "Standard: ARS11,999 / month" 格式 (阿根廷等国家)
         re.compile(r'(Basic|Standard|Premium|Mobile):\s*([A-Z]{3})(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)\s*/\s*month', re.IGNORECASE),
         # 备用匹配
         re.compile(r'(Basic|Standard|Premium|Mobile):\s*([A-Z]{3})\s*(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)\s*/\s*month', re.IGNORECASE),
         # 匹配 "Standard with ads": $7.99/month 格式
-        re.compile(r'["\']?(Standard\s+with\s+ads)["\']?[:\s]*\$?(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN)?\s*/?\s*month', re.IGNORECASE),
-        re.compile(r'["\']?(Standard)["\']?(?!\s+with\s+ads)[:\s]*\$?(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN)?\s*/?\s*month', re.IGNORECASE),
-        re.compile(r'["\']?(Premium)["\']?[:\s]*\$?(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN)?\s*/?\s*month', re.IGNORECASE),
-        re.compile(r'["\']?(Basic)["\']?[:\s]*\$?(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN)?\s*/?\s*month', re.IGNORECASE),
-        re.compile(r'["\']?(Mobile)["\']?[:\s]*\$?(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN)?\s*/?\s*month', re.IGNORECASE),
+        re.compile(r'["\']?(Standard\s+with\s+ads)["\']?[:\s]*\$?(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)?\s*/?\s*month', re.IGNORECASE),
+        re.compile(r'["\']?(Standard)["\']?(?!\s+with\s+ads)[:\s]*\$?(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)?\s*/?\s*month', re.IGNORECASE),
+        re.compile(r'["\']?(Premium)["\']?[:\s]*\$?(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)?\s*/?\s*month', re.IGNORECASE),
+        re.compile(r'["\']?(Basic)["\']?[:\s]*\$?(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)?\s*/?\s*month', re.IGNORECASE),
+        re.compile(r'["\']?(Mobile)["\']?[:\s]*\$?(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)?\s*/?\s*month', re.IGNORECASE),
     ]
     
     found_plans = set()
@@ -265,7 +267,14 @@ def extract_price_advanced(html: str, country_code: str) -> list[dict[str, Any]]
         matches = pattern.findall(full_text)
         for match in matches:
             # 处理不同的匹配格式
-            if i < 2:  # 阿根廷格式: (plan, currency, amount)
+            if i == 0:  # Rs 格式: (plan, currency, amount)
+                plan_name = match[0].strip()
+                currency = match[1].strip()  # "Rs"
+                price_amount = match[2].strip()
+                # 将Rs转换为PKR
+                if currency == 'Rs':
+                    currency = get_default_currency(country_code)
+            elif i < 3:  # 阿根廷格式: (plan, currency, amount)
                 plan_name = match[0].strip()
                 currency = match[1].strip()
                 price_amount = match[2].strip()
@@ -309,8 +318,8 @@ def extract_from_page_text_detailed(text_content: str, country_code: str) -> lis
     # 价格模式 - 支持多种格式
     price_patterns = [
         re.compile(r'\$(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)/month', re.IGNORECASE),
-        re.compile(r'(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN)\s*/month', re.IGNORECASE),
-        re.compile(r'([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN)\s*(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)/month', re.IGNORECASE),
+        re.compile(r'(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)\s*/month', re.IGNORECASE),
+        re.compile(r'([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR)\s*(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)/month', re.IGNORECASE),
     ]
     
     found_plans = {}
@@ -368,7 +377,7 @@ def get_default_currency(country_code: str) -> str:
         'US': 'USD', 'CA': 'CAD', 'UK': 'GBP', 'AU': 'AUD', 'DE': 'EUR',
         'FR': 'EUR', 'IT': 'EUR', 'ES': 'EUR', 'NL': 'EUR', 'BR': 'BRL',
         'MX': 'MXN', 'AR': 'ARS', 'CL': 'CLP', 'CO': 'COP', 'PE': 'PEN',
-        'JP': 'JPY', 'KR': 'KRW', 'IN': 'INR', 'NG': 'NGN', 'ZA': 'ZAR'
+        'JP': 'JPY', 'KR': 'KRW', 'IN': 'INR', 'NG': 'NGN', 'ZA': 'ZAR', 'PK': 'PKR'
     }
     return currency_map.get(country_code.upper(), 'USD')
 
