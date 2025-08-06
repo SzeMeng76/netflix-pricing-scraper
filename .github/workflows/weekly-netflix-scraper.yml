@@ -1,0 +1,314 @@
+name: Weekly Netflix Price Scraper
+
+on:
+  schedule:
+    # 每周日UTC时间0点执行（北京时间周日上午8点）
+    - cron: '0 0 * * 0'
+  workflow_dispatch: # 允许手动触发
+
+# 添加写入权限以允许推送到仓库
+permissions:
+  contents: write
+  actions: read
+  id-token: write
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Cache pip dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Install Playwright and browsers
+      env:
+        PLAYWRIGHT_BROWSERS_PATH: /home/runner/.cache/ms-playwright
+      run: |
+        # 安装基础依赖和虚拟显示器
+        sudo apt-get update
+        sudo apt-get install -y xvfb
+        # 显示当前Python和Playwright版本
+        echo "Python version: $(python --version)"
+        echo "Playwright version: $(python -c 'import playwright; print(playwright.__version__)')"
+        # 参考官方方式安装依赖
+        npx playwright install-deps
+        # 设置浏览器安装路径并安装所有浏览器
+        export PLAYWRIGHT_BROWSERS_PATH=/home/runner/.cache/ms-playwright
+        python -m playwright install
+        # 验证安装
+        python -c "
+        from playwright.sync_api import sync_playwright
+        import os
+        with sync_playwright() as p:
+            print('Chromium executable:', p.chromium.executable_path)
+            if os.path.exists(p.chromium.executable_path):
+                print('✅ Chromium executable exists')
+            else:
+                print('❌ Chromium executable NOT found')
+                # Check actual browser cache location
+                cache_path = '/home/runner/.cache/ms-playwright'
+                if os.path.exists(cache_path):
+                    print(f'Browser cache directory exists: {cache_path}')
+                    import glob
+                    chromium_dirs = glob.glob(f'{cache_path}/chromium*')
+                    print(f'Found chromium directories: {chromium_dirs}')
+                else:
+                    print(f'Browser cache directory NOT found: {cache_path}')
+        "
+        # 设置浏览器路径环境变量
+        export PLAYWRIGHT_BROWSERS_PATH=/home/runner/.cache/ms-playwright
+        
+    - name: Create output directory
+      run: mkdir -p output
+        
+    - name: Run Netflix scraper
+      id: scraper
+      env:
+        # Playwright 环境变量 - 使用正确的浏览器路径
+        PLAYWRIGHT_BROWSERS_PATH: /home/runner/.cache/ms-playwright
+        PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
+        # 确保headless模式
+        DISPLAY: ":99"
+      run: |
+        echo "开始爬取Netflix价格数据..."
+        # 启动虚拟显示器
+        sudo Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+        sleep 2
+        # 检查Playwright浏览器安装状态
+        echo "检查Playwright浏览器安装..."
+        python -c "
+        from playwright.sync_api import sync_playwright
+        import os
+        with sync_playwright() as p:
+            print('Available browsers:', p.chromium, p.firefox, p.webkit)
+            print('Chromium executable path:', p.chromium.executable_path)
+            if os.path.exists(p.chromium.executable_path):
+                print('✅ Chromium executable exists')
+            else:
+                print('❌ Chromium executable NOT found')
+        "
+        # 运行爬虫
+        python netflix.py
+        echo "scraper_status=success" >> $GITHUB_OUTPUT
+      continue-on-error: true
+        
+    - name: Check scraper output
+      run: |
+        if [ -f "netflix_prices.json" ]; then
+          echo "✅ 爬虫数据文件生成成功"
+          ls -la netflix_prices*.json
+        else
+          echo "❌ 爬虫数据文件未生成"
+          exit 1
+        fi
+        
+    - name: Run rate converter
+      id: converter
+      env:
+        API_KEY: ${{ secrets.API_KEY }}
+      run: |
+        echo "开始汇率转换..."
+        python netflix_rate_converter.py
+        echo "converter_status=success" >> $GITHUB_OUTPUT
+      continue-on-error: true
+        
+    - name: Check converter output
+      run: |
+        if [ -f "netflix_prices_processed.json" ]; then
+          echo "✅ 汇率转换文件生成成功"
+          ls -la netflix_prices_processed.json
+        else
+          echo "❌ 汇率转换文件未生成"
+          exit 1
+        fi
+        
+    - name: Archive data with timestamp
+      if: steps.scraper.outputs.scraper_status == 'success' && steps.converter.outputs.converter_status == 'success'
+      run: |
+        TIMESTAMP=$(date +'%Y%m%d_%H%M%S')
+        YEAR=$(date +'%Y')
+        MONTH=$(date +'%m')
+        ARCHIVE_DIR="archive/${YEAR}/${MONTH}"
+        mkdir -p ${ARCHIVE_DIR}
+        if [ -f "netflix_prices.json" ]; then
+          cp netflix_prices.json "${ARCHIVE_DIR}/netflix_prices_${TIMESTAMP}.json"
+        fi
+        if [ -f "netflix_prices_processed.json" ]; then
+          cp netflix_prices_processed.json "${ARCHIVE_DIR}/netflix_prices_processed_${TIMESTAMP}.json"
+        fi
+        echo "归档完成，文件保存在: ${ARCHIVE_DIR}"
+        
+    - name: Detect price changes and generate changelog
+      id: price_changes
+      if: steps.scraper.outputs.scraper_status == 'success' && steps.converter.outputs.converter_status == 'success'
+      run: |
+        echo "🔍 开始检测 Netflix 价格变化..."
+        python netflix_price_change_detector.py
+        
+        # 检查脚本执行结果并设置默认值
+        if [ ! -f "$GITHUB_OUTPUT" ] || ! grep -q "changes_count=" "$GITHUB_OUTPUT" 2>/dev/null; then
+          echo "changes_count=0" >> $GITHUB_OUTPUT
+          echo "summary_file=" >> $GITHUB_OUTPUT
+        fi
+      continue-on-error: true
+        
+    - name: Check for changes
+      id: check_changes
+      run: |
+        git diff --name-only
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changes=true" >> $GITHUB_OUTPUT
+          echo "检测到文件变化"
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT
+          echo "没有文件变化"
+        fi
+        
+    - name: Display summary
+      run: |
+        echo "=== 执行摘要 ==="
+        echo "日期: $(date +'%Y-%m-%d %H:%M:%S %Z')"
+        if [ -f "netflix_prices_processed.json" ]; then
+          echo "转换后的数据文件大小: $(du -h netflix_prices_processed.json | cut -f1)"
+          echo "文件行数: $(wc -l < netflix_prices_processed.json)"
+        fi
+        
+    - name: Commit and push changes
+      if: steps.check_changes.outputs.changes == 'true'
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+        # 添加所有变更文件
+        git add .
+        
+        # 构建提交信息
+        COMMIT_MSG="Weekly update: Netflix prices and archive data - $(date +'%Y-%m-%d %H:%M:%S %Z')"
+        if [ "${{ steps.price_changes.outputs.changes_count }}" != "0" ] && [ "${{ steps.price_changes.outputs.changes_count }}" != "" ]; then
+          COMMIT_MSG="${COMMIT_MSG} [发现 ${{ steps.price_changes.outputs.changes_count }} 项价格变化]"
+        fi
+        
+        # 计算上个月（处理跨年情况）
+        CURRENT_YEAR=$(date +'%Y')
+        CURRENT_MONTH=$(date +'%m')
+        if [ "$CURRENT_MONTH" = "01" ]; then
+          LAST_YEAR=$((CURRENT_YEAR - 1))
+          LAST_MONTH="${LAST_YEAR}-12"
+        else
+          LAST_MONTH_NUM=$((10#$CURRENT_MONTH - 1))
+          LAST_MONTH="${CURRENT_YEAR}-$(printf '%02d' $LAST_MONTH_NUM)"
+        fi
+        
+        # 检查是否有 CHANGELOG 归档
+        if [ -d "changelog_archive" ] && [ -n "$(find changelog_archive -name "*.md" -type f 2>/dev/null)" ]; then
+          ARCHIVED_COUNT=$(find changelog_archive -name "netflix_changelog_${LAST_MONTH}*.md" -type f 2>/dev/null | wc -l)
+          if [ "$ARCHIVED_COUNT" -gt 0 ]; then
+            COMMIT_MSG="${COMMIT_MSG} [归档CHANGELOG]"
+          fi
+        fi
+        
+        git commit -m "${COMMIT_MSG}"
+        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+        echo "✅ 数据已提交到仓库"
+        
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: netflix-price-data-${{ github.run_number }}
+        path: |
+          netflix_prices*.json
+          netflix_prices_processed.json
+          NETFLIX_CHANGELOG.md
+          changelog_archive/
+          netflix_price_changes_summary_*.json
+        retention-days: 30
+        
+    - name: Job summary
+      if: always()
+      run: |
+        echo "## 📊 Netflix 价格爬虫执行报告" >> $GITHUB_STEP_SUMMARY
+        echo "**执行时间:** $(date +'%Y-%m-%d %H:%M:%S %Z')" >> $GITHUB_STEP_SUMMARY
+        echo "**爬虫状态:** ${{ steps.scraper.outputs.scraper_status || '失败' }}" >> $GITHUB_STEP_SUMMARY
+        echo "**转换状态:** ${{ steps.converter.outputs.converter_status || '失败' }}" >> $GITHUB_STEP_SUMMARY
+        echo "**文件变化:** ${{ steps.check_changes.outputs.changes || '否' }}" >> $GITHUB_STEP_SUMMARY
+        
+        # 价格变化信息
+        CHANGES_COUNT="${{ steps.price_changes.outputs.changes_count }}"
+        if [ "$CHANGES_COUNT" != "" ] && [ "$CHANGES_COUNT" != "0" ]; then
+          echo "**价格变化:** 🔄 发现 $CHANGES_COUNT 项变化" >> $GITHUB_STEP_SUMMARY
+        elif [ "$CHANGES_COUNT" = "0" ]; then
+          echo "**价格变化:** ✅ 无变化" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "**价格变化:** ⚠️ 检测失败" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        if [ -f "netflix_prices_processed.json" ]; then
+          echo "**输出文件大小:** $(du -h netflix_prices_processed.json | cut -f1)" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        # 显示归档信息
+        YEAR=$(date +'%Y')
+        MONTH=$(date +'%m')
+        ARCHIVE_DIR="archive/${YEAR}/${MONTH}"
+        if [ -d "${ARCHIVE_DIR}" ] && [ -n "$(ls -A ${ARCHIVE_DIR} 2>/dev/null)" ]; then
+          echo "**归档状态:** ✅ 已归档到 ${ARCHIVE_DIR}" >> $GITHUB_STEP_SUMMARY
+          echo "**归档文件数量:** $(ls ${ARCHIVE_DIR}/*$(date +'%Y%m%d')* 2>/dev/null | wc -l)" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "**归档状态:** ❌ 未归档" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        # 如果有价格变化，显示changelog链接
+        if [ -f "NETFLIX_CHANGELOG.md" ] && [ "$CHANGES_COUNT" != "0" ] && [ "$CHANGES_COUNT" != "" ]; then
+          echo "**变化详情:** 📋 查看 [NETFLIX_CHANGELOG.md](./NETFLIX_CHANGELOG.md)" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        # 显示 CHANGELOG 归档信息
+        if [ -d "changelog_archive" ]; then
+          ARCHIVE_COUNT=$(find changelog_archive -name "*.md" -type f 2>/dev/null | wc -l)
+          if [ "$ARCHIVE_COUNT" -gt 0 ]; then
+            echo "**CHANGELOG归档:** 📚 共 $ARCHIVE_COUNT 个月度归档" >> $GITHUB_STEP_SUMMARY
+            # 检查本次是否新增了归档（检查上个月，处理跨年情况）
+            CURRENT_YEAR=$(date +'%Y')
+            CURRENT_MONTH=$(date +'%m')
+            if [ "$CURRENT_MONTH" = "01" ]; then
+              LAST_YEAR=$((CURRENT_YEAR - 1))
+              LAST_MONTH="${LAST_YEAR}-12"
+            else
+              LAST_MONTH_NUM=$((10#$CURRENT_MONTH - 1))
+              LAST_MONTH="${CURRENT_YEAR}-$(printf '%02d' $LAST_MONTH_NUM)"
+            fi
+            
+            LAST_MONTH_ARCHIVE=$(find changelog_archive -name "netflix_changelog_${LAST_MONTH}*.md" -type f 2>/dev/null | wc -l)
+            if [ "$LAST_MONTH_ARCHIVE" -gt 0 ]; then
+              echo "**本次归档:** ✅ 已归档上月记录" >> $GITHUB_STEP_SUMMARY
+            fi
+          fi
+        fi
