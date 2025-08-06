@@ -1,0 +1,6545 @@
+{
+  "date": "2025-08-06 11:43:40",
+  "timestamp": "2025-08-06T11:43:40.593109",
+  "total_changes": 726,
+  "price_increases": 0,
+  "price_decreases": 0,
+  "new_plans": 726,
+  "removed_plans": 0,
+  "changes": [
+    {
+      "country": "US",
+      "country_name": "US",
+      "plan": "Standard with ads",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "US",
+      "country_name": "US",
+      "plan": "Standard",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "US",
+      "country_name": "US",
+      "plan": "Premium",
+      "new_price_cny": 24.99,
+      "price_original": "24.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CA",
+      "country_name": "CA",
+      "plan": "Standard with ads",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 CAD / month",
+      "currency": "CAD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CA",
+      "country_name": "CA",
+      "plan": "Standard",
+      "new_price_cny": 18.99,
+      "price_original": "18.99 CAD / month",
+      "currency": "CAD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CA",
+      "country_name": "CA",
+      "plan": "Premium",
+      "new_price_cny": 23.99,
+      "price_original": "23.99 CAD / month",
+      "currency": "CAD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MX",
+      "country_name": "MX",
+      "plan": "Standard with ads",
+      "new_price_cny": 119.0,
+      "price_original": "119 MXN / month",
+      "currency": "MXN",
+      "type": "new_plan"
+    },
+    {
+      "country": "MX",
+      "country_name": "MX",
+      "plan": "Standard",
+      "new_price_cny": 249.0,
+      "price_original": "249 MXN / month",
+      "currency": "MXN",
+      "type": "new_plan"
+    },
+    {
+      "country": "MX",
+      "country_name": "MX",
+      "plan": "Premium",
+      "new_price_cny": 329.0,
+      "price_original": "329 MXN / month",
+      "currency": "MXN",
+      "type": "new_plan"
+    },
+    {
+      "country": "GT",
+      "country_name": "GT",
+      "plan": "Standard",
+      "new_price_cny": 8.99,
+      "price_original": "8.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GT",
+      "country_name": "GT",
+      "plan": "Premium",
+      "new_price_cny": 12.49,
+      "price_original": "12.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GT",
+      "country_name": "GT",
+      "plan": "Basic",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BZ",
+      "country_name": "BZ",
+      "plan": "Standard",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BZ",
+      "country_name": "BZ",
+      "plan": "Premium",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BZ",
+      "country_name": "BZ",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SV",
+      "country_name": "SV",
+      "plan": "Standard",
+      "new_price_cny": 8.99,
+      "price_original": "8.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SV",
+      "country_name": "SV",
+      "plan": "Premium",
+      "new_price_cny": 12.49,
+      "price_original": "12.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SV",
+      "country_name": "SV",
+      "plan": "Basic",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "HN",
+      "country_name": "HN",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "HN",
+      "country_name": "HN",
+      "plan": "Premium",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "HN",
+      "country_name": "HN",
+      "plan": "Basic",
+      "new_price_cny": 6.99,
+      "price_original": "6.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NI",
+      "country_name": "NI",
+      "plan": "Standard",
+      "new_price_cny": 6.99,
+      "price_original": "6.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NI",
+      "country_name": "NI",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NI",
+      "country_name": "NI",
+      "plan": "Basic",
+      "new_price_cny": 4.99,
+      "price_original": "4.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CR",
+      "country_name": "CR",
+      "plan": "Standard",
+      "new_price_cny": 12.99,
+      "price_original": "12.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CR",
+      "country_name": "CR",
+      "plan": "Premium",
+      "new_price_cny": 15.99,
+      "price_original": "15.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CR",
+      "country_name": "CR",
+      "plan": "Basic",
+      "new_price_cny": 8.99,
+      "price_original": "8.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PA",
+      "country_name": "PA",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PA",
+      "country_name": "PA",
+      "plan": "Premium",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PA",
+      "country_name": "PA",
+      "plan": "Basic",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CU",
+      "country_name": "CU",
+      "plan": "Standard",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CU",
+      "country_name": "CU",
+      "plan": "Premium",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CU",
+      "country_name": "CU",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "JM",
+      "country_name": "JM",
+      "plan": "Standard",
+      "new_price_cny": 6.99,
+      "price_original": "6.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "JM",
+      "country_name": "JM",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "JM",
+      "country_name": "JM",
+      "plan": "Basic",
+      "new_price_cny": 4.99,
+      "price_original": "4.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "HT",
+      "country_name": "HT",
+      "plan": "Standard",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "HT",
+      "country_name": "HT",
+      "plan": "Premium",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "HT",
+      "country_name": "HT",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "DO",
+      "country_name": "DO",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "DO",
+      "country_name": "DO",
+      "plan": "Premium",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "DO",
+      "country_name": "DO",
+      "plan": "Basic",
+      "new_price_cny": 6.99,
+      "price_original": "6.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TT",
+      "country_name": "TT",
+      "plan": "Standard",
+      "new_price_cny": 15.49,
+      "price_original": "15.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TT",
+      "country_name": "TT",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TT",
+      "country_name": "TT",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BB",
+      "country_name": "BB",
+      "plan": "Standard",
+      "new_price_cny": 15.29,
+      "price_original": "15.29 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BB",
+      "country_name": "BB",
+      "plan": "Premium",
+      "new_price_cny": 18.79,
+      "price_original": "18.79 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BB",
+      "country_name": "BB",
+      "plan": "Basic",
+      "new_price_cny": 10.59,
+      "price_original": "10.59 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BS",
+      "country_name": "BS",
+      "plan": "Standard",
+      "new_price_cny": 15.49,
+      "price_original": "15.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BS",
+      "country_name": "BS",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BS",
+      "country_name": "BS",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AG",
+      "country_name": "AG",
+      "plan": "Standard",
+      "new_price_cny": 15.49,
+      "price_original": "15.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AG",
+      "country_name": "AG",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AG",
+      "country_name": "AG",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "DM",
+      "country_name": "DM",
+      "plan": "Standard",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "DM",
+      "country_name": "DM",
+      "plan": "Premium",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "DM",
+      "country_name": "DM",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GD",
+      "country_name": "GD",
+      "plan": "Standard",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GD",
+      "country_name": "GD",
+      "plan": "Premium",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GD",
+      "country_name": "GD",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KN",
+      "country_name": "KN",
+      "plan": "Standard",
+      "new_price_cny": 15.49,
+      "price_original": "15.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KN",
+      "country_name": "KN",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KN",
+      "country_name": "KN",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LC",
+      "country_name": "LC",
+      "plan": "Standard",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LC",
+      "country_name": "LC",
+      "plan": "Premium",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LC",
+      "country_name": "LC",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "VC",
+      "country_name": "VC",
+      "plan": "Standard",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "VC",
+      "country_name": "VC",
+      "plan": "Premium",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "VC",
+      "country_name": "VC",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AR",
+      "country_name": "AR",
+      "plan": "Basic",
+      "new_price_cny": 7199.0,
+      "price_original": "7,199 ARS / month",
+      "currency": "ARS",
+      "type": "new_plan"
+    },
+    {
+      "country": "AR",
+      "country_name": "AR",
+      "plan": "Standard",
+      "new_price_cny": 11999.0,
+      "price_original": "11,999 ARS / month",
+      "currency": "ARS",
+      "type": "new_plan"
+    },
+    {
+      "country": "AR",
+      "country_name": "AR",
+      "plan": "Premium",
+      "new_price_cny": 15999.0,
+      "price_original": "15,999 ARS / month",
+      "currency": "ARS",
+      "type": "new_plan"
+    },
+    {
+      "country": "CL",
+      "country_name": "CL",
+      "plan": "Standard",
+      "new_price_cny": 9990.0,
+      "price_original": "9,990 CLP / month",
+      "currency": "CLP",
+      "type": "new_plan"
+    },
+    {
+      "country": "CL",
+      "country_name": "CL",
+      "plan": "Premium",
+      "new_price_cny": 12990.0,
+      "price_original": "12,990 CLP / month",
+      "currency": "CLP",
+      "type": "new_plan"
+    },
+    {
+      "country": "CL",
+      "country_name": "CL",
+      "plan": "Basic",
+      "new_price_cny": 7190.0,
+      "price_original": "7,190 CLP / month",
+      "currency": "CLP",
+      "type": "new_plan"
+    },
+    {
+      "country": "CO",
+      "country_name": "CO",
+      "plan": "Standard",
+      "new_price_cny": 29900.0,
+      "price_original": "29,900 COP / month",
+      "currency": "COP",
+      "type": "new_plan"
+    },
+    {
+      "country": "CO",
+      "country_name": "CO",
+      "plan": "Premium",
+      "new_price_cny": 44900.0,
+      "price_original": "44,900 COP / month",
+      "currency": "COP",
+      "type": "new_plan"
+    },
+    {
+      "country": "CO",
+      "country_name": "CO",
+      "plan": "Basic",
+      "new_price_cny": 18900.0,
+      "price_original": "18,900 COP / month",
+      "currency": "COP",
+      "type": "new_plan"
+    },
+    {
+      "country": "VE",
+      "country_name": "VE",
+      "plan": "Standard",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "VE",
+      "country_name": "VE",
+      "plan": "Premium",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "VE",
+      "country_name": "VE",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "UY",
+      "country_name": "UY",
+      "plan": "Standard",
+      "new_price_cny": 16.99,
+      "price_original": "16.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "UY",
+      "country_name": "UY",
+      "plan": "Premium",
+      "new_price_cny": 21.99,
+      "price_original": "21.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "UY",
+      "country_name": "UY",
+      "plan": "Basic",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PY",
+      "country_name": "PY",
+      "plan": "Standard",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PY",
+      "country_name": "PY",
+      "plan": "Premium",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PY",
+      "country_name": "PY",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "EC",
+      "country_name": "EC",
+      "plan": "Standard",
+      "new_price_cny": 8.99,
+      "price_original": "8.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "EC",
+      "country_name": "EC",
+      "plan": "Premium",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "EC",
+      "country_name": "EC",
+      "plan": "Basic",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PE",
+      "country_name": "PE",
+      "plan": "Basic",
+      "new_price_cny": 28.9,
+      "price_original": "28.90 PEN / month",
+      "currency": "PEN",
+      "type": "new_plan"
+    },
+    {
+      "country": "PE",
+      "country_name": "PE",
+      "plan": "Standard",
+      "new_price_cny": 40.9,
+      "price_original": "40.90 PEN / month",
+      "currency": "PEN",
+      "type": "new_plan"
+    },
+    {
+      "country": "PE",
+      "country_name": "PE",
+      "plan": "Premium",
+      "new_price_cny": 52.9,
+      "price_original": "52.90 PEN / month",
+      "currency": "PEN",
+      "type": "new_plan"
+    },
+    {
+      "country": "BO",
+      "country_name": "BO",
+      "plan": "Standard",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BO",
+      "country_name": "BO",
+      "plan": "Premium",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BO",
+      "country_name": "BO",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GY",
+      "country_name": "GY",
+      "plan": "Standard",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GY",
+      "country_name": "GY",
+      "plan": "Premium",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GY",
+      "country_name": "GY",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SR",
+      "country_name": "SR",
+      "plan": "Standard",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SR",
+      "country_name": "SR",
+      "plan": "Premium",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SR",
+      "country_name": "SR",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GF",
+      "country_name": "GF",
+      "plan": "Standard",
+      "new_price_cny": 14.99,
+      "price_original": "14.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "GF",
+      "country_name": "GF",
+      "plan": "Premium",
+      "new_price_cny": 21.99,
+      "price_original": "21.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "GF",
+      "country_name": "GF",
+      "plan": "Basic",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "UK",
+      "country_name": "UK",
+      "plan": "Standard with ads",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 GBP / month",
+      "currency": "GBP",
+      "type": "new_plan"
+    },
+    {
+      "country": "UK",
+      "country_name": "UK",
+      "plan": "Standard",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 GBP / month",
+      "currency": "GBP",
+      "type": "new_plan"
+    },
+    {
+      "country": "UK",
+      "country_name": "UK",
+      "plan": "Premium",
+      "new_price_cny": 24.99,
+      "price_original": "24.99 GBP / month",
+      "currency": "GBP",
+      "type": "new_plan"
+    },
+    {
+      "country": "IE",
+      "country_name": "IE",
+      "plan": "Standard",
+      "new_price_cny": 16.99,
+      "price_original": "16.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "IE",
+      "country_name": "IE",
+      "plan": "Premium",
+      "new_price_cny": 23.99,
+      "price_original": "23.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "IE",
+      "country_name": "IE",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "FR",
+      "country_name": "FR",
+      "plan": "Standard with ads",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "FR",
+      "country_name": "FR",
+      "plan": "Standard",
+      "new_price_cny": 14.99,
+      "price_original": "14.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "FR",
+      "country_name": "FR",
+      "plan": "Premium",
+      "new_price_cny": 21.99,
+      "price_original": "21.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "DE",
+      "country_name": "DE",
+      "plan": "Standard with ads",
+      "new_price_cny": 4.99,
+      "price_original": "4.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "DE",
+      "country_name": "DE",
+      "plan": "Standard",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "DE",
+      "country_name": "DE",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "IT",
+      "country_name": "IT",
+      "plan": "Standard with ads",
+      "new_price_cny": 6.99,
+      "price_original": "6.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "IT",
+      "country_name": "IT",
+      "plan": "Standard",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "IT",
+      "country_name": "IT",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "ES",
+      "country_name": "ES",
+      "plan": "Standard with ads",
+      "new_price_cny": 6.99,
+      "price_original": "6.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "ES",
+      "country_name": "ES",
+      "plan": "Standard",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "ES",
+      "country_name": "ES",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "PT",
+      "country_name": "PT",
+      "plan": "Standard",
+      "new_price_cny": 12.99,
+      "price_original": "12.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "PT",
+      "country_name": "PT",
+      "plan": "Premium",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "PT",
+      "country_name": "PT",
+      "plan": "Basic",
+      "new_price_cny": 8.99,
+      "price_original": "8.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "NL",
+      "country_name": "NL",
+      "plan": "Standard",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "NL",
+      "country_name": "NL",
+      "plan": "Premium",
+      "new_price_cny": 18.99,
+      "price_original": "18.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "NL",
+      "country_name": "NL",
+      "plan": "Basic",
+      "new_price_cny": 8.99,
+      "price_original": "8.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "BE",
+      "country_name": "BE",
+      "plan": "Standard",
+      "new_price_cny": 14.99,
+      "price_original": "14.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "BE",
+      "country_name": "BE",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "BE",
+      "country_name": "BE",
+      "plan": "Basic",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "LU",
+      "country_name": "LU",
+      "plan": "Standard",
+      "new_price_cny": 14.99,
+      "price_original": "14.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "LU",
+      "country_name": "LU",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "LU",
+      "country_name": "LU",
+      "plan": "Basic",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AT",
+      "country_name": "AT",
+      "plan": "Standard",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AT",
+      "country_name": "AT",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AT",
+      "country_name": "AT",
+      "plan": "Basic",
+      "new_price_cny": 8.99,
+      "price_original": "8.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "CH",
+      "country_name": "CH",
+      "plan": "Standard",
+      "new_price_cny": 2090.0,
+      "price_original": "20,90 CHF / month",
+      "currency": "CHF",
+      "type": "new_plan"
+    },
+    {
+      "country": "CH",
+      "country_name": "CH",
+      "plan": "Premium",
+      "new_price_cny": 2790.0,
+      "price_original": "27,90 CHF / month",
+      "currency": "CHF",
+      "type": "new_plan"
+    },
+    {
+      "country": "CH",
+      "country_name": "CH",
+      "plan": "Basic",
+      "new_price_cny": 1290.0,
+      "price_original": "12,90 CHF / month",
+      "currency": "CHF",
+      "type": "new_plan"
+    },
+    {
+      "country": "LI",
+      "country_name": "LI",
+      "plan": "Standard",
+      "new_price_cny": 2090.0,
+      "price_original": "20,90 CHF / month",
+      "currency": "CHF",
+      "type": "new_plan"
+    },
+    {
+      "country": "LI",
+      "country_name": "LI",
+      "plan": "Premium",
+      "new_price_cny": 2790.0,
+      "price_original": "27,90 CHF / month",
+      "currency": "CHF",
+      "type": "new_plan"
+    },
+    {
+      "country": "LI",
+      "country_name": "LI",
+      "plan": "Basic",
+      "new_price_cny": 1290.0,
+      "price_original": "12,90 CHF / month",
+      "currency": "CHF",
+      "type": "new_plan"
+    },
+    {
+      "country": "MC",
+      "country_name": "MC",
+      "plan": "Standard",
+      "new_price_cny": 14.99,
+      "price_original": "14.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "MC",
+      "country_name": "MC",
+      "plan": "Premium",
+      "new_price_cny": 21.99,
+      "price_original": "21.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "MC",
+      "country_name": "MC",
+      "plan": "Basic",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AD",
+      "country_name": "AD",
+      "plan": "Standard",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AD",
+      "country_name": "AD",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AD",
+      "country_name": "AD",
+      "plan": "Basic",
+      "new_price_cny": 8.99,
+      "price_original": "8.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "SM",
+      "country_name": "SM",
+      "plan": "Standard",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "SM",
+      "country_name": "SM",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "VA",
+      "country_name": "VA",
+      "plan": "Standard",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "VA",
+      "country_name": "VA",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "NO",
+      "country_name": "NO",
+      "plan": "Basic",
+      "new_price_cny": 99.0,
+      "price_original": "99 NOK / month",
+      "currency": "NOK",
+      "type": "new_plan"
+    },
+    {
+      "country": "NO",
+      "country_name": "NO",
+      "plan": "Standard",
+      "new_price_cny": 129.0,
+      "price_original": "129 NOK / month",
+      "currency": "NOK",
+      "type": "new_plan"
+    },
+    {
+      "country": "NO",
+      "country_name": "NO",
+      "plan": "Premium",
+      "new_price_cny": 189.0,
+      "price_original": "189 NOK / month",
+      "currency": "NOK",
+      "type": "new_plan"
+    },
+    {
+      "country": "FI",
+      "country_name": "FI",
+      "plan": "Standard",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "FI",
+      "country_name": "FI",
+      "plan": "Premium",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "FI",
+      "country_name": "FI",
+      "plan": "Basic",
+      "new_price_cny": 9.49,
+      "price_original": "9.49 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "IS",
+      "country_name": "IS",
+      "plan": "Standard",
+      "new_price_cny": 14.99,
+      "price_original": "14.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "IS",
+      "country_name": "IS",
+      "plan": "Premium",
+      "new_price_cny": 20.99,
+      "price_original": "20.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "IS",
+      "country_name": "IS",
+      "plan": "Basic",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "PL",
+      "country_name": "PL",
+      "plan": "Standard",
+      "new_price_cny": 49.0,
+      "price_original": "49 PLN / month",
+      "currency": "PLN",
+      "type": "new_plan"
+    },
+    {
+      "country": "PL",
+      "country_name": "PL",
+      "plan": "Premium",
+      "new_price_cny": 67.0,
+      "price_original": "67 PLN / month",
+      "currency": "PLN",
+      "type": "new_plan"
+    },
+    {
+      "country": "PL",
+      "country_name": "PL",
+      "plan": "Basic",
+      "new_price_cny": 33.0,
+      "price_original": "33 PLN / month",
+      "currency": "PLN",
+      "type": "new_plan"
+    },
+    {
+      "country": "SK",
+      "country_name": "SK",
+      "plan": "Standard",
+      "new_price_cny": 11.49,
+      "price_original": "11.49 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "SK",
+      "country_name": "SK",
+      "plan": "Premium",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "SK",
+      "country_name": "SK",
+      "plan": "Basic",
+      "new_price_cny": 9.49,
+      "price_original": "9.49 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "RO",
+      "country_name": "RO",
+      "plan": "Standard",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "RO",
+      "country_name": "RO",
+      "plan": "Premium",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "RO",
+      "country_name": "RO",
+      "plan": "Basic",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "BG",
+      "country_name": "BG",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "BG",
+      "country_name": "BG",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "BG",
+      "country_name": "BG",
+      "plan": "Basic",
+      "new_price_cny": 4.99,
+      "price_original": "4.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "HR",
+      "country_name": "HR",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "HR",
+      "country_name": "HR",
+      "plan": "Premium",
+      "new_price_cny": 12.99,
+      "price_original": "12.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "HR",
+      "country_name": "HR",
+      "plan": "Basic",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "SI",
+      "country_name": "SI",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "SI",
+      "country_name": "SI",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "SI",
+      "country_name": "SI",
+      "plan": "Basic",
+      "new_price_cny": 4.99,
+      "price_original": "4.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "EE",
+      "country_name": "EE",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "EE",
+      "country_name": "EE",
+      "plan": "Premium",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "EE",
+      "country_name": "EE",
+      "plan": "Basic",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "LV",
+      "country_name": "LV",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "LV",
+      "country_name": "LV",
+      "plan": "Premium",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "LV",
+      "country_name": "LV",
+      "plan": "Basic",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "LT",
+      "country_name": "LT",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "LT",
+      "country_name": "LT",
+      "plan": "Premium",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "LT",
+      "country_name": "LT",
+      "plan": "Basic",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "RS",
+      "country_name": "RS",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "RS",
+      "country_name": "RS",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "RS",
+      "country_name": "RS",
+      "plan": "Basic",
+      "new_price_cny": 4.99,
+      "price_original": "4.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "ME",
+      "country_name": "ME",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "ME",
+      "country_name": "ME",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "ME",
+      "country_name": "ME",
+      "plan": "Basic",
+      "new_price_cny": 4.99,
+      "price_original": "4.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "BA",
+      "country_name": "BA",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "BA",
+      "country_name": "BA",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "BA",
+      "country_name": "BA",
+      "plan": "Basic",
+      "new_price_cny": 4.99,
+      "price_original": "4.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "MK",
+      "country_name": "MK",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "MK",
+      "country_name": "MK",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "MK",
+      "country_name": "MK",
+      "plan": "Basic",
+      "new_price_cny": 4.99,
+      "price_original": "4.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AL",
+      "country_name": "AL",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AL",
+      "country_name": "AL",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AL",
+      "country_name": "AL",
+      "plan": "Basic",
+      "new_price_cny": 4.99,
+      "price_original": "4.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "UA",
+      "country_name": "UA",
+      "plan": "Standard",
+      "new_price_cny": 7.49,
+      "price_original": "7.49 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "UA",
+      "country_name": "UA",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "UA",
+      "country_name": "UA",
+      "plan": "Basic",
+      "new_price_cny": 4.99,
+      "price_original": "4.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "BY",
+      "country_name": "BY",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "BY",
+      "country_name": "BY",
+      "plan": "Premium",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "BY",
+      "country_name": "BY",
+      "plan": "Basic",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "MD",
+      "country_name": "MD",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "MD",
+      "country_name": "MD",
+      "plan": "Premium",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "MD",
+      "country_name": "MD",
+      "plan": "Basic",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "GE",
+      "country_name": "GE",
+      "plan": "Standard",
+      "new_price_cny": 11.79,
+      "price_original": "11.79 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "GE",
+      "country_name": "GE",
+      "plan": "Premium",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "GE",
+      "country_name": "GE",
+      "plan": "Basic",
+      "new_price_cny": 9.39,
+      "price_original": "9.39 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AM",
+      "country_name": "AM",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AM",
+      "country_name": "AM",
+      "plan": "Premium",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AM",
+      "country_name": "AM",
+      "plan": "Basic",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AZ",
+      "country_name": "AZ",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AZ",
+      "country_name": "AZ",
+      "plan": "Premium",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AZ",
+      "country_name": "AZ",
+      "plan": "Basic",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "KZ",
+      "country_name": "KZ",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "KZ",
+      "country_name": "KZ",
+      "plan": "Premium",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "KZ",
+      "country_name": "KZ",
+      "plan": "Basic",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "KG",
+      "country_name": "KG",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "KG",
+      "country_name": "KG",
+      "plan": "Premium",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "KG",
+      "country_name": "KG",
+      "plan": "Basic",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "TJ",
+      "country_name": "TJ",
+      "plan": "Standard",
+      "new_price_cny": 11.79,
+      "price_original": "11.79 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "TJ",
+      "country_name": "TJ",
+      "plan": "Premium",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "TJ",
+      "country_name": "TJ",
+      "plan": "Basic",
+      "new_price_cny": 9.39,
+      "price_original": "9.39 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "TM",
+      "country_name": "TM",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "TM",
+      "country_name": "TM",
+      "plan": "Premium",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "TM",
+      "country_name": "TM",
+      "plan": "Basic",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "UZ",
+      "country_name": "UZ",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "UZ",
+      "country_name": "UZ",
+      "plan": "Premium",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "UZ",
+      "country_name": "UZ",
+      "plan": "Basic",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "JP",
+      "country_name": "JP",
+      "plan": "Standard",
+      "new_price_cny": 1590.0,
+      "price_original": "1,590 JPY / month",
+      "currency": "JPY",
+      "type": "new_plan"
+    },
+    {
+      "country": "JP",
+      "country_name": "JP",
+      "plan": "Premium",
+      "new_price_cny": 2290.0,
+      "price_original": "2,290 JPY / month",
+      "currency": "JPY",
+      "type": "new_plan"
+    },
+    {
+      "country": "JP",
+      "country_name": "JP",
+      "plan": "Standard with ads",
+      "new_price_cny": 890.0,
+      "price_original": "890 JPY / month",
+      "currency": "JPY",
+      "type": "new_plan"
+    },
+    {
+      "country": "KR",
+      "country_name": "KR",
+      "plan": "Standard with ads",
+      "new_price_cny": 7000.0,
+      "price_original": "7,000 KRW / month",
+      "currency": "KRW",
+      "type": "new_plan"
+    },
+    {
+      "country": "KR",
+      "country_name": "KR",
+      "plan": "Standard",
+      "new_price_cny": 13500.0,
+      "price_original": "13,500 KRW / month",
+      "currency": "KRW",
+      "type": "new_plan"
+    },
+    {
+      "country": "KR",
+      "country_name": "KR",
+      "plan": "Premium",
+      "new_price_cny": 17000.0,
+      "price_original": "17,000 KRW / month",
+      "currency": "KRW",
+      "type": "new_plan"
+    },
+    {
+      "country": "HK",
+      "country_name": "HK",
+      "plan": "Standard",
+      "new_price_cny": 88.0,
+      "price_original": "88 HKD / month",
+      "currency": "HKD",
+      "type": "new_plan"
+    },
+    {
+      "country": "HK",
+      "country_name": "HK",
+      "plan": "Premium",
+      "new_price_cny": 108.0,
+      "price_original": "108 HKD / month",
+      "currency": "HKD",
+      "type": "new_plan"
+    },
+    {
+      "country": "HK",
+      "country_name": "HK",
+      "plan": "Basic",
+      "new_price_cny": 73.0,
+      "price_original": "73 HKD / month",
+      "currency": "HKD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TW",
+      "country_name": "TW",
+      "plan": "Standard",
+      "new_price_cny": 380.0,
+      "price_original": "380 TWD / month",
+      "currency": "TWD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TW",
+      "country_name": "TW",
+      "plan": "Premium",
+      "new_price_cny": 460.0,
+      "price_original": "460 TWD / month",
+      "currency": "TWD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TW",
+      "country_name": "TW",
+      "plan": "Basic",
+      "new_price_cny": 290.0,
+      "price_original": "290 TWD / month",
+      "currency": "TWD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MO",
+      "country_name": "MO",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MO",
+      "country_name": "MO",
+      "plan": "Premium",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MO",
+      "country_name": "MO",
+      "plan": "Basic",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SG",
+      "country_name": "SG",
+      "plan": "Standard",
+      "new_price_cny": 22.98,
+      "price_original": "22.98 SGD / month",
+      "currency": "SGD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SG",
+      "country_name": "SG",
+      "plan": "Premium",
+      "new_price_cny": 29.98,
+      "price_original": "29.98 SGD / month",
+      "currency": "SGD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SG",
+      "country_name": "SG",
+      "plan": "Basic",
+      "new_price_cny": 15.98,
+      "price_original": "15.98 SGD / month",
+      "currency": "SGD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MY",
+      "country_name": "MY",
+      "plan": "Standard",
+      "new_price_cny": 49.9,
+      "price_original": "49.90 MYR / month",
+      "currency": "MYR",
+      "type": "new_plan"
+    },
+    {
+      "country": "MY",
+      "country_name": "MY",
+      "plan": "Premium",
+      "new_price_cny": 62.9,
+      "price_original": "62.90 MYR / month",
+      "currency": "MYR",
+      "type": "new_plan"
+    },
+    {
+      "country": "MY",
+      "country_name": "MY",
+      "plan": "Basic",
+      "new_price_cny": 29.9,
+      "price_original": "29.90 MYR / month",
+      "currency": "MYR",
+      "type": "new_plan"
+    },
+    {
+      "country": "MY",
+      "country_name": "MY",
+      "plan": "Mobile",
+      "new_price_cny": 18.9,
+      "price_original": "18.90 MYR / month",
+      "currency": "MYR",
+      "type": "new_plan"
+    },
+    {
+      "country": "TH",
+      "country_name": "TH",
+      "plan": "Standard",
+      "new_price_cny": 349.0,
+      "price_original": "349 THB / month",
+      "currency": "THB",
+      "type": "new_plan"
+    },
+    {
+      "country": "TH",
+      "country_name": "TH",
+      "plan": "Premium",
+      "new_price_cny": 419.0,
+      "price_original": "419 THB / month",
+      "currency": "THB",
+      "type": "new_plan"
+    },
+    {
+      "country": "TH",
+      "country_name": "TH",
+      "plan": "Basic",
+      "new_price_cny": 169.0,
+      "price_original": "169 THB / month",
+      "currency": "THB",
+      "type": "new_plan"
+    },
+    {
+      "country": "TH",
+      "country_name": "TH",
+      "plan": "Mobile",
+      "new_price_cny": 99.0,
+      "price_original": "99 THB / month",
+      "currency": "THB",
+      "type": "new_plan"
+    },
+    {
+      "country": "VN",
+      "country_name": "VN",
+      "plan": "Standard",
+      "new_price_cny": 231000.0,
+      "price_original": "231,000 VND / month",
+      "currency": "VND",
+      "type": "new_plan"
+    },
+    {
+      "country": "VN",
+      "country_name": "VN",
+      "plan": "Premium",
+      "new_price_cny": 273000.0,
+      "price_original": "273,000 VND / month",
+      "currency": "VND",
+      "type": "new_plan"
+    },
+    {
+      "country": "VN",
+      "country_name": "VN",
+      "plan": "Basic",
+      "new_price_cny": 114000.0,
+      "price_original": "114,000 VND / month",
+      "currency": "VND",
+      "type": "new_plan"
+    },
+    {
+      "country": "VN",
+      "country_name": "VN",
+      "plan": "Mobile",
+      "new_price_cny": 74000.0,
+      "price_original": "74,000 VND / month",
+      "currency": "VND",
+      "type": "new_plan"
+    },
+    {
+      "country": "PH",
+      "country_name": "PH",
+      "plan": "Standard",
+      "new_price_cny": 449.0,
+      "price_original": "449 PHP / month",
+      "currency": "PHP",
+      "type": "new_plan"
+    },
+    {
+      "country": "PH",
+      "country_name": "PH",
+      "plan": "Premium",
+      "new_price_cny": 619.0,
+      "price_original": "619 PHP / month",
+      "currency": "PHP",
+      "type": "new_plan"
+    },
+    {
+      "country": "PH",
+      "country_name": "PH",
+      "plan": "Basic",
+      "new_price_cny": 279.0,
+      "price_original": "279 PHP / month",
+      "currency": "PHP",
+      "type": "new_plan"
+    },
+    {
+      "country": "PH",
+      "country_name": "PH",
+      "plan": "Mobile",
+      "new_price_cny": 169.0,
+      "price_original": "169 PHP / month",
+      "currency": "PHP",
+      "type": "new_plan"
+    },
+    {
+      "country": "ID",
+      "country_name": "ID",
+      "plan": "Standard",
+      "new_price_cny": 120000.0,
+      "price_original": "120,000 IDR / month",
+      "currency": "IDR",
+      "type": "new_plan"
+    },
+    {
+      "country": "ID",
+      "country_name": "ID",
+      "plan": "Premium",
+      "new_price_cny": 186000.0,
+      "price_original": "186,000 IDR / month",
+      "currency": "IDR",
+      "type": "new_plan"
+    },
+    {
+      "country": "ID",
+      "country_name": "ID",
+      "plan": "Basic",
+      "new_price_cny": 65000.0,
+      "price_original": "65,000 IDR / month",
+      "currency": "IDR",
+      "type": "new_plan"
+    },
+    {
+      "country": "ID",
+      "country_name": "ID",
+      "plan": "Mobile",
+      "new_price_cny": 54000.0,
+      "price_original": "54,000 IDR / month",
+      "currency": "IDR",
+      "type": "new_plan"
+    },
+    {
+      "country": "BN",
+      "country_name": "BN",
+      "plan": "Standard",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BN",
+      "country_name": "BN",
+      "plan": "Premium",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BN",
+      "country_name": "BN",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BN",
+      "country_name": "BN",
+      "plan": "Mobile",
+      "new_price_cny": 6.49,
+      "price_original": "6.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KH",
+      "country_name": "KH",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KH",
+      "country_name": "KH",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KH",
+      "country_name": "KH",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KH",
+      "country_name": "KH",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LA",
+      "country_name": "LA",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LA",
+      "country_name": "LA",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LA",
+      "country_name": "LA",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LA",
+      "country_name": "LA",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MM",
+      "country_name": "MM",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MM",
+      "country_name": "MM",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MM",
+      "country_name": "MM",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MM",
+      "country_name": "MM",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TL",
+      "country_name": "TL",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TL",
+      "country_name": "TL",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TL",
+      "country_name": "TL",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TL",
+      "country_name": "TL",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "IN",
+      "country_name": "IN",
+      "plan": "Mobile",
+      "new_price_cny": 149.0,
+      "price_original": "149 INR / month",
+      "currency": "INR",
+      "type": "new_plan"
+    },
+    {
+      "country": "IN",
+      "country_name": "IN",
+      "plan": "Basic",
+      "new_price_cny": 199.0,
+      "price_original": "199 INR / month",
+      "currency": "INR",
+      "type": "new_plan"
+    },
+    {
+      "country": "IN",
+      "country_name": "IN",
+      "plan": "Standard",
+      "new_price_cny": 499.0,
+      "price_original": "499 INR / month",
+      "currency": "INR",
+      "type": "new_plan"
+    },
+    {
+      "country": "IN",
+      "country_name": "IN",
+      "plan": "Premium",
+      "new_price_cny": 649.0,
+      "price_original": "649 INR / month",
+      "currency": "INR",
+      "type": "new_plan"
+    },
+    {
+      "country": "BD",
+      "country_name": "BD",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BD",
+      "country_name": "BD",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BD",
+      "country_name": "BD",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BD",
+      "country_name": "BD",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LK",
+      "country_name": "LK",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LK",
+      "country_name": "LK",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LK",
+      "country_name": "LK",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LK",
+      "country_name": "LK",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NP",
+      "country_name": "NP",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NP",
+      "country_name": "NP",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NP",
+      "country_name": "NP",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NP",
+      "country_name": "NP",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BT",
+      "country_name": "BT",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BT",
+      "country_name": "BT",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BT",
+      "country_name": "BT",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BT",
+      "country_name": "BT",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MV",
+      "country_name": "MV",
+      "plan": "Standard",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MV",
+      "country_name": "MV",
+      "plan": "Premium",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MV",
+      "country_name": "MV",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MV",
+      "country_name": "MV",
+      "plan": "Mobile",
+      "new_price_cny": 6.49,
+      "price_original": "6.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AF",
+      "country_name": "AF",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AF",
+      "country_name": "AF",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AF",
+      "country_name": "AF",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "IR",
+      "country_name": "IR",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "IR",
+      "country_name": "IR",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "IR",
+      "country_name": "IR",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TR",
+      "country_name": "TR",
+      "plan": "Standard",
+      "new_price_cny": 289.99,
+      "price_original": "289.99 TRY / month",
+      "currency": "TRY",
+      "type": "new_plan"
+    },
+    {
+      "country": "TR",
+      "country_name": "TR",
+      "plan": "Premium",
+      "new_price_cny": 379.99,
+      "price_original": "379.99 TRY / month",
+      "currency": "TRY",
+      "type": "new_plan"
+    },
+    {
+      "country": "TR",
+      "country_name": "TR",
+      "plan": "Basic",
+      "new_price_cny": 189.99,
+      "price_original": "189.99 TRY / month",
+      "currency": "TRY",
+      "type": "new_plan"
+    },
+    {
+      "country": "SA",
+      "country_name": "SA",
+      "plan": "Standard",
+      "new_price_cny": 49.0,
+      "price_original": "49 SAR / month",
+      "currency": "SAR",
+      "type": "new_plan"
+    },
+    {
+      "country": "SA",
+      "country_name": "SA",
+      "plan": "Premium",
+      "new_price_cny": 71.0,
+      "price_original": "71 SAR / month",
+      "currency": "SAR",
+      "type": "new_plan"
+    },
+    {
+      "country": "SA",
+      "country_name": "SA",
+      "plan": "Basic",
+      "new_price_cny": 35.0,
+      "price_original": "35 SAR / month",
+      "currency": "SAR",
+      "type": "new_plan"
+    },
+    {
+      "country": "AE",
+      "country_name": "AE",
+      "plan": "Standard",
+      "new_price_cny": 49.0,
+      "price_original": "49 AED / month",
+      "currency": "AED",
+      "type": "new_plan"
+    },
+    {
+      "country": "AE",
+      "country_name": "AE",
+      "plan": "Premium",
+      "new_price_cny": 71.0,
+      "price_original": "71 AED / month",
+      "currency": "AED",
+      "type": "new_plan"
+    },
+    {
+      "country": "AE",
+      "country_name": "AE",
+      "plan": "Basic",
+      "new_price_cny": 35.0,
+      "price_original": "35 AED / month",
+      "currency": "AED",
+      "type": "new_plan"
+    },
+    {
+      "country": "QA",
+      "country_name": "QA",
+      "plan": "Standard",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "QA",
+      "country_name": "QA",
+      "plan": "Premium",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "QA",
+      "country_name": "QA",
+      "plan": "Basic",
+      "new_price_cny": 8.99,
+      "price_original": "8.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KW",
+      "country_name": "KW",
+      "plan": "Standard",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KW",
+      "country_name": "KW",
+      "plan": "Premium",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KW",
+      "country_name": "KW",
+      "plan": "Basic",
+      "new_price_cny": 8.99,
+      "price_original": "8.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BH",
+      "country_name": "BH",
+      "plan": "Standard",
+      "new_price_cny": 10.49,
+      "price_original": "10.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BH",
+      "country_name": "BH",
+      "plan": "Premium",
+      "new_price_cny": 15.79,
+      "price_original": "15.79 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BH",
+      "country_name": "BH",
+      "plan": "Basic",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "OM",
+      "country_name": "OM",
+      "plan": "Standard",
+      "new_price_cny": 10.49,
+      "price_original": "10.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "OM",
+      "country_name": "OM",
+      "plan": "Premium",
+      "new_price_cny": 15.79,
+      "price_original": "15.79 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "OM",
+      "country_name": "OM",
+      "plan": "Basic",
+      "new_price_cny": 8.39,
+      "price_original": "8.39 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "JO",
+      "country_name": "JO",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "JO",
+      "country_name": "JO",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "JO",
+      "country_name": "JO",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LB",
+      "country_name": "LB",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LB",
+      "country_name": "LB",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LB",
+      "country_name": "LB",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "IQ",
+      "country_name": "IQ",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "IQ",
+      "country_name": "IQ",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "IQ",
+      "country_name": "IQ",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "YE",
+      "country_name": "YE",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "YE",
+      "country_name": "YE",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "YE",
+      "country_name": "YE",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "IL",
+      "country_name": "IL",
+      "plan": "Standard",
+      "new_price_cny": 54.9,
+      "price_original": "54.90 ILS / month",
+      "currency": "ILS",
+      "type": "new_plan"
+    },
+    {
+      "country": "IL",
+      "country_name": "IL",
+      "plan": "Premium",
+      "new_price_cny": 69.9,
+      "price_original": "69.90 ILS / month",
+      "currency": "ILS",
+      "type": "new_plan"
+    },
+    {
+      "country": "IL",
+      "country_name": "IL",
+      "plan": "Basic",
+      "new_price_cny": 32.9,
+      "price_original": "32.90 ILS / month",
+      "currency": "ILS",
+      "type": "new_plan"
+    },
+    {
+      "country": "PS",
+      "country_name": "PS",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PS",
+      "country_name": "PS",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PS",
+      "country_name": "PS",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CY",
+      "country_name": "CY",
+      "plan": "Standard",
+      "new_price_cny": 12.49,
+      "price_original": "12.49 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "CY",
+      "country_name": "CY",
+      "plan": "Premium",
+      "new_price_cny": 15.99,
+      "price_original": "15.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "CY",
+      "country_name": "CY",
+      "plan": "Basic",
+      "new_price_cny": 8.99,
+      "price_original": "8.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "EG",
+      "country_name": "EG",
+      "plan": "Standard",
+      "new_price_cny": 170.0,
+      "price_original": "170 EGP / month",
+      "currency": "EGP",
+      "type": "new_plan"
+    },
+    {
+      "country": "EG",
+      "country_name": "EG",
+      "plan": "Premium",
+      "new_price_cny": 240.0,
+      "price_original": "240 EGP / month",
+      "currency": "EGP",
+      "type": "new_plan"
+    },
+    {
+      "country": "EG",
+      "country_name": "EG",
+      "plan": "Basic",
+      "new_price_cny": 100.0,
+      "price_original": "100 EGP / month",
+      "currency": "EGP",
+      "type": "new_plan"
+    },
+    {
+      "country": "LY",
+      "country_name": "LY",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LY",
+      "country_name": "LY",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LY",
+      "country_name": "LY",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TN",
+      "country_name": "TN",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TN",
+      "country_name": "TN",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TN",
+      "country_name": "TN",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "DZ",
+      "country_name": "DZ",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "DZ",
+      "country_name": "DZ",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "DZ",
+      "country_name": "DZ",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MA",
+      "country_name": "MA",
+      "plan": "Standard",
+      "new_price_cny": 65.0,
+      "price_original": "65 MAD / month",
+      "currency": "MAD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MA",
+      "country_name": "MA",
+      "plan": "Premium",
+      "new_price_cny": 95.0,
+      "price_original": "95 MAD / month",
+      "currency": "MAD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MA",
+      "country_name": "MA",
+      "plan": "Basic",
+      "new_price_cny": 35.0,
+      "price_original": "35 MAD / month",
+      "currency": "MAD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SD",
+      "country_name": "SD",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SD",
+      "country_name": "SD",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SD",
+      "country_name": "SD",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "EH",
+      "country_name": "EH",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "EH",
+      "country_name": "EH",
+      "plan": "Premium",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "EH",
+      "country_name": "EH",
+      "plan": "Basic",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NG",
+      "country_name": "NG",
+      "plan": "Standard",
+      "new_price_cny": 6500.0,
+      "price_original": "6,500 NGN / month",
+      "currency": "NGN",
+      "type": "new_plan"
+    },
+    {
+      "country": "NG",
+      "country_name": "NG",
+      "plan": "Premium",
+      "new_price_cny": 8500.0,
+      "price_original": "8,500 NGN / month",
+      "currency": "NGN",
+      "type": "new_plan"
+    },
+    {
+      "country": "NG",
+      "country_name": "NG",
+      "plan": "Basic",
+      "new_price_cny": 4000.0,
+      "price_original": "4,000 NGN / month",
+      "currency": "NGN",
+      "type": "new_plan"
+    },
+    {
+      "country": "NG",
+      "country_name": "NG",
+      "plan": "Mobile",
+      "new_price_cny": 2500.0,
+      "price_original": "2,500 NGN / month",
+      "currency": "NGN",
+      "type": "new_plan"
+    },
+    {
+      "country": "GH",
+      "country_name": "GH",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GH",
+      "country_name": "GH",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GH",
+      "country_name": "GH",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GH",
+      "country_name": "GH",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SN",
+      "country_name": "SN",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SN",
+      "country_name": "SN",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SN",
+      "country_name": "SN",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SN",
+      "country_name": "SN",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ML",
+      "country_name": "ML",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ML",
+      "country_name": "ML",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ML",
+      "country_name": "ML",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ML",
+      "country_name": "ML",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BF",
+      "country_name": "BF",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BF",
+      "country_name": "BF",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BF",
+      "country_name": "BF",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BF",
+      "country_name": "BF",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NE",
+      "country_name": "NE",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NE",
+      "country_name": "NE",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NE",
+      "country_name": "NE",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NE",
+      "country_name": "NE",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GN",
+      "country_name": "GN",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GN",
+      "country_name": "GN",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GN",
+      "country_name": "GN",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GN",
+      "country_name": "GN",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SL",
+      "country_name": "SL",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SL",
+      "country_name": "SL",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SL",
+      "country_name": "SL",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SL",
+      "country_name": "SL",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LR",
+      "country_name": "LR",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LR",
+      "country_name": "LR",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LR",
+      "country_name": "LR",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LR",
+      "country_name": "LR",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CI",
+      "country_name": "CI",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CI",
+      "country_name": "CI",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CI",
+      "country_name": "CI",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CI",
+      "country_name": "CI",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GM",
+      "country_name": "GM",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GM",
+      "country_name": "GM",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GM",
+      "country_name": "GM",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GM",
+      "country_name": "GM",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GW",
+      "country_name": "GW",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GW",
+      "country_name": "GW",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GW",
+      "country_name": "GW",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GW",
+      "country_name": "GW",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CV",
+      "country_name": "CV",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CV",
+      "country_name": "CV",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CV",
+      "country_name": "CV",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CV",
+      "country_name": "CV",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MR",
+      "country_name": "MR",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MR",
+      "country_name": "MR",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MR",
+      "country_name": "MR",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MR",
+      "country_name": "MR",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TG",
+      "country_name": "TG",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TG",
+      "country_name": "TG",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TG",
+      "country_name": "TG",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TG",
+      "country_name": "TG",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BJ",
+      "country_name": "BJ",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BJ",
+      "country_name": "BJ",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BJ",
+      "country_name": "BJ",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BJ",
+      "country_name": "BJ",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CD",
+      "country_name": "CD",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CD",
+      "country_name": "CD",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CD",
+      "country_name": "CD",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CD",
+      "country_name": "CD",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CG",
+      "country_name": "CG",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CG",
+      "country_name": "CG",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CG",
+      "country_name": "CG",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CG",
+      "country_name": "CG",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CF",
+      "country_name": "CF",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CF",
+      "country_name": "CF",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CF",
+      "country_name": "CF",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CF",
+      "country_name": "CF",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CM",
+      "country_name": "CM",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CM",
+      "country_name": "CM",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CM",
+      "country_name": "CM",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CM",
+      "country_name": "CM",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TD",
+      "country_name": "TD",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TD",
+      "country_name": "TD",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TD",
+      "country_name": "TD",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TD",
+      "country_name": "TD",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GQ",
+      "country_name": "GQ",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GQ",
+      "country_name": "GQ",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GQ",
+      "country_name": "GQ",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GQ",
+      "country_name": "GQ",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GA",
+      "country_name": "GA",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GA",
+      "country_name": "GA",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GA",
+      "country_name": "GA",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GA",
+      "country_name": "GA",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ST",
+      "country_name": "ST",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ST",
+      "country_name": "ST",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ST",
+      "country_name": "ST",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ST",
+      "country_name": "ST",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AO",
+      "country_name": "AO",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AO",
+      "country_name": "AO",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AO",
+      "country_name": "AO",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AO",
+      "country_name": "AO",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ET",
+      "country_name": "ET",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ET",
+      "country_name": "ET",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ET",
+      "country_name": "ET",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ET",
+      "country_name": "ET",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KE",
+      "country_name": "KE",
+      "plan": "Standard",
+      "new_price_cny": 700.0,
+      "price_original": "700 KES / month",
+      "currency": "KES",
+      "type": "new_plan"
+    },
+    {
+      "country": "KE",
+      "country_name": "KE",
+      "plan": "Premium",
+      "new_price_cny": 1100.0,
+      "price_original": "1,100 KES / month",
+      "currency": "KES",
+      "type": "new_plan"
+    },
+    {
+      "country": "KE",
+      "country_name": "KE",
+      "plan": "Basic",
+      "new_price_cny": 300.0,
+      "price_original": "300 KES / month",
+      "currency": "KES",
+      "type": "new_plan"
+    },
+    {
+      "country": "KE",
+      "country_name": "KE",
+      "plan": "Mobile",
+      "new_price_cny": 200.0,
+      "price_original": "200 KES / month",
+      "currency": "KES",
+      "type": "new_plan"
+    },
+    {
+      "country": "UG",
+      "country_name": "UG",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "UG",
+      "country_name": "UG",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "UG",
+      "country_name": "UG",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "UG",
+      "country_name": "UG",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TZ",
+      "country_name": "TZ",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TZ",
+      "country_name": "TZ",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TZ",
+      "country_name": "TZ",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TZ",
+      "country_name": "TZ",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "RW",
+      "country_name": "RW",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "RW",
+      "country_name": "RW",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "RW",
+      "country_name": "RW",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "RW",
+      "country_name": "RW",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BI",
+      "country_name": "BI",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BI",
+      "country_name": "BI",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BI",
+      "country_name": "BI",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BI",
+      "country_name": "BI",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SO",
+      "country_name": "SO",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SO",
+      "country_name": "SO",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SO",
+      "country_name": "SO",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SO",
+      "country_name": "SO",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "DJ",
+      "country_name": "DJ",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "DJ",
+      "country_name": "DJ",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "DJ",
+      "country_name": "DJ",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "DJ",
+      "country_name": "DJ",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ER",
+      "country_name": "ER",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ER",
+      "country_name": "ER",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ER",
+      "country_name": "ER",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ER",
+      "country_name": "ER",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SS",
+      "country_name": "SS",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SS",
+      "country_name": "SS",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SS",
+      "country_name": "SS",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SS",
+      "country_name": "SS",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MG",
+      "country_name": "MG",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MG",
+      "country_name": "MG",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MG",
+      "country_name": "MG",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MG",
+      "country_name": "MG",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MU",
+      "country_name": "MU",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MU",
+      "country_name": "MU",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MU",
+      "country_name": "MU",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MU",
+      "country_name": "MU",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SC",
+      "country_name": "SC",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SC",
+      "country_name": "SC",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SC",
+      "country_name": "SC",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SC",
+      "country_name": "SC",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KM",
+      "country_name": "KM",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KM",
+      "country_name": "KM",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KM",
+      "country_name": "KM",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KM",
+      "country_name": "KM",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "YT",
+      "country_name": "YT",
+      "plan": "Standard",
+      "new_price_cny": 14.99,
+      "price_original": "14.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "YT",
+      "country_name": "YT",
+      "plan": "Premium",
+      "new_price_cny": 21.99,
+      "price_original": "21.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "YT",
+      "country_name": "YT",
+      "plan": "Basic",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "RE",
+      "country_name": "RE",
+      "plan": "Standard",
+      "new_price_cny": 13.49,
+      "price_original": "13.49 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "RE",
+      "country_name": "RE",
+      "plan": "Premium",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "RE",
+      "country_name": "RE",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "ZA",
+      "country_name": "ZA",
+      "plan": "Standard",
+      "new_price_cny": 179.0,
+      "price_original": "179 ZAR / month",
+      "currency": "ZAR",
+      "type": "new_plan"
+    },
+    {
+      "country": "ZA",
+      "country_name": "ZA",
+      "plan": "Premium",
+      "new_price_cny": 229.0,
+      "price_original": "229 ZAR / month",
+      "currency": "ZAR",
+      "type": "new_plan"
+    },
+    {
+      "country": "ZA",
+      "country_name": "ZA",
+      "plan": "Basic",
+      "new_price_cny": 99.0,
+      "price_original": "99 ZAR / month",
+      "currency": "ZAR",
+      "type": "new_plan"
+    },
+    {
+      "country": "ZA",
+      "country_name": "ZA",
+      "plan": "Mobile",
+      "new_price_cny": 59.0,
+      "price_original": "59 ZAR / month",
+      "currency": "ZAR",
+      "type": "new_plan"
+    },
+    {
+      "country": "NA",
+      "country_name": "NA",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NA",
+      "country_name": "NA",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NA",
+      "country_name": "NA",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NA",
+      "country_name": "NA",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BW",
+      "country_name": "BW",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BW",
+      "country_name": "BW",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BW",
+      "country_name": "BW",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BW",
+      "country_name": "BW",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ZW",
+      "country_name": "ZW",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ZW",
+      "country_name": "ZW",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ZW",
+      "country_name": "ZW",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ZW",
+      "country_name": "ZW",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ZM",
+      "country_name": "ZM",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ZM",
+      "country_name": "ZM",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ZM",
+      "country_name": "ZM",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "ZM",
+      "country_name": "ZM",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MW",
+      "country_name": "MW",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MW",
+      "country_name": "MW",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MW",
+      "country_name": "MW",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MW",
+      "country_name": "MW",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MZ",
+      "country_name": "MZ",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MZ",
+      "country_name": "MZ",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MZ",
+      "country_name": "MZ",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MZ",
+      "country_name": "MZ",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SZ",
+      "country_name": "SZ",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SZ",
+      "country_name": "SZ",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SZ",
+      "country_name": "SZ",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SZ",
+      "country_name": "SZ",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LS",
+      "country_name": "LS",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LS",
+      "country_name": "LS",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LS",
+      "country_name": "LS",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "LS",
+      "country_name": "LS",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PG",
+      "country_name": "PG",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PG",
+      "country_name": "PG",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PG",
+      "country_name": "PG",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PG",
+      "country_name": "PG",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "FJ",
+      "country_name": "FJ",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "FJ",
+      "country_name": "FJ",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "FJ",
+      "country_name": "FJ",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "FJ",
+      "country_name": "FJ",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SB",
+      "country_name": "SB",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SB",
+      "country_name": "SB",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SB",
+      "country_name": "SB",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SB",
+      "country_name": "SB",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "VU",
+      "country_name": "VU",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "VU",
+      "country_name": "VU",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "VU",
+      "country_name": "VU",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "VU",
+      "country_name": "VU",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NC",
+      "country_name": "NC",
+      "plan": "Standard",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NC",
+      "country_name": "NC",
+      "plan": "Premium",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NC",
+      "country_name": "NC",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NC",
+      "country_name": "NC",
+      "plan": "Mobile",
+      "new_price_cny": 6.49,
+      "price_original": "6.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PF",
+      "country_name": "PF",
+      "plan": "Standard",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PF",
+      "country_name": "PF",
+      "plan": "Premium",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PF",
+      "country_name": "PF",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PF",
+      "country_name": "PF",
+      "plan": "Mobile",
+      "new_price_cny": 6.49,
+      "price_original": "6.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TO",
+      "country_name": "TO",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TO",
+      "country_name": "TO",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TO",
+      "country_name": "TO",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TO",
+      "country_name": "TO",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "WS",
+      "country_name": "WS",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "WS",
+      "country_name": "WS",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "WS",
+      "country_name": "WS",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "WS",
+      "country_name": "WS",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KI",
+      "country_name": "KI",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KI",
+      "country_name": "KI",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KI",
+      "country_name": "KI",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KI",
+      "country_name": "KI",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TV",
+      "country_name": "TV",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TV",
+      "country_name": "TV",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TV",
+      "country_name": "TV",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TV",
+      "country_name": "TV",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PW",
+      "country_name": "PW",
+      "plan": "Standard with ads",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PW",
+      "country_name": "PW",
+      "plan": "Standard",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PW",
+      "country_name": "PW",
+      "plan": "Premium",
+      "new_price_cny": 24.99,
+      "price_original": "24.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MH",
+      "country_name": "MH",
+      "plan": "Standard with ads",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MH",
+      "country_name": "MH",
+      "plan": "Standard",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MH",
+      "country_name": "MH",
+      "plan": "Premium",
+      "new_price_cny": 24.99,
+      "price_original": "24.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "FM",
+      "country_name": "FM",
+      "plan": "Standard with ads",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "FM",
+      "country_name": "FM",
+      "plan": "Standard",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "FM",
+      "country_name": "FM",
+      "plan": "Premium",
+      "new_price_cny": 24.99,
+      "price_original": "24.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NR",
+      "country_name": "NR",
+      "plan": "Standard",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NR",
+      "country_name": "NR",
+      "plan": "Premium",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NR",
+      "country_name": "NR",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "NR",
+      "country_name": "NR",
+      "plan": "Mobile",
+      "new_price_cny": 6.49,
+      "price_original": "6.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AX",
+      "country_name": "AX",
+      "plan": "Standard",
+      "new_price_cny": 13.99,
+      "price_original": "13.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AX",
+      "country_name": "AX",
+      "plan": "Premium",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AX",
+      "country_name": "AX",
+      "plan": "Basic",
+      "new_price_cny": 9.49,
+      "price_original": "9.49 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "SJ",
+      "country_name": "SJ",
+      "plan": "Basic",
+      "new_price_cny": 99.0,
+      "price_original": "99 NOK / month",
+      "currency": "NOK",
+      "type": "new_plan"
+    },
+    {
+      "country": "SJ",
+      "country_name": "SJ",
+      "plan": "Standard",
+      "new_price_cny": 129.0,
+      "price_original": "129 NOK / month",
+      "currency": "NOK",
+      "type": "new_plan"
+    },
+    {
+      "country": "SJ",
+      "country_name": "SJ",
+      "plan": "Premium",
+      "new_price_cny": 189.0,
+      "price_original": "189 NOK / month",
+      "currency": "NOK",
+      "type": "new_plan"
+    },
+    {
+      "country": "BV",
+      "country_name": "BV",
+      "plan": "Standard",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BV",
+      "country_name": "BV",
+      "plan": "Premium",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BV",
+      "country_name": "BV",
+      "plan": "Basic",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "HM",
+      "country_name": "HM",
+      "plan": "Standard",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "HM",
+      "country_name": "HM",
+      "plan": "Premium",
+      "new_price_cny": 24.99,
+      "price_original": "24.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "HM",
+      "country_name": "HM",
+      "plan": "Basic",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CX",
+      "country_name": "CX",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CX",
+      "country_name": "CX",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "CX",
+      "country_name": "CX",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TF",
+      "country_name": "TF",
+      "plan": "Standard",
+      "new_price_cny": 14.99,
+      "price_original": "14.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "TF",
+      "country_name": "TF",
+      "plan": "Premium",
+      "new_price_cny": 21.99,
+      "price_original": "21.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "AS",
+      "country_name": "AS",
+      "plan": "Standard with ads",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AS",
+      "country_name": "AS",
+      "plan": "Standard",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AS",
+      "country_name": "AS",
+      "plan": "Premium",
+      "new_price_cny": 24.99,
+      "price_original": "24.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GU",
+      "country_name": "GU",
+      "plan": "Standard with ads",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GU",
+      "country_name": "GU",
+      "plan": "Standard",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GU",
+      "country_name": "GU",
+      "plan": "Premium",
+      "new_price_cny": 24.99,
+      "price_original": "24.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MP",
+      "country_name": "MP",
+      "plan": "Standard with ads",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MP",
+      "country_name": "MP",
+      "plan": "Standard",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MP",
+      "country_name": "MP",
+      "plan": "Premium",
+      "new_price_cny": 24.99,
+      "price_original": "24.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "VI",
+      "country_name": "VI",
+      "plan": "Standard with ads",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "VI",
+      "country_name": "VI",
+      "plan": "Standard",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "VI",
+      "country_name": "VI",
+      "plan": "Premium",
+      "new_price_cny": 24.99,
+      "price_original": "24.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PR",
+      "country_name": "PR",
+      "plan": "Standard with ads",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PR",
+      "country_name": "PR",
+      "plan": "Standard",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PR",
+      "country_name": "PR",
+      "plan": "Premium",
+      "new_price_cny": 24.99,
+      "price_original": "24.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "UM",
+      "country_name": "UM",
+      "plan": "Standard",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "UM",
+      "country_name": "UM",
+      "plan": "Premium",
+      "new_price_cny": 24.99,
+      "price_original": "24.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "UM",
+      "country_name": "UM",
+      "plan": "Basic",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MQ",
+      "country_name": "MQ",
+      "plan": "Standard",
+      "new_price_cny": 14.99,
+      "price_original": "14.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "MQ",
+      "country_name": "MQ",
+      "plan": "Premium",
+      "new_price_cny": 21.99,
+      "price_original": "21.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "MQ",
+      "country_name": "MQ",
+      "plan": "Basic",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "GP",
+      "country_name": "GP",
+      "plan": "Standard",
+      "new_price_cny": 14.99,
+      "price_original": "14.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "GP",
+      "country_name": "GP",
+      "plan": "Premium",
+      "new_price_cny": 21.99,
+      "price_original": "21.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "GP",
+      "country_name": "GP",
+      "plan": "Basic",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "BL",
+      "country_name": "BL",
+      "plan": "Standard",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BL",
+      "country_name": "BL",
+      "plan": "Premium",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BL",
+      "country_name": "BL",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MF",
+      "country_name": "MF",
+      "plan": "Standard",
+      "new_price_cny": 5.99,
+      "price_original": "5.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MF",
+      "country_name": "MF",
+      "plan": "Premium",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MF",
+      "country_name": "MF",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "PM",
+      "country_name": "PM",
+      "plan": "Standard",
+      "new_price_cny": 14.99,
+      "price_original": "14.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "PM",
+      "country_name": "PM",
+      "plan": "Premium",
+      "new_price_cny": 21.99,
+      "price_original": "21.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "PM",
+      "country_name": "PM",
+      "plan": "Basic",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 € / month",
+      "currency": "€",
+      "type": "new_plan"
+    },
+    {
+      "country": "WF",
+      "country_name": "WF",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "WF",
+      "country_name": "WF",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "WF",
+      "country_name": "WF",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "WF",
+      "country_name": "WF",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MS",
+      "country_name": "MS",
+      "plan": "Standard",
+      "new_price_cny": 15.49,
+      "price_original": "15.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MS",
+      "country_name": "MS",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "MS",
+      "country_name": "MS",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TC",
+      "country_name": "TC",
+      "plan": "Standard",
+      "new_price_cny": 15.49,
+      "price_original": "15.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TC",
+      "country_name": "TC",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "TC",
+      "country_name": "TC",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "VG",
+      "country_name": "VG",
+      "plan": "Standard",
+      "new_price_cny": 15.49,
+      "price_original": "15.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "VG",
+      "country_name": "VG",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "VG",
+      "country_name": "VG",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AI",
+      "country_name": "AI",
+      "plan": "Standard",
+      "new_price_cny": 15.49,
+      "price_original": "15.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AI",
+      "country_name": "AI",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "AI",
+      "country_name": "AI",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BM",
+      "country_name": "BM",
+      "plan": "Standard",
+      "new_price_cny": 15.49,
+      "price_original": "15.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BM",
+      "country_name": "BM",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "BM",
+      "country_name": "BM",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KY",
+      "country_name": "KY",
+      "plan": "Standard",
+      "new_price_cny": 15.49,
+      "price_original": "15.49 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KY",
+      "country_name": "KY",
+      "plan": "Premium",
+      "new_price_cny": 19.99,
+      "price_original": "19.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "KY",
+      "country_name": "KY",
+      "plan": "Basic",
+      "new_price_cny": 10.99,
+      "price_original": "10.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "FK",
+      "country_name": "FK",
+      "plan": "Standard",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "FK",
+      "country_name": "FK",
+      "plan": "Premium",
+      "new_price_cny": 24.99,
+      "price_original": "24.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "FK",
+      "country_name": "FK",
+      "plan": "Basic",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GS",
+      "country_name": "GS",
+      "plan": "Standard",
+      "new_price_cny": 17.99,
+      "price_original": "17.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GS",
+      "country_name": "GS",
+      "plan": "Premium",
+      "new_price_cny": 24.99,
+      "price_original": "24.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "GS",
+      "country_name": "GS",
+      "plan": "Basic",
+      "new_price_cny": 11.99,
+      "price_original": "11.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SH",
+      "country_name": "SH",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SH",
+      "country_name": "SH",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SH",
+      "country_name": "SH",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "SH",
+      "country_name": "SH",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "IO",
+      "country_name": "IO",
+      "plan": "Standard",
+      "new_price_cny": 7.99,
+      "price_original": "7.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "IO",
+      "country_name": "IO",
+      "plan": "Premium",
+      "new_price_cny": 9.99,
+      "price_original": "9.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "IO",
+      "country_name": "IO",
+      "plan": "Basic",
+      "new_price_cny": 3.99,
+      "price_original": "3.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    },
+    {
+      "country": "IO",
+      "country_name": "IO",
+      "plan": "Mobile",
+      "new_price_cny": 2.99,
+      "price_original": "2.99 USD / month",
+      "currency": "USD",
+      "type": "new_plan"
+    }
+  ]
+}

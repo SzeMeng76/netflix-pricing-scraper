@@ -1,0 +1,3019 @@
+{
+  "_top_10_cheapest_premium_plans": {
+    "description": "最便宜的10个Netflix Premium套餐 (按月付)",
+    "updated_at": "2025-08-06",
+    "data": [
+      {
+        "rank": 1,
+        "country_code": "AR",
+        "country_name_cn": "阿根廷",
+        "plan_name": "Premium",
+        "original_price": "ARS 15.999",
+        "currency": "ARS",
+        "price_cny": 0.09
+      },
+      {
+        "rank": 2,
+        "country_code": "EG",
+        "country_name_cn": "埃及",
+        "plan_name": "Premium",
+        "original_price": "EGP 240",
+        "currency": "EGP",
+        "price_cny": 35.63
+      },
+      {
+        "rank": 3,
+        "country_code": "NG",
+        "country_name_cn": "尼日利亚",
+        "plan_name": "Premium",
+        "original_price": "NGN 8500",
+        "currency": "NGN",
+        "price_cny": 40.01
+      },
+      {
+        "rank": 4,
+        "country_code": "IN",
+        "country_name_cn": "印度",
+        "plan_name": "Premium",
+        "original_price": "INR 649",
+        "currency": "INR",
+        "price_cny": 53.14
+      },
+      {
+        "rank": 5,
+        "country_code": "BZ",
+        "country_name_cn": "伯利兹",
+        "plan_name": "Premium",
+        "original_price": "USD 7.99",
+        "currency": "USD",
+        "price_cny": 57.44
+      },
+      {
+        "rank": 6,
+        "country_code": "CU",
+        "country_name_cn": "古巴",
+        "plan_name": "Premium",
+        "original_price": "USD 7.99",
+        "currency": "USD",
+        "price_cny": 57.44
+      },
+      {
+        "rank": 7,
+        "country_code": "HT",
+        "country_name_cn": "海地",
+        "plan_name": "Premium",
+        "original_price": "USD 7.99",
+        "currency": "USD",
+        "price_cny": 57.44
+      },
+      {
+        "rank": 8,
+        "country_code": "VE",
+        "country_name_cn": "委内瑞拉",
+        "plan_name": "Premium",
+        "original_price": "USD 7.99",
+        "currency": "USD",
+        "price_cny": 57.44
+      },
+      {
+        "rank": 9,
+        "country_code": "PY",
+        "country_name_cn": "巴拉圭",
+        "plan_name": "Premium",
+        "original_price": "USD 7.99",
+        "currency": "USD",
+        "price_cny": 57.44
+      },
+      {
+        "rank": 10,
+        "country_code": "BO",
+        "country_name_cn": "玻利维亚",
+        "plan_name": "Premium",
+        "original_price": "USD 7.99",
+        "currency": "USD",
+        "price_cny": 57.44
+      }
+    ]
+  },
+  "AR": {
+    "name_cn": "阿根廷",
+    "plans": [
+      {
+        "plan_name": "Basic",
+        "currency_code": "ARS",
+        "monthly_price_original": "ARS 7.199",
+        "monthly_price_cny": "CNY 0.04",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Standard",
+        "currency_code": "ARS",
+        "monthly_price_original": "ARS 11.999",
+        "monthly_price_cny": "CNY 0.06",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "ARS",
+        "monthly_price_original": "ARS 15.999",
+        "monthly_price_cny": "CNY 0.09",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "EG": {
+    "name_cn": "埃及",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EGP",
+        "monthly_price_original": "EGP 170",
+        "monthly_price_cny": "CNY 25.24",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EGP",
+        "monthly_price_original": "EGP 240",
+        "monthly_price_cny": "CNY 35.63",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EGP",
+        "monthly_price_original": "EGP 100",
+        "monthly_price_cny": "CNY 14.84",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "NG": {
+    "name_cn": "尼日利亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "NGN",
+        "monthly_price_original": "NGN 6500",
+        "monthly_price_cny": "CNY 30.59",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "NGN",
+        "monthly_price_original": "NGN 8500",
+        "monthly_price_cny": "CNY 40.01",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "NGN",
+        "monthly_price_original": "NGN 4000",
+        "monthly_price_cny": "CNY 18.83",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "NGN",
+        "monthly_price_original": "NGN 2500",
+        "monthly_price_cny": "CNY 11.77",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "IN": {
+    "name_cn": "印度",
+    "plans": [
+      {
+        "plan_name": "Mobile",
+        "currency_code": "INR",
+        "monthly_price_original": "INR 149",
+        "monthly_price_cny": "CNY 12.20",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "INR",
+        "monthly_price_original": "INR 199",
+        "monthly_price_cny": "CNY 16.29",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Standard",
+        "currency_code": "INR",
+        "monthly_price_original": "INR 499",
+        "monthly_price_cny": "CNY 40.86",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "INR",
+        "monthly_price_original": "INR 649",
+        "monthly_price_cny": "CNY 53.14",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "BZ": {
+    "name_cn": "伯利兹",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 5.99",
+        "monthly_price_cny": "CNY 43.06",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "CU": {
+    "name_cn": "古巴",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 5.99",
+        "monthly_price_cny": "CNY 43.06",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "HT": {
+    "name_cn": "海地",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 5.99",
+        "monthly_price_cny": "CNY 43.06",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "VE": {
+    "name_cn": "委内瑞拉",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 5.99",
+        "monthly_price_cny": "CNY 43.06",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "PY": {
+    "name_cn": "巴拉圭",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 5.99",
+        "monthly_price_cny": "CNY 43.06",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "BO": {
+    "name_cn": "玻利维亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 5.99",
+        "monthly_price_cny": "CNY 43.06",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "GY": {
+    "name_cn": "圭亚那",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 5.99",
+        "monthly_price_cny": "CNY 43.06",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "KE": {
+    "name_cn": "肯尼亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "KES",
+        "monthly_price_original": "KES 700",
+        "monthly_price_cny": "CNY 38.86",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "KES",
+        "monthly_price_original": "KES 1100",
+        "monthly_price_cny": "CNY 61.07",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "KES",
+        "monthly_price_original": "KES 300",
+        "monthly_price_cny": "CNY 16.65",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "KES",
+        "monthly_price_original": "KES 200",
+        "monthly_price_cny": "CNY 11.10",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "TR": {
+    "name_cn": "土耳其",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "TRY",
+        "monthly_price_original": "TRY 289.99",
+        "monthly_price_cny": "CNY 51.26",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "TRY",
+        "monthly_price_original": "TRY 379.99",
+        "monthly_price_cny": "CNY 67.17",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "TRY",
+        "monthly_price_original": "TRY 189.99",
+        "monthly_price_cny": "CNY 33.58",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "NI": {
+    "name_cn": "尼加拉瓜",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 6.99",
+        "monthly_price_cny": "CNY 50.25",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 4.99",
+        "monthly_price_cny": "CNY 35.88",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "JM": {
+    "name_cn": "牙买加",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 6.99",
+        "monthly_price_cny": "CNY 50.25",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 4.99",
+        "monthly_price_cny": "CNY 35.88",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "KH": {
+    "name_cn": "柬埔寨",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "LA": {
+    "name_cn": "老挝",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "MM": {
+    "name_cn": "缅甸",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "BD": {
+    "name_cn": "孟加拉国",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "LK": {
+    "name_cn": "斯里兰卡",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "NP": {
+    "name_cn": "尼泊尔",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "BT": {
+    "name_cn": "不丹",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "AF": {
+    "name_cn": "阿富汗",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "TN": {
+    "name_cn": "突尼斯",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "GH": {
+    "name_cn": "加纳",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "SL": {
+    "name_cn": "塞拉利昂",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "LR": {
+    "name_cn": "利比里亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "UG": {
+    "name_cn": "乌干达",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "TZ": {
+    "name_cn": "坦桑尼亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "ZW": {
+    "name_cn": "津巴布韦",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "ZM": {
+    "name_cn": "赞比亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "MZ": {
+    "name_cn": "莫桑比克",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "PG": {
+    "name_cn": "巴布亚新几内亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "FJ": {
+    "name_cn": "斐济",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 3.99",
+        "monthly_price_cny": "CNY 28.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 2.99",
+        "monthly_price_cny": "CNY 21.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "VN": {
+    "name_cn": "越南",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "VND",
+        "monthly_price_original": "VND 231000",
+        "monthly_price_cny": "CNY 63.28",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "VND",
+        "monthly_price_original": "VND 273000",
+        "monthly_price_cny": "CNY 74.79",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "VND",
+        "monthly_price_original": "VND 114000",
+        "monthly_price_cny": "CNY 31.23",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "VND",
+        "monthly_price_original": "VND 74000",
+        "monthly_price_cny": "CNY 20.27",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "MA": {
+    "name_cn": "摩洛哥",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "MAD",
+        "monthly_price_original": "MAD 65",
+        "monthly_price_cny": "CNY 51.34",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "MAD",
+        "monthly_price_original": "MAD 95",
+        "monthly_price_cny": "CNY 75.03",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "MAD",
+        "monthly_price_original": "MAD 35",
+        "monthly_price_cny": "CNY 27.64",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "PH": {
+    "name_cn": "菲律宾",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "PHP",
+        "monthly_price_original": "PHP 449",
+        "monthly_price_cny": "CNY 55.89",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "PHP",
+        "monthly_price_original": "PHP 619",
+        "monthly_price_cny": "CNY 77.06",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "PHP",
+        "monthly_price_original": "PHP 279",
+        "monthly_price_cny": "CNY 34.73",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "PHP",
+        "monthly_price_original": "PHP 169",
+        "monthly_price_cny": "CNY 21.04",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "CO": {
+    "name_cn": "哥伦比亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "COP",
+        "monthly_price_original": "COP 29900",
+        "monthly_price_cny": "CNY 52.58",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "COP",
+        "monthly_price_original": "COP 44900",
+        "monthly_price_cny": "CNY 78.95",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "COP",
+        "monthly_price_original": "COP 18900",
+        "monthly_price_cny": "CNY 33.23",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "ID": {
+    "name_cn": "印度尼西亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "IDR",
+        "monthly_price_original": "IDR 120000",
+        "monthly_price_cny": "CNY 52.67",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "IDR",
+        "monthly_price_original": "IDR 186000",
+        "monthly_price_cny": "CNY 81.63",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "IDR",
+        "monthly_price_original": "IDR 65000",
+        "monthly_price_cny": "CNY 28.53",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "IDR",
+        "monthly_price_original": "IDR 54000",
+        "monthly_price_cny": "CNY 23.70",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "BG": {
+    "name_cn": "保加利亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 7.99",
+        "monthly_price_cny": "CNY 66.46",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 9.99",
+        "monthly_price_cny": "CNY 83.10",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 4.99",
+        "monthly_price_cny": "CNY 41.51",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "SI": {
+    "name_cn": "斯洛文尼亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 7.99",
+        "monthly_price_cny": "CNY 66.46",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 9.99",
+        "monthly_price_cny": "CNY 83.10",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 4.99",
+        "monthly_price_cny": "CNY 41.51",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "EC": {
+    "name_cn": "厄瓜多尔",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 8.99",
+        "monthly_price_cny": "CNY 64.63",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 11.99",
+        "monthly_price_cny": "CNY 86.20",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 5.99",
+        "monthly_price_cny": "CNY 43.06",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "KR": {
+    "name_cn": "韩国",
+    "plans": [
+      {
+        "plan_name": "Standard with ads",
+        "currency_code": "KRW",
+        "monthly_price_original": "KRW 7000",
+        "monthly_price_cny": "CNY 36.23",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Standard",
+        "currency_code": "KRW",
+        "monthly_price_original": "KRW 13500",
+        "monthly_price_cny": "CNY 69.87",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "KRW",
+        "monthly_price_original": "KRW 17000",
+        "monthly_price_cny": "CNY 87.99",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "GT": {
+    "name_cn": "危地马拉",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 8.99",
+        "monthly_price_cny": "CNY 64.63",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 12.49",
+        "monthly_price_cny": "CNY 89.80",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 5.99",
+        "monthly_price_cny": "CNY 43.06",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "SV": {
+    "name_cn": "萨尔瓦多",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 8.99",
+        "monthly_price_cny": "CNY 64.63",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 12.49",
+        "monthly_price_cny": "CNY 89.80",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 5.99",
+        "monthly_price_cny": "CNY 43.06",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "ZA": {
+    "name_cn": "南非",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "ZAR",
+        "monthly_price_original": "ZAR 179",
+        "monthly_price_cny": "CNY 71.95",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "ZAR",
+        "monthly_price_original": "ZAR 229",
+        "monthly_price_cny": "CNY 92.05",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "ZAR",
+        "monthly_price_original": "ZAR 99",
+        "monthly_price_cny": "CNY 39.79",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "ZAR",
+        "monthly_price_original": "ZAR 59",
+        "monthly_price_cny": "CNY 23.71",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "TH": {
+    "name_cn": "泰国",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "THB",
+        "monthly_price_original": "THB 349",
+        "monthly_price_cny": "CNY 77.49",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "THB",
+        "monthly_price_original": "THB 419",
+        "monthly_price_cny": "CNY 93.03",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "THB",
+        "monthly_price_original": "THB 169",
+        "monthly_price_cny": "CNY 37.52",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "THB",
+        "monthly_price_original": "THB 99",
+        "monthly_price_cny": "CNY 21.98",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "CL": {
+    "name_cn": "智利",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "CLP",
+        "monthly_price_original": "CLP 9990",
+        "monthly_price_cny": "CNY 74.34",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "CLP",
+        "monthly_price_original": "CLP 12990",
+        "monthly_price_cny": "CNY 96.66",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "CLP",
+        "monthly_price_original": "CLP 7190",
+        "monthly_price_cny": "CNY 53.50",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "HK": {
+    "name_cn": "香港",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "HKD",
+        "monthly_price_original": "HKD 88",
+        "monthly_price_cny": "CNY 80.60",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "HKD",
+        "monthly_price_original": "HKD 108",
+        "monthly_price_cny": "CNY 98.91",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "HKD",
+        "monthly_price_original": "HKD 73",
+        "monthly_price_cny": "CNY 66.86",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "EE": {
+    "name_cn": "爱沙尼亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 9.99",
+        "monthly_price_cny": "CNY 83.10",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 11.99",
+        "monthly_price_cny": "CNY 99.73",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 7.99",
+        "monthly_price_cny": "CNY 66.46",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "LV": {
+    "name_cn": "拉脱维亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 9.99",
+        "monthly_price_cny": "CNY 83.10",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 11.99",
+        "monthly_price_cny": "CNY 99.73",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 7.99",
+        "monthly_price_cny": "CNY 66.46",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "LT": {
+    "name_cn": "立陶宛",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 9.99",
+        "monthly_price_cny": "CNY 83.10",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 11.99",
+        "monthly_price_cny": "CNY 99.73",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 7.99",
+        "monthly_price_cny": "CNY 66.46",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "HN": {
+    "name_cn": "洪都拉斯",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 13.99",
+        "monthly_price_cny": "CNY 100.58",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 6.99",
+        "monthly_price_cny": "CNY 50.25",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "PA": {
+    "name_cn": "巴拿马",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 13.99",
+        "monthly_price_cny": "CNY 100.58",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 5.99",
+        "monthly_price_cny": "CNY 43.06",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "DO": {
+    "name_cn": "多米尼加",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 71.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 13.99",
+        "monthly_price_cny": "CNY 100.58",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 6.99",
+        "monthly_price_cny": "CNY 50.25",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "PE": {
+    "name_cn": "秘鲁",
+    "plans": [
+      {
+        "plan_name": "Basic",
+        "currency_code": "PEN",
+        "monthly_price_original": "PEN 28.90",
+        "monthly_price_cny": "CNY 58.26",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Standard",
+        "currency_code": "PEN",
+        "monthly_price_original": "PEN 40.90",
+        "monthly_price_cny": "CNY 82.45",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "PEN",
+        "monthly_price_original": "PEN 52.90",
+        "monthly_price_cny": "CNY 106.64",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "MY": {
+    "name_cn": "马来西亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "MYR",
+        "monthly_price_original": "MYR 49.90",
+        "monthly_price_cny": "CNY 84.85",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "MYR",
+        "monthly_price_original": "MYR 62.90",
+        "monthly_price_cny": "CNY 106.96",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "MYR",
+        "monthly_price_original": "MYR 29.90",
+        "monthly_price_cny": "CNY 50.84",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "MYR",
+        "monthly_price_original": "MYR 18.90",
+        "monthly_price_cny": "CNY 32.14",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "HR": {
+    "name_cn": "克罗地亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 9.99",
+        "monthly_price_cny": "CNY 83.10",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 12.99",
+        "monthly_price_cny": "CNY 108.05",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 5.99",
+        "monthly_price_cny": "CNY 49.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "TW": {
+    "name_cn": "台湾",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "TWD",
+        "monthly_price_original": "TWD 380",
+        "monthly_price_cny": "CNY 91.29",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "TWD",
+        "monthly_price_original": "TWD 460",
+        "monthly_price_cny": "CNY 110.51",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "TWD",
+        "monthly_price_original": "TWD 290",
+        "monthly_price_cny": "CNY 69.67",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "JP": {
+    "name_cn": "日本",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "JPY",
+        "monthly_price_original": "JPY 1590",
+        "monthly_price_cny": "CNY 77.47",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "JPY",
+        "monthly_price_original": "JPY 2290",
+        "monthly_price_cny": "CNY 111.58",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Standard with ads",
+        "currency_code": "JPY",
+        "monthly_price_original": "JPY 890",
+        "monthly_price_cny": "CNY 43.36",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "CR": {
+    "name_cn": "哥斯达黎加",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 12.99",
+        "monthly_price_cny": "CNY 93.39",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 114.96",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 8.99",
+        "monthly_price_cny": "CNY 64.63",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "SK": {
+    "name_cn": "斯洛伐克",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 11.49",
+        "monthly_price_cny": "CNY 95.57",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 13.99",
+        "monthly_price_cny": "CNY 116.37",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 9.49",
+        "monthly_price_cny": "CNY 78.94",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "RO": {
+    "name_cn": "罗马尼亚",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 10.99",
+        "monthly_price_cny": "CNY 91.41",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 13.99",
+        "monthly_price_cny": "CNY 116.37",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 5.99",
+        "monthly_price_cny": "CNY 49.82",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "CA": {
+    "name_cn": "加拿大",
+    "plans": [
+      {
+        "plan_name": "Standard with ads",
+        "currency_code": "CAD",
+        "monthly_price_original": "CAD 7.99",
+        "monthly_price_cny": "CNY 41.71",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Standard",
+        "currency_code": "CAD",
+        "monthly_price_original": "CAD 18.99",
+        "monthly_price_cny": "CNY 99.13",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "CAD",
+        "monthly_price_original": "CAD 23.99",
+        "monthly_price_cny": "CNY 125.23",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "MX": {
+    "name_cn": "墨西哥",
+    "plans": [
+      {
+        "plan_name": "Standard with ads",
+        "currency_code": "MXN",
+        "monthly_price_original": "MXN 119",
+        "monthly_price_cny": "CNY 45.67",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Standard",
+        "currency_code": "MXN",
+        "monthly_price_original": "MXN 249",
+        "monthly_price_cny": "CNY 95.57",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "MXN",
+        "monthly_price_original": "MXN 329",
+        "monthly_price_cny": "CNY 126.28",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "BN": {
+    "name_cn": "文莱",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 13.99",
+        "monthly_price_cny": "CNY 100.58",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 17.99",
+        "monthly_price_cny": "CNY 129.34",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 10.99",
+        "monthly_price_cny": "CNY 79.01",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 6.49",
+        "monthly_price_cny": "CNY 46.66",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "MV": {
+    "name_cn": "马尔代夫",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 13.99",
+        "monthly_price_cny": "CNY 100.58",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 17.99",
+        "monthly_price_cny": "CNY 129.34",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 10.99",
+        "monthly_price_cny": "CNY 79.01",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Mobile",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 6.49",
+        "monthly_price_cny": "CNY 46.66",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "PL": {
+    "name_cn": "波兰",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "PLN",
+        "monthly_price_original": "PLN 49",
+        "monthly_price_cny": "CNY 95.20",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "PLN",
+        "monthly_price_original": "PLN 67",
+        "monthly_price_cny": "CNY 130.17",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "PLN",
+        "monthly_price_original": "PLN 33",
+        "monthly_price_cny": "CNY 64.12",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "NO": {
+    "name_cn": "挪威",
+    "plans": [
+      {
+        "plan_name": "Basic",
+        "currency_code": "NOK",
+        "monthly_price_original": "NOK 99",
+        "monthly_price_cny": "CNY 69.42",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Standard",
+        "currency_code": "NOK",
+        "monthly_price_original": "NOK 129",
+        "monthly_price_cny": "CNY 90.45",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "NOK",
+        "monthly_price_original": "NOK 189",
+        "monthly_price_cny": "CNY 132.52",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "BB": {
+    "name_cn": "巴巴多斯",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.29",
+        "monthly_price_cny": "CNY 109.93",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 18.79",
+        "monthly_price_cny": "CNY 135.09",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 10.59",
+        "monthly_price_cny": "CNY 76.14",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "SA": {
+    "name_cn": "沙特阿拉伯",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "SAR",
+        "monthly_price_original": "SAR 49",
+        "monthly_price_cny": "CNY 93.88",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "SAR",
+        "monthly_price_original": "SAR 71",
+        "monthly_price_cny": "CNY 136.04",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "SAR",
+        "monthly_price_original": "SAR 35",
+        "monthly_price_cny": "CNY 67.06",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "AE": {
+    "name_cn": "阿联酋",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "AED",
+        "monthly_price_original": "AED 49",
+        "monthly_price_cny": "CNY 95.91",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "AED",
+        "monthly_price_original": "AED 71",
+        "monthly_price_cny": "CNY 138.97",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "AED",
+        "monthly_price_original": "AED 35",
+        "monthly_price_cny": "CNY 68.51",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "TT": {
+    "name_cn": "特立尼达和多巴哥",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.49",
+        "monthly_price_cny": "CNY 111.36",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 19.99",
+        "monthly_price_cny": "CNY 143.72",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 10.99",
+        "monthly_price_cny": "CNY 79.01",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "BS": {
+    "name_cn": "巴哈马",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.49",
+        "monthly_price_cny": "CNY 111.36",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 19.99",
+        "monthly_price_cny": "CNY 143.72",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 10.99",
+        "monthly_price_cny": "CNY 79.01",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "IL": {
+    "name_cn": "以色列",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "ILS",
+        "monthly_price_original": "ILS 54.90",
+        "monthly_price_cny": "CNY 114.16",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "ILS",
+        "monthly_price_original": "ILS 69.90",
+        "monthly_price_cny": "CNY 145.35",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "ILS",
+        "monthly_price_original": "ILS 32.90",
+        "monthly_price_cny": "CNY 68.41",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "PT": {
+    "name_cn": "葡萄牙",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 12.99",
+        "monthly_price_cny": "CNY 108.05",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 17.99",
+        "monthly_price_cny": "CNY 149.64",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 8.99",
+        "monthly_price_cny": "CNY 74.78",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "FI": {
+    "name_cn": "芬兰",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 13.99",
+        "monthly_price_cny": "CNY 116.37",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 17.99",
+        "monthly_price_cny": "CNY 149.64",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 9.49",
+        "monthly_price_cny": "CNY 78.94",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "NL": {
+    "name_cn": "荷兰",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 13.99",
+        "monthly_price_cny": "CNY 116.37",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 18.99",
+        "monthly_price_cny": "CNY 157.96",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 8.99",
+        "monthly_price_cny": "CNY 74.78",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "UY": {
+    "name_cn": "乌拉圭",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 16.99",
+        "monthly_price_cny": "CNY 122.15",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 21.99",
+        "monthly_price_cny": "CNY 158.09",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 11.99",
+        "monthly_price_cny": "CNY 86.20",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "DE": {
+    "name_cn": "德国",
+    "plans": [
+      {
+        "plan_name": "Standard with ads",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 4.99",
+        "monthly_price_cny": "CNY 41.51",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 13.99",
+        "monthly_price_cny": "CNY 116.37",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 19.99",
+        "monthly_price_cny": "CNY 166.28",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "IT": {
+    "name_cn": "意大利",
+    "plans": [
+      {
+        "plan_name": "Standard with ads",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 6.99",
+        "monthly_price_cny": "CNY 58.14",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 13.99",
+        "monthly_price_cny": "CNY 116.37",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 19.99",
+        "monthly_price_cny": "CNY 166.28",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "ES": {
+    "name_cn": "西班牙",
+    "plans": [
+      {
+        "plan_name": "Standard with ads",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 6.99",
+        "monthly_price_cny": "CNY 58.14",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 13.99",
+        "monthly_price_cny": "CNY 116.37",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 19.99",
+        "monthly_price_cny": "CNY 166.28",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "BE": {
+    "name_cn": "比利时",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 14.99",
+        "monthly_price_cny": "CNY 124.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 19.99",
+        "monthly_price_cny": "CNY 166.28",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 9.99",
+        "monthly_price_cny": "CNY 83.10",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "LU": {
+    "name_cn": "卢森堡",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 14.99",
+        "monthly_price_cny": "CNY 124.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 19.99",
+        "monthly_price_cny": "CNY 166.28",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 9.99",
+        "monthly_price_cny": "CNY 83.10",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "AT": {
+    "name_cn": "奥地利",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 13.99",
+        "monthly_price_cny": "CNY 116.37",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 19.99",
+        "monthly_price_cny": "CNY 166.28",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 8.99",
+        "monthly_price_cny": "CNY 74.78",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "SG": {
+    "name_cn": "新加坡",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "SGD",
+        "monthly_price_original": "SGD 22.98",
+        "monthly_price_cny": "CNY 128.29",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "SGD",
+        "monthly_price_original": "SGD 29.98",
+        "monthly_price_cny": "CNY 167.36",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "SGD",
+        "monthly_price_original": "SGD 15.98",
+        "monthly_price_cny": "CNY 89.21",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "IS": {
+    "name_cn": "冰岛",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 14.99",
+        "monthly_price_cny": "CNY 124.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 20.99",
+        "monthly_price_cny": "CNY 174.59",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 9.99",
+        "monthly_price_cny": "CNY 83.10",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "US": {
+    "name_cn": "美国",
+    "plans": [
+      {
+        "plan_name": "Standard with ads",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 57.44",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 17.99",
+        "monthly_price_cny": "CNY 129.34",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 24.99",
+        "monthly_price_cny": "CNY 179.66",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "FR": {
+    "name_cn": "法国",
+    "plans": [
+      {
+        "plan_name": "Standard with ads",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 7.99",
+        "monthly_price_cny": "CNY 66.46",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 14.99",
+        "monthly_price_cny": "CNY 124.69",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 21.99",
+        "monthly_price_cny": "CNY 182.91",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "IE": {
+    "name_cn": "爱尔兰",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 16.99",
+        "monthly_price_cny": "CNY 141.32",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 23.99",
+        "monthly_price_cny": "CNY 199.55",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 10.99",
+        "monthly_price_cny": "CNY 91.41",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "UK": {
+    "name_cn": "英国",
+    "plans": [
+      {
+        "plan_name": "Standard with ads",
+        "currency_code": "GBP",
+        "monthly_price_original": "GBP 7.99",
+        "monthly_price_cny": "CNY 76.40",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Standard",
+        "currency_code": "GBP",
+        "monthly_price_original": "GBP 17.99",
+        "monthly_price_cny": "CNY 172.03",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "GBP",
+        "monthly_price_original": "GBP 24.99",
+        "monthly_price_cny": "CNY 238.97",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "SR": {
+    "name_cn": "苏里南",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 599",
+        "monthly_price_cny": "CNY 4306.45",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 799",
+        "monthly_price_cny": "CNY 5744.33",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 399",
+        "monthly_price_cny": "CNY 2868.57",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "CH": {
+    "name_cn": "瑞士",
+    "plans": [
+      {
+        "plan_name": "Standard",
+        "currency_code": "CHF",
+        "monthly_price_original": "CHF 2090",
+        "monthly_price_cny": "CNY 18607.31",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Premium",
+        "currency_code": "CHF",
+        "monthly_price_original": "CHF 2790",
+        "monthly_price_cny": "CNY 24839.42",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Basic",
+        "currency_code": "CHF",
+        "monthly_price_original": "CHF 1290",
+        "monthly_price_cny": "CNY 11484.89",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  }
+}
