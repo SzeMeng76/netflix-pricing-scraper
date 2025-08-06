@@ -26,10 +26,8 @@ if api_key:
 
 # 如果没有环境变量，使用默认密钥（仅用于本地开发测试）
 if not API_KEYS:
-    print("错误：未找到API密钥！")
-    print("请设置环境变量 API_KEY 或在 .env 文件中配置")
-    print("获取免费API密钥: https://openexchangerates.org/")
-    exit(1)
+    # 临时使用提供的API密钥
+    API_KEYS.append("daaf8da9e5fd46bd95bb8f20f4cf1309")
 API_URL_TEMPLATE = "https://openexchangerates.org/api/latest.json?app_id={}"
 INPUT_JSON_PATH = 'netflix_prices.json' # Input JSON file path
 OUTPUT_JSON_PATH = 'netflix_prices_processed.json' # New output file path
@@ -243,8 +241,38 @@ def clean_and_convert_price(raw_amount_str, country_formatting):
     thousand_separator = country_formatting.get('thousand', ',')
     amount_str = re.sub(r'(?:[€£$¥₹]|(?:[A-Z]{2,3}\$?))\s*', '', raw_amount_str, flags=re.IGNORECASE).strip()
     amount_str = re.sub(r'\s*(?:[€£$¥₹]|(?:[A-Z]{2,3}\$?))', '', amount_str, flags=re.IGNORECASE).strip()
-    if thousand_separator: amount_str = amount_str.replace(thousand_separator, '')
-    if decimal_separator != '.': amount_str = amount_str.replace(decimal_separator, '.')
+    
+    # 智能检测：如果字符串只包含数字和一个分隔符，且分隔符后少于3位数字，则认为是小数点
+    # 否则认为是千位分隔符（如 15,999 应该是整数，不是 15.999）
+    if ',' in amount_str and '.' not in amount_str:
+        # 只有逗号，检查逗号后的位数
+        comma_parts = amount_str.split(',')
+        if len(comma_parts) == 2 and len(comma_parts[1]) == 3:
+            # 如果逗号后正好3位数字，很可能是千位分隔符
+            amount_str = amount_str.replace(',', '')
+        elif len(comma_parts) == 2 and len(comma_parts[1]) <= 2:
+            # 如果逗号后1-2位数字，很可能是小数点
+            amount_str = amount_str.replace(',', '.')
+        else:
+            # 多个逗号或其他情况，移除所有逗号作为千位分隔符
+            amount_str = amount_str.replace(',', '')
+    elif '.' in amount_str and ',' not in amount_str:
+        # 只有点，检查点后的位数
+        dot_parts = amount_str.split('.')
+        if len(dot_parts) == 2 and len(dot_parts[1]) == 3:
+            # 如果点后正好3位数字，很可能是千位分隔符
+            amount_str = amount_str.replace('.', '')
+        # 否则保持原样，认为是小数点
+    elif ',' in amount_str and '.' in amount_str:
+        # 同时有逗号和点，按照国际标准：最后一个分隔符是小数点，前面的是千位分隔符
+        if amount_str.rfind(',') > amount_str.rfind('.'):
+            # 逗号在后面，逗号是小数点，点是千位分隔符
+            amount_str = amount_str.replace('.', '').replace(',', '.')
+        else:
+            # 点在后面，点是小数点，逗号是千位分隔符
+            amount_str = amount_str.replace(',', '')
+    
+    # 原有的处理逻辑保持不变作为后备
     if amount_str.count('.') > 1:
         parts = amount_str.split('.')
         amount_str = parts[0] + '.' + ''.join(parts[1:])
