@@ -484,14 +484,21 @@ if __name__ == '__main__':
     all_prices = asyncio.run(main())
     
     timestamp = time.strftime("%Y%m%d_%H%M%S")
+    year = time.strftime("%Y")
+    month = time.strftime("%m")
+    
     output_file_latest = 'netflix_prices.json'
-    output_file_timestamped = f'netflix_prices_{timestamp}.json'
+    
+    # 创建归档目录
+    archive_dir = f'archive/{year}/{month}'
+    os.makedirs(archive_dir, exist_ok=True)
+    output_file_timestamped = f'{archive_dir}/netflix_prices_{timestamp}.json'
     
     # 保存最新版本
     with open(output_file_latest, 'w', encoding='utf-8') as f:
         json.dump(all_prices, f, ensure_ascii=False, indent=2)
     
-    # 保存带时间戳的版本
+    # 保存带时间戳的版本到归档目录
     with open(output_file_timestamped, 'w', encoding='utf-8') as f:
         json.dump(all_prices, f, ensure_ascii=False, indent=2)
     
