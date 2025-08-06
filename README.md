@@ -70,14 +70,14 @@ Generates: `netflix_prices_processed.json` with CNY conversions
 ```bash
 python netflix_price_change_detector.py
 ```
-Generates: `NETFLIX_CHANGELOG.md` and change summary files
+Generates: `CHANGELOG.md` and change summary files
 
 ## 📁 File Structure
 
 ```
 ├── netflix_prices.json                 # Latest raw pricing data
 ├── netflix_prices_processed.json       # Latest processed data with CNY
-├── NETFLIX_CHANGELOG.md               # Price change history
+├── CHANGELOG.md                       # Price change history
 ├── archive/
 │   └── 2025/
 │       └── 08/

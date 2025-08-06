@@ -70,14 +70,14 @@ python netflix_rate_converter.py
 ```bash
 python netflix_price_change_detector.py
 ```
-生成: `NETFLIX_CHANGELOG.md` 和变化摘要文件
+生成: `CHANGELOG.md` 和变化摘要文件
 
 ## 📁 文件结构
 
 ```
 ├── netflix_prices.json                 # 最新原始定价数据
 ├── netflix_prices_processed.json       # 最新处理数据（含人民币）
-├── NETFLIX_CHANGELOG.md               # 价格变化历史
+├── CHANGELOG.md                       # 价格变化历史
 ├── archive/
 │   └── 2025/
 │       └── 08/

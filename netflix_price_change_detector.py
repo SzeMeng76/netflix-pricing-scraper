@@ -15,7 +15,7 @@ import glob
 class NetflixPriceChangeDetector:
     def __init__(self):
         self.current_file = "netflix_prices.json"  # Use raw data, not processed
-        self.changelog_file = "NETFLIX_CHANGELOG.md"
+        self.changelog_file = "CHANGELOG.md"
         
     def find_latest_archive_file(self) -> Optional[str]:
         """查找最新的归档价格文件"""

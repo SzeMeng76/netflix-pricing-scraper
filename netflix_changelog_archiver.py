@@ -13,7 +13,7 @@ import calendar
 
 class NetflixChangelogArchiver:
     def __init__(self):
-        self.changelog_file = "NETFLIX_CHANGELOG.md"
+        self.changelog_file = "CHANGELOG.md"
         self.archive_dir = "changelog_archive"
         self.header_template = """# Netflix 价格变化记录
 
@@ -152,7 +152,7 @@ class NetflixChangelogArchiver:
         archive_content += f"""---
 
 📚 **相关链接**：
-- [返回主 CHANGELOG](../NETFLIX_CHANGELOG.md)
+- [返回主 CHANGELOG](../CHANGELOG.md)
 - [查看其他月份归档](./)
 
 *此文件由自动归档系统生成于 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*

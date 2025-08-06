@@ -157,11 +157,153 @@ COUNTRY_INFO = {
     # 中东/中亚
     "AF": {"name_en": "Afghanistan", "name_cn": "阿富汗", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
     
+    # 巴尔干半岛和前南斯拉夫地区
+    "RS": {"name_en": "Serbia", "name_cn": "塞尔维亚", "currency": "RSD", "symbol": "din", "decimal": ",", "thousand": "."},
+    "ME": {"name_en": "Montenegro", "name_cn": "黑山", "currency": "EUR", "symbol": "€", "decimal": ",", "thousand": "."},
+    "BA": {"name_en": "Bosnia and Herzegovina", "name_cn": "波斯尼亚和黑塞哥维那", "currency": "BAM", "symbol": "КМ", "decimal": ",", "thousand": "."},
+    "MK": {"name_en": "North Macedonia", "name_cn": "北马其顿", "currency": "MKD", "symbol": "ден", "decimal": ",", "thousand": "."},
+    "AL": {"name_en": "Albania", "name_cn": "阿尔巴尼亚", "currency": "ALL", "symbol": "L", "decimal": ",", "thousand": "."},
+    
+    # 东欧/前苏联地区
+    "UA": {"name_en": "Ukraine", "name_cn": "乌克兰", "currency": "UAH", "symbol": "₴", "decimal": ",", "thousand": " "},
+    "BY": {"name_en": "Belarus", "name_cn": "白俄罗斯", "currency": "BYN", "symbol": "Br", "decimal": ",", "thousand": " "},
+    "MD": {"name_en": "Moldova", "name_cn": "摩尔多瓦", "currency": "MDL", "symbol": "L", "decimal": ",", "thousand": " "},
+    
+    # 高加索地区
+    "GE": {"name_en": "Georgia", "name_cn": "格鲁吉亚", "currency": "GEL", "symbol": "₾", "decimal": ".", "thousand": ","},
+    "AM": {"name_en": "Armenia", "name_cn": "亚美尼亚", "currency": "AMD", "symbol": "֏", "decimal": ".", "thousand": ","},
+    "AZ": {"name_en": "Azerbaijan", "name_cn": "阿塞拜疆", "currency": "AZN", "symbol": "₼", "decimal": ".", "thousand": ","},
+    
+    # 中亚地区
+    "KZ": {"name_en": "Kazakhstan", "name_cn": "哈萨克斯坦", "currency": "KZT", "symbol": "₸", "decimal": ",", "thousand": " "},
+    "KG": {"name_en": "Kyrgyzstan", "name_cn": "吉尔吉斯斯坦", "currency": "KGS", "symbol": "с", "decimal": ",", "thousand": " "},
+    "TJ": {"name_en": "Tajikistan", "name_cn": "塔吉克斯坦", "currency": "TJS", "symbol": "ЅМ", "decimal": ".", "thousand": ","},
+    "TM": {"name_en": "Turkmenistan", "name_cn": "土库曼斯坦", "currency": "TMT", "symbol": "T", "decimal": ".", "thousand": ","},
+    "UZ": {"name_en": "Uzbekistan", "name_cn": "乌兹别克斯坦", "currency": "UZS", "symbol": "soʻm", "decimal": ",", "thousand": " "},
+    
+    # 中东地区（补充）
+    "QA": {"name_en": "Qatar", "name_cn": "卡塔尔", "currency": "QAR", "symbol": "﷼", "decimal": ".", "thousand": ","},
+    "KW": {"name_en": "Kuwait", "name_cn": "科威特", "currency": "KWD", "symbol": "د.ك", "decimal": ".", "thousand": ","},
+    "BH": {"name_en": "Bahrain", "name_cn": "巴林", "currency": "BHD", "symbol": "د.ب", "decimal": ".", "thousand": ","},
+    "OM": {"name_en": "Oman", "name_cn": "阿曼", "currency": "OMR", "symbol": "﷼", "decimal": ".", "thousand": ","},
+    "JO": {"name_en": "Jordan", "name_cn": "约旦", "currency": "JOD", "symbol": "د.ا", "decimal": ".", "thousand": ","},
+    "LB": {"name_en": "Lebanon", "name_cn": "黎巴嫩", "currency": "LBP", "symbol": "ل.ل", "decimal": ".", "thousand": ","},
+    "IQ": {"name_en": "Iraq", "name_cn": "伊拉克", "currency": "IQD", "symbol": "د.ع", "decimal": ".", "thousand": ","},
+    "YE": {"name_en": "Yemen", "name_cn": "也门", "currency": "YER", "symbol": "﷼", "decimal": ".", "thousand": ","},
+    "PS": {"name_en": "Palestine", "name_cn": "巴勒斯坦", "currency": "ILS", "symbol": "₪", "decimal": ".", "thousand": ","},
+    "CY": {"name_en": "Cyprus", "name_cn": "塞浦路斯", "currency": "EUR", "symbol": "€", "decimal": ".", "thousand": ","},
+    "LY": {"name_en": "Libya", "name_cn": "利比亚", "currency": "LYD", "symbol": "د.ل", "decimal": ".", "thousand": ","},
+    
+    # 北非地区（补充）
+    "DZ": {"name_en": "Algeria", "name_cn": "阿尔及利亚", "currency": "DZD", "symbol": "د.ج", "decimal": ".", "thousand": ","},
+    "SD": {"name_en": "Sudan", "name_cn": "苏丹", "currency": "SDG", "symbol": "ج.س", "decimal": ".", "thousand": ","},
+    "EH": {"name_en": "Western Sahara", "name_cn": "西撒哈拉", "currency": "MAD", "symbol": "د.م.", "decimal": ".", "thousand": ","},
+    
+    # 西非地区（补充）
+    "SN": {"name_en": "Senegal", "name_cn": "塞内加尔", "currency": "XOF", "symbol": "CFA", "decimal": ".", "thousand": ","},
+    "ML": {"name_en": "Mali", "name_cn": "马里", "currency": "XOF", "symbol": "CFA", "decimal": ".", "thousand": ","},
+    "BF": {"name_en": "Burkina Faso", "name_cn": "布基纳法索", "currency": "XOF", "symbol": "CFA", "decimal": ".", "thousand": ","},
+    "NE": {"name_en": "Niger", "name_cn": "尼日尔", "currency": "XOF", "symbol": "CFA", "decimal": ".", "thousand": ","},
+    "GN": {"name_en": "Guinea", "name_cn": "几内亚", "currency": "GNF", "symbol": "FG", "decimal": ".", "thousand": ","},
+    "CI": {"name_en": "Ivory Coast", "name_cn": "科特迪瓦", "currency": "XOF", "symbol": "CFA", "decimal": ".", "thousand": ","},
+    "GM": {"name_en": "Gambia", "name_cn": "冈比亚", "currency": "GMD", "symbol": "D", "decimal": ".", "thousand": ","},
+    "GW": {"name_en": "Guinea-Bissau", "name_cn": "几内亚比绍", "currency": "XOF", "symbol": "CFA", "decimal": ".", "thousand": ","},
+    "CV": {"name_en": "Cape Verde", "name_cn": "佛得角", "currency": "CVE", "symbol": "$", "decimal": ".", "thousand": ","},
+    "MR": {"name_en": "Mauritania", "name_cn": "毛里塔尼亚", "currency": "MRU", "symbol": "UM", "decimal": ".", "thousand": ","},
+    "TG": {"name_en": "Togo", "name_cn": "多哥", "currency": "XOF", "symbol": "CFA", "decimal": ".", "thousand": ","},
+    "BJ": {"name_en": "Benin", "name_cn": "贝宁", "currency": "XOF", "symbol": "CFA", "decimal": ".", "thousand": ","},
+    
+    # 中非地区（补充）
+    "CD": {"name_en": "Democratic Republic of the Congo", "name_cn": "刚果民主共和国", "currency": "CDF", "symbol": "FC", "decimal": ".", "thousand": ","},
+    "CG": {"name_en": "Republic of the Congo", "name_cn": "刚果共和国", "currency": "XAF", "symbol": "CFA", "decimal": ".", "thousand": ","},
+    "CF": {"name_en": "Central African Republic", "name_cn": "中非共和国", "currency": "XAF", "symbol": "CFA", "decimal": ".", "thousand": ","},
+    "CM": {"name_en": "Cameroon", "name_cn": "喀麦隆", "currency": "XAF", "symbol": "CFA", "decimal": ".", "thousand": ","},
+    "TD": {"name_en": "Chad", "name_cn": "乍得", "currency": "XAF", "symbol": "CFA", "decimal": ".", "thousand": ","},
+    "GQ": {"name_en": "Equatorial Guinea", "name_cn": "赤道几内亚", "currency": "XAF", "symbol": "CFA", "decimal": ".", "thousand": ","},
+    "GA": {"name_en": "Gabon", "name_cn": "加蓬", "currency": "XAF", "symbol": "CFA", "decimal": ".", "thousand": ","},
+    "ST": {"name_en": "Sao Tome and Principe", "name_cn": "圣多美和普林西比", "currency": "STN", "symbol": "Db", "decimal": ".", "thousand": ","},
+    "AO": {"name_en": "Angola", "name_cn": "安哥拉", "currency": "AOA", "symbol": "Kz", "decimal": ".", "thousand": ","},
+    
+    # 东非地区（补充）
+    "ET": {"name_en": "Ethiopia", "name_cn": "埃塞俄比亚", "currency": "ETB", "symbol": "Br", "decimal": ".", "thousand": ","},
+    "RW": {"name_en": "Rwanda", "name_cn": "卢旺达", "currency": "RWF", "symbol": "FRw", "decimal": ".", "thousand": ","},
+    "BI": {"name_en": "Burundi", "name_cn": "布隆迪", "currency": "BIF", "symbol": "FBu", "decimal": ".", "thousand": ","},
+    "SO": {"name_en": "Somalia", "name_cn": "索马里", "currency": "SOS", "symbol": "S", "decimal": ".", "thousand": ","},
+    "DJ": {"name_en": "Djibouti", "name_cn": "吉布提", "currency": "DJF", "symbol": "Fdj", "decimal": ".", "thousand": ","},
+    "ER": {"name_en": "Eritrea", "name_cn": "厄立特里亚", "currency": "ERN", "symbol": "Nfk", "decimal": ".", "thousand": ","},
+    "SS": {"name_en": "South Sudan", "name_cn": "南苏丹", "currency": "SSP", "symbol": "£", "decimal": ".", "thousand": ","},
+    
+    # 印度洋地区（补充）
+    "MG": {"name_en": "Madagascar", "name_cn": "马达加斯加", "currency": "MGA", "symbol": "Ar", "decimal": ".", "thousand": ","},
+    "MU": {"name_en": "Mauritius", "name_cn": "毛里求斯", "currency": "MUR", "symbol": "₨", "decimal": ".", "thousand": ","},
+    "SC": {"name_en": "Seychelles", "name_cn": "塞舌尔", "currency": "SCR", "symbol": "₨", "decimal": ".", "thousand": ","},
+    "KM": {"name_en": "Comoros", "name_cn": "科摩罗", "currency": "KMF", "symbol": "CF", "decimal": ".", "thousand": ","},
+    "YT": {"name_en": "Mayotte", "name_cn": "马约特", "currency": "EUR", "symbol": "€", "decimal": ".", "thousand": ","},
+    "RE": {"name_en": "Reunion", "name_cn": "留尼汪", "currency": "EUR", "symbol": "€", "decimal": ".", "thousand": ","},
+    
     # 大洋洲
     "AU": {"name_en": "Australia", "name_cn": "澳大利亚", "currency": "AUD", "symbol": "A$", "decimal": ".", "thousand": ","},
     "NZ": {"name_en": "New Zealand", "name_cn": "新西兰", "currency": "NZD", "symbol": "NZ$", "decimal": ".", "thousand": ","},
     "FJ": {"name_en": "Fiji", "name_cn": "斐济", "currency": "FJD", "symbol": "FJ$", "decimal": ".", "thousand": ","},
     "PG": {"name_en": "Papua New Guinea", "name_cn": "巴布亚新几内亚", "currency": "PGK", "symbol": "K", "decimal": ".", "thousand": ","},
+    
+    # 太平洋岛国（补充）
+    "SB": {"name_en": "Solomon Islands", "name_cn": "所罗门群岛", "currency": "SBD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "VU": {"name_en": "Vanuatu", "name_cn": "瓦努阿图", "currency": "VUV", "symbol": "Vt", "decimal": ".", "thousand": ","},
+    "NC": {"name_en": "New Caledonia", "name_cn": "新喀里多尼亚", "currency": "XPF", "symbol": "₣", "decimal": ".", "thousand": ","},
+    "PF": {"name_en": "French Polynesia", "name_cn": "法属波利尼西亚", "currency": "XPF", "symbol": "₣", "decimal": ".", "thousand": ","},
+    "CK": {"name_en": "Cook Islands", "name_cn": "库克群岛", "currency": "NZD", "symbol": "NZ$", "decimal": ".", "thousand": ","},
+    "TO": {"name_en": "Tonga", "name_cn": "汤加", "currency": "TOP", "symbol": "T$", "decimal": ".", "thousand": ","},
+    "WS": {"name_en": "Samoa", "name_cn": "萨摩亚", "currency": "WST", "symbol": "$", "decimal": ".", "thousand": ","},
+    "KI": {"name_en": "Kiribati", "name_cn": "基里巴斯", "currency": "AUD", "symbol": "A$", "decimal": ".", "thousand": ","},
+    "TV": {"name_en": "Tuvalu", "name_cn": "图瓦卢", "currency": "AUD", "symbol": "A$", "decimal": ".", "thousand": ","},
+    "NU": {"name_en": "Niue", "name_cn": "纽埃", "currency": "NZD", "symbol": "NZ$", "decimal": ".", "thousand": ","},
+    "PW": {"name_en": "Palau", "name_cn": "帕劳", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "MH": {"name_en": "Marshall Islands", "name_cn": "马绍尔群岛", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "FM": {"name_en": "Micronesia", "name_cn": "密克罗尼西亚", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "NR": {"name_en": "Nauru", "name_cn": "瑙鲁", "currency": "AUD", "symbol": "A$", "decimal": ".", "thousand": ","},
+    
+    # 北欧特殊领土（补充）
+    "GL": {"name_en": "Greenland", "name_cn": "格陵兰", "currency": "DKK", "symbol": "kr", "decimal": ".", "thousand": ","},
+    "FO": {"name_en": "Faroe Islands", "name_cn": "法罗群岛", "currency": "DKK", "symbol": "kr", "decimal": ".", "thousand": ","},
+    "AX": {"name_en": "Aland Islands", "name_cn": "奥兰群岛", "currency": "EUR", "symbol": "€", "decimal": ".", "thousand": ","},
+    "SJ": {"name_en": "Svalbard and Jan Mayen", "name_cn": "斯瓦尔巴群岛和扬马延岛", "currency": "NOK", "symbol": "kr", "decimal": ".", "thousand": ","},
+    "BV": {"name_en": "Bouvet Island", "name_cn": "布韦岛", "currency": "NOK", "symbol": "kr", "decimal": ".", "thousand": ","},
+    
+    # 澳洲特殊领土（补充）
+    "HM": {"name_en": "Heard Island and McDonald Islands", "name_cn": "赫德岛和麦克唐纳群岛", "currency": "AUD", "symbol": "A$", "decimal": ".", "thousand": ","},
+    "NF": {"name_en": "Norfolk Island", "name_cn": "诺福克岛", "currency": "AUD", "symbol": "A$", "decimal": ".", "thousand": ","},
+    "CX": {"name_en": "Christmas Island", "name_cn": "圣诞岛", "currency": "AUD", "symbol": "A$", "decimal": ".", "thousand": ","},
+    "CC": {"name_en": "Cocos Islands", "name_cn": "科科斯群岛", "currency": "AUD", "symbol": "A$", "decimal": ".", "thousand": ","},
+    "TF": {"name_en": "French Southern Territories", "name_cn": "法属南部领土", "currency": "EUR", "symbol": "€", "decimal": ".", "thousand": ","},
+    
+    # 美国领土（补充）
+    "AS": {"name_en": "American Samoa", "name_cn": "美属萨摩亚", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "GU": {"name_en": "Guam", "name_cn": "关岛", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "MP": {"name_en": "Northern Mariana Islands", "name_cn": "北马里亚纳群岛", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "VI": {"name_en": "U.S. Virgin Islands", "name_cn": "美属维尔京群岛", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "PR": {"name_en": "Puerto Rico", "name_cn": "波多黎各", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "UM": {"name_en": "U.S. Minor Outlying Islands", "name_cn": "美国本土外小岛屿", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
+    
+    # 法国海外领土（补充）
+    "MQ": {"name_en": "Martinique", "name_cn": "马提尼克", "currency": "EUR", "symbol": "€", "decimal": ".", "thousand": ","},
+    "GP": {"name_en": "Guadeloupe", "name_cn": "瓜德罗普", "currency": "EUR", "symbol": "€", "decimal": ".", "thousand": ","},
+    "BL": {"name_en": "Saint Barthelemy", "name_cn": "圣巴泰勒米", "currency": "EUR", "symbol": "€", "decimal": ".", "thousand": ","},
+    "MF": {"name_en": "Saint Martin", "name_cn": "法属圣马丁", "currency": "EUR", "symbol": "€", "decimal": ".", "thousand": ","},
+    "PM": {"name_en": "Saint Pierre and Miquelon", "name_cn": "圣皮埃尔和密克隆", "currency": "EUR", "symbol": "€", "decimal": ".", "thousand": ","},
+    "WF": {"name_en": "Wallis and Futuna", "name_cn": "瓦利斯和富图纳", "currency": "XPF", "symbol": "₣", "decimal": ".", "thousand": ","},
+    
+    # 英国海外领土（补充）
+    "MS": {"name_en": "Montserrat", "name_cn": "蒙特塞拉特", "currency": "XCD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "TC": {"name_en": "Turks and Caicos Islands", "name_cn": "特克斯和凯科斯群岛", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "VG": {"name_en": "British Virgin Islands", "name_cn": "英属维尔京群岛", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "AI": {"name_en": "Anguilla", "name_cn": "安圭拉", "currency": "XCD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "BM": {"name_en": "Bermuda", "name_cn": "百慕大", "currency": "BMD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "KY": {"name_en": "Cayman Islands", "name_cn": "开曼群岛", "currency": "KYD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "FK": {"name_en": "Falkland Islands", "name_cn": "福克兰群岛", "currency": "FKP", "symbol": "£", "decimal": ".", "thousand": ","},
+    "GS": {"name_en": "South Georgia and the South Sandwich Islands", "name_cn": "南乔治亚岛和南桑威奇群岛", "currency": "GBP", "symbol": "£", "decimal": ".", "thousand": ","},
+    "SH": {"name_en": "Saint Helena", "name_cn": "圣赫勒拿", "currency": "SHP", "symbol": "£", "decimal": ".", "thousand": ","},
+    "IO": {"name_en": "British Indian Ocean Territory", "name_cn": "英属印度洋领土", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
 }
 
 # Plan Name Standardization Mappings
@@ -198,6 +340,28 @@ CURRENCY_SYMBOLS_TO_CODES = {
     'lei': 'RON', 'kr': 'DKK', 'tl': 'TRY', 'zł': 'PLN', 'r$': 'BRL', 'ca$': 'CAD',
     'a$': 'AUD', 'hk$': 'HKD', 's$': 'SGD', 'mx$': 'MXN', 'nz$': 'NZD', '₹': 'INR',
     'ntd': 'TWD', 'rm': 'MYR',
+    # 新增货币符号映射
+    'rsd': 'RSD', 'din': 'RSD', 'bam': 'BAM', 'км': 'BAM', 'mkd': 'MKD', 'ден': 'MKD',
+    'all': 'ALL', 'uah': 'UAH', '₴': 'UAH', 'byn': 'BYN', 'br': 'BYN', 'mdl': 'MDL',
+    'gel': 'GEL', '₾': 'GEL', 'amd': 'AMD', '֏': 'AMD', 'azn': 'AZN', '₼': 'AZN',
+    'kzt': 'KZT', '₸': 'KZT', 'kgs': 'KGS', 'с': 'KGS', 'tjs': 'TJS', 'ѕм': 'TJS',
+    'tmt': 'TMT', 'uzs': 'UZS', 'soʻm': 'UZS',
+    # 中东地区货币符号
+    'qar': 'QAR', '﷼': 'QAR', 'kwd': 'KWD', 'د.ك': 'KWD', 'bhd': 'BHD', 'د.ب': 'BHD',
+    'omr': 'OMR', 'jod': 'JOD', 'د.ا': 'JOD', 'lbp': 'LBP', 'ل.ل': 'LBP', 'iqd': 'IQD',
+    'د.ع': 'IQD', 'yer': 'YER', 'lyd': 'LYD', 'د.ل': 'LYD',
+    # 非洲货币符号
+    'dzd': 'DZD', 'د.ج': 'DZD', 'sdg': 'SDG', 'ج.س': 'SDG', 'xof': 'XOF', 'cfa': 'XOF',
+    'gnf': 'GNF', 'fg': 'GNF', 'gmd': 'GMD', 'cve': 'CVE', 'mru': 'MRU', 'um': 'MRU',
+    'xaf': 'XAF', 'cdf': 'CDF', 'fc': 'CDF', 'stn': 'STN', 'db': 'STN', 'aoa': 'AOA',
+    'kz': 'AOA', 'etb': 'ETB', 'rwf': 'RWF', 'frw': 'RWF', 'bif': 'BIF', 'fbu': 'BIF',
+    'sos': 'SOS', 'djf': 'DJF', 'fdj': 'DJF', 'ern': 'ERN', 'nfk': 'ERN', 'ssp': 'SSP',
+    'mga': 'MGA', 'ar': 'MGA', 'mur': 'MUR', '₨': 'MUR', 'scr': 'SCR', 'kmf': 'KMF',
+    'cf': 'KMF',
+    # 太平洋货币符号
+    'sbd': 'SBD', 'vuv': 'VUV', 'vt': 'VUV', 'xpf': 'XPF', '₣': 'XPF', 'top': 'TOP',
+    't$': 'TOP', 'wst': 'WST', 'bmd': 'BMD', 'kyd': 'KYD', 'fkp': 'FKP', 'shp': 'SHP',
+    'xcd': 'XCD',
     '¥': 'JPY',
     '$': 'USD'    # Keep generic $ mapping, but logic will prioritize specifics
 }
