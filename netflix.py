@@ -193,6 +193,7 @@ def get_actual_country_code(country_code: str) -> str:
     """将用户输入的国家代码映射到实际的Netflix URL代码"""
     country_mapping = {
         'uk': 'gb',  # 用户查uk，实际调用gb
+        'ac': 'ag',  # 用户查ac（阿森松岛），实际调用ag（安提瓜和巴布达）
         # 可以在这里添加其他需要映射的国家
     }
     return country_mapping.get(country_code.lower(), country_code.lower())

@@ -54,6 +54,8 @@ COUNTRY_INFO = {
     "TT": {"name_en": "Trinidad and Tobago", "name_cn": "特立尼达和多巴哥", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
     "BB": {"name_en": "Barbados", "name_cn": "巴巴多斯", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
     "BS": {"name_en": "Bahamas", "name_cn": "巴哈马", "currency": "USD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "AG": {"name_en": "Antigua and Barbuda", "name_cn": "安提瓜和巴布达", "currency": "XCD", "symbol": "$", "decimal": ".", "thousand": ","},
+    "AC": {"name_en": "Antigua and Barbuda", "name_cn": "安提瓜和巴布达", "currency": "XCD", "symbol": "$", "decimal": ".", "thousand": ","},  # AC 映射到 AG
     
     # 南美洲
     "BR": {"name_en": "Brazil", "name_cn": "巴西", "currency": "BRL", "symbol": "R$", "decimal": ",", "thousand": "."},
