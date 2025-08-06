@@ -246,6 +246,10 @@ def extract_price_advanced(html: str, country_code: str) -> list[dict[str, Any]]
     
     # 定义更精确的套餐和价格模式
     plan_price_patterns = [
+        # 匹配 "Premium: ARS15,999/ month" 和 "Standard: ARS11,999 / month" 格式 (阿根廷等国家)
+        re.compile(r'(Basic|Standard|Premium|Mobile):\s*([A-Z]{3})(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)\s*/\s*month', re.IGNORECASE),
+        # 备用匹配
+        re.compile(r'(Basic|Standard|Premium|Mobile):\s*([A-Z]{3})\s*(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)\s*/\s*month', re.IGNORECASE),
         # 匹配 "Standard with ads": $7.99/month 格式
         re.compile(r'["\']?(Standard\s+with\s+ads)["\']?[:\s]*\$?(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN)?\s*/?\s*month', re.IGNORECASE),
         re.compile(r'["\']?(Standard)["\']?(?!\s+with\s+ads)[:\s]*\$?(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN)?\s*/?\s*month', re.IGNORECASE),
@@ -257,15 +261,21 @@ def extract_price_advanced(html: str, country_code: str) -> list[dict[str, Any]]
     found_plans = set()
     
     # 尝试每个模式
-    for pattern in plan_price_patterns:
+    for i, pattern in enumerate(plan_price_patterns):
         matches = pattern.findall(full_text)
         for match in matches:
-            plan_name = match[0].strip()
-            price_amount = match[1].strip()
-            currency = match[2].strip() if match[2] else get_default_currency(country_code)
+            # 处理不同的匹配格式
+            if i < 2:  # 阿根廷格式: (plan, currency, amount)
+                plan_name = match[0].strip()
+                currency = match[1].strip()
+                price_amount = match[2].strip()
+            else:  # 标准格式: (plan, amount, currency)
+                plan_name = match[0].strip()
+                price_amount = match[1].strip()
+                currency = match[2].strip() if len(match) > 2 and match[2] else get_default_currency(country_code)
             
             # 格式化价格
-            if currency.startswith('$') or not currency:
+            if not currency or currency.startswith('$'):
                 currency = get_default_currency(country_code)
             
             price_text = f"{price_amount} {currency} / month"
@@ -364,31 +374,68 @@ def get_default_currency(country_code: str) -> str:
 
 
 async def main():
-    # 先测试主要地区的代表性国家，确保系统正常工作
+    # Netflix全球190+国家完整列表
     country_codes = [
         # 北美洲
-        'us', 'ca', 'mx',  
+        'us', 'ca', 'mx',
         
-        # 中美洲和加勒比海（大多使用USD）
-        'gt', 'bz', 'sv', 'hn', 'ni', 'cr', 'pa',  # 中美洲
-        'cu', 'jm', 'ht', 'do', 'tt', 'bb', 'bs',  # 加勒比海
+        # 中美洲
+        'gt', 'bz', 'sv', 'hn', 'ni', 'cr', 'pa',
         
-        # 南美洲  
-        'br', 'ar', 'cl', 'co', 've', 'uy', 'py', 'ec', 'pe', 'bo',
+        # 加勒比海
+        'cu', 'jm', 'ht', 'do', 'tt', 'bb', 'bs', 'ag', 'dm', 'gd', 'kn', 'lc', 'vc',
         
-        # 欧洲
-        'uk', 'de', 'fr', 'it', 'es', 'no', 'se', 'pl', 'nl', 'ch',
+        # 南美洲
+        'br', 'ar', 'cl', 'co', 've', 'uy', 'py', 'ec', 'pe', 'bo', 'gy', 'sr', 'gf',
         
-        # 亚洲
-        'jp', 'kr', 'sg', 'in', 'th', 'ph', 'id', 'my', 'vn',
-        'kh', 'la', 'mm', 'bt', 'mv', 'af',  # USD使用国家
+        # 西欧
+        'uk', 'gb', 'ie', 'fr', 'de', 'it', 'es', 'pt', 'nl', 'be', 'lu', 'at', 'ch', 'li', 'mc', 'ad', 'sm', 'va',
         
-        # 非洲
-        'ng', 'za', 'ke', 'eg', 'ma', 'gh', 'tz',
-        'zw', 'lr', 'sl',  # USD使用国家
+        # 北欧
+        'se', 'no', 'dk', 'fi', 'is',
+        
+        # 东欧
+        'pl', 'cz', 'sk', 'hu', 'ro', 'bg', 'hr', 'si', 'ee', 'lv', 'lt', 'rs', 'me', 'ba', 'mk', 'al', 'xk',
+        
+        # 俄罗斯和前苏联
+        'ru', 'ua', 'by', 'md', 'ge', 'am', 'az', 'kz', 'kg', 'tj', 'tm', 'uz',
+        
+        # 东亚
+        'jp', 'kr', 'cn', 'hk', 'tw', 'mo',
+        
+        # 东南亚
+        'sg', 'my', 'th', 'vn', 'ph', 'id', 'bn', 'kh', 'la', 'mm', 'tl',
+        
+        # 南亚
+        'in', 'pk', 'bd', 'lk', 'np', 'bt', 'mv',
+        
+        # 中亚
+        'af', 'ir',
+        
+        # 中东
+        'tr', 'sa', 'ae', 'qa', 'kw', 'bh', 'om', 'jo', 'lb', 'sy', 'iq', 'ye', 'il', 'ps', 'cy',
+        
+        # 非洲北部
+        'eg', 'ly', 'tn', 'dz', 'ma', 'sd', 'eh',
+        
+        # 非洲西部
+        'ng', 'gh', 'sn', 'ml', 'bf', 'ne', 'gn', 'sl', 'lr', 'ci', 'gm', 'gw', 'cv', 'mr', 'tg', 'bj',
+        
+        # 非洲中部
+        'cd', 'cg', 'cf', 'cm', 'td', 'gq', 'ga', 'st', 'ao',
+        
+        # 非洲东部
+        'et', 'ke', 'ug', 'tz', 'rw', 'bi', 'so', 'dj', 'er', 'ss', 'mg', 'mu', 'sc', 'km', 'yt', 're',
+        
+        # 非洲南部
+        'za', 'na', 'bw', 'zw', 'zm', 'mw', 'mz', 'sz', 'ls',
         
         # 大洋洲
-        'au', 'nz'
+        'au', 'nz', 'pg', 'fj', 'sb', 'vu', 'nc', 'pf', 'ck', 'to', 'ws', 'ki', 'tv', 'nu', 'pw', 'mh', 'fm', 'nr',
+        
+        # 其他地区和属地
+        'gl', 'fo', 'ax', 'sj', 'bv', 'hm', 'nf', 'cx', 'cc', 'tf', 'as', 'gu', 'mp', 'vi', 'pr', 'um', 'mq', 'gp', 
+        'bl', 'mf', 'pm', 'wf', 'yt', 'ms', 'tc', 'vg', 'ai', 'bm', 'ky', 'fk', 'gs', 'sh', 'ac', 'ta', 'io'
     ]
     
     results: dict[str, Any] = {}

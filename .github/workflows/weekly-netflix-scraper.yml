@@ -169,7 +169,7 @@ jobs:
       id: price_changes
       if: steps.scraper.outputs.scraper_status == 'success' && steps.converter.outputs.converter_status == 'success'
       run: |
-        echo "🔍 开始检测 Netflix 价格变化..."
+        echo "开始检测 Netflix 价格变化..."
         python netflix_price_change_detector.py
         
         # 检查脚本执行结果并设置默认值
