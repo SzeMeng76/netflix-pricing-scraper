@@ -193,8 +193,8 @@ class NetflixPriceChangeDetector:
             price_increases.sort(key=lambda x: x['change_percent'], reverse=True)
             for change in price_increases:
                 content += f"- **{change['country_name']} ({change['country']}) - {change['plan']}**\n"
-                content += f"  - 原价: ¥{change['old_price_cny']:.2f} | 现价: ¥{change['new_price_cny']:.2f}\n"
-                content += f"  - 涨幅: ¥{change['change_amount']:.2f} (+{change['change_percent']:.1f}%)\n"
+                content += f"  - 原价: {change['currency']}{change['old_price_cny']:.2f} | 现价: {change['currency']}{change['new_price_cny']:.2f}\n"
+                content += f"  - 涨幅: {change['currency']}{change['change_amount']:.2f} (+{change['change_percent']:.1f}%)"
                 content += f"  - 当地价格: {change['price_original']} {change['currency']}\n\n"
         
         # 降价详情
@@ -203,8 +203,8 @@ class NetflixPriceChangeDetector:
             price_decreases.sort(key=lambda x: x['change_percent'])
             for change in price_decreases:
                 content += f"- **{change['country_name']} ({change['country']}) - {change['plan']}**\n"
-                content += f"  - 原价: ¥{change['old_price_cny']:.2f} | 现价: ¥{change['new_price_cny']:.2f}\n"
-                content += f"  - 降幅: ¥{abs(change['change_amount']):.2f} ({change['change_percent']:.1f}%)\n"
+                content += f"  - 原价: {change['currency']}{change['old_price_cny']:.2f} | 现价: {change['currency']}{change['new_price_cny']:.2f}\n"
+                content += f"  - 降幅: {change['currency']}{abs(change['change_amount']):.2f} ({change['change_percent']:.1f}%)"
                 content += f"  - 当地价格: {change['price_original']} {change['currency']}\n\n"
         
         # 新增套餐
@@ -212,7 +212,7 @@ class NetflixPriceChangeDetector:
             content += "### 🆕 新增套餐\n\n"
             for change in new_plans:
                 content += f"- **{change['country_name']} ({change['country']}) - {change['plan']}**\n"
-                content += f"  - 价格: ¥{change['new_price_cny']:.2f}\n"
+                content += f"  - 价格: {change['currency']}{change['new_price_cny']:.2f}\n"
                 content += f"  - 当地价格: {change['price_original']} {change['currency']}\n\n"
         
         # 移除套餐
@@ -220,7 +220,7 @@ class NetflixPriceChangeDetector:
             content += "### ❌ 移除套餐\n\n"
             for change in removed_plans:
                 content += f"- **{change['country_name']} ({change['country']}) - {change['plan']}**\n"
-                content += f"  - 原价格: ¥{change['old_price_cny']:.2f}\n"
+                content += f"  - 原价格: {change['currency']}{change['old_price_cny']:.2f}\n"
                 content += f"  - 当地价格: {change['price_original']} {change['currency']}\n\n"
         
         return content
