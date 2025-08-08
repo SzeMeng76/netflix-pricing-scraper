@@ -14,13 +14,13 @@ import glob
 
 class NetflixPriceChangeDetector:
     def __init__(self):
-        self.current_file = "netflix_prices.json"  # Use raw data, not processed
+        self.current_file = "netflix_prices_processed.json"  # Use processed data with CNY
         self.changelog_file = "CHANGELOG.md"
         
     def find_latest_archive_file(self) -> Optional[str]:
         """查找最新的归档价格文件"""
-        # 查找archive目录下的所有原始价格文件
-        pattern = "archive/**/netflix_prices_*.json"
+        # 查找archive目录下的所有processed价格文件
+        pattern = "archive/**/netflix_prices_processed_*.json"
         archive_files = glob.glob(pattern, recursive=True)
         
         if not archive_files:
@@ -53,113 +53,123 @@ class NetflixPriceChangeDetector:
         old_prices = {}
         new_prices = {}
         
-        # 处理旧数据 - Netflix raw格式
-        for country, plans in old_data.items():
-            if isinstance(plans, list):
-                for plan in plans:
-                    if isinstance(plan, dict) and 'plan' in plan and 'price' in plan:
-                        key = f"{country}_{plan['plan']}"
-                        # 解析价格字符串，提取数值和货币
-                        price_str = plan['price']
-                        # 提取价格数值（去掉文字部分）
-                        import re
-                        price_match = re.search(r'([\d,\.]+)\s*([A-Z]{3}|\$|\€|\£|\¥)', price_str)
-                        if price_match:
-                            price_amount = price_match.group(1).replace(',', '')
-                            currency = price_match.group(2)
-                            old_prices[key] = {
-                                'country': country,
-                                'country_name': country,  # We'll use country code for now
-                                'plan': plan['plan'],
-                                'price_amount': price_amount,
-                                'currency': currency,
-                                'price_original': price_str
-                            }
+        # 处理旧数据 - processed格式
+        for country, country_info in old_data.items():
+            if country.startswith('_'):  # 跳过特殊字段如_top_10_cheapest_premium_plans
+                continue
+            if isinstance(country_info, dict) and 'plans' in country_info:
+                for plan in country_info['plans']:
+                    if isinstance(plan, dict) and 'plan_name' in plan:
+                        key = f"{country}_{plan['plan_name']}"
+                        # 从processed格式提取价格
+                        monthly_cny = plan.get('monthly_price_cny')
+                        monthly_original = plan.get('monthly_price_original')
+                        
+                        if monthly_cny and monthly_original:
+                            # 解析CNY价格
+                            cny_match = re.search(r'CNY ([\d.]+)', monthly_cny)
+                            # 解析原始价格
+                            orig_match = re.search(r'([A-Z]{3}) ([\d.]+)', monthly_original)
+                            
+                            if cny_match and orig_match:
+                                old_prices[key] = {
+                                    'country': country,
+                                    'country_name': country_info.get('name_cn', country),
+                                    'plan': plan['plan_name'],
+                                    'price_cny': float(cny_match.group(1)),
+                                    'price_local': float(orig_match.group(1)),
+                                    'currency': orig_match.group(0).split()[0],  # 提取货币代码
+                                    'monthly_original': monthly_original,
+                                    'monthly_cny': monthly_cny
+                                }
         
-        # 处理新数据 - Netflix raw格式
-        for country, plans in new_data.items():
-            if isinstance(plans, list):
-                for plan in plans:
-                    if isinstance(plan, dict) and 'plan' in plan and 'price' in plan:
-                        key = f"{country}_{plan['plan']}"
-                        # 解析价格字符串，提取数值和货币
-                        price_str = plan['price']
-                        # 提取价格数值（去掉文字部分）
-                        import re
-                        price_match = re.search(r'([\d,\.]+)\s*([A-Z]{3}|\$|\€|\£|\¥)', price_str)
-                        if price_match:
-                            price_amount = price_match.group(1).replace(',', '')
-                            currency = price_match.group(2)
-                            new_prices[key] = {
-                                'country': country,
-                                'country_name': country,  # We'll use country code for now
-                                'plan': plan['plan'],
-                                'price_amount': price_amount,
-                                'currency': currency,
-                                'price_original': price_str
-                            }
+        # 处理新数据 - processed格式
+        for country, country_info in new_data.items():
+            if country.startswith('_'):  # 跳过特殊字段
+                continue
+            if isinstance(country_info, dict) and 'plans' in country_info:
+                for plan in country_info['plans']:
+                    if isinstance(plan, dict) and 'plan_name' in plan:
+                        key = f"{country}_{plan['plan_name']}"
+                        # 从processed格式提取价格
+                        monthly_cny = plan.get('monthly_price_cny')
+                        monthly_original = plan.get('monthly_price_original')
+                        
+                        if monthly_cny and monthly_original:
+                            # 解析CNY价格
+                            cny_match = re.search(r'CNY ([\d.]+)', monthly_cny)
+                            # 解析原始价格
+                            orig_match = re.search(r'([A-Z]{3}) ([\d.]+)', monthly_original)
+                            
+                            if cny_match and orig_match:
+                                new_prices[key] = {
+                                    'country': country,
+                                    'country_name': country_info.get('name_cn', country),
+                                    'plan': plan['plan_name'],
+                                    'price_cny': float(cny_match.group(1)),
+                                    'price_local': float(orig_match.group(1)),
+                                    'currency': orig_match.group(0).split()[0],
+                                    'monthly_original': monthly_original,
+                                    'monthly_cny': monthly_cny
+                                }
         
         # 对比价格变化
         for key, new_price in new_prices.items():
             if key in old_prices:
                 old_price = old_prices[key]
                 
-                # 只比较相同货币的价格
-                if old_price['currency'] == new_price['currency']:
-                    try:
-                        old_amount = float(old_price['price_amount'])
-                        new_amount = float(new_price['price_amount'])
-                        
-                        if abs(old_amount - new_amount) > 0.01:  # 价格变化超过0.01
-                            change_amount = new_amount - old_amount
-                            change_percent = (change_amount / old_amount) * 100 if old_amount > 0 else 0
-                            
-                            changes.append({
-                                'country': new_price['country'],
-                                'country_name': new_price['country_name'],
-                                'plan': new_price['plan'],
-                                'old_price_cny': old_amount,  # Using raw amount for now
-                                'new_price_cny': new_amount,
-                                'change_amount': change_amount,
-                                'change_percent': change_percent,
-                                'price_original': new_price['price_original'],
-                                'currency': new_price['currency'],
-                                'type': 'price_change'
-                            })
-                    except (ValueError, TypeError):
-                        print(f"警告：无法解析价格数据 {key}: {old_price['price_original']} -> {new_price['price_original']}")
-            else:
-                # 新增的套餐
-                try:
-                    new_amount = float(new_price['price_amount'])
+                # 比较CNY价格
+                old_cny = old_price['price_cny']
+                new_cny = new_price['price_cny']
+                old_local = old_price['price_local']
+                new_local = new_price['price_local']
+                
+                if abs(old_cny - new_cny) > 0.01:  # 价格变化超过0.01元
+                    change_amount_cny = new_cny - old_cny
+                    change_amount_local = new_local - old_local
+                    change_percent = (change_amount_cny / old_cny) * 100 if old_cny > 0 else 0
+                    
                     changes.append({
                         'country': new_price['country'],
                         'country_name': new_price['country_name'],
                         'plan': new_price['plan'],
-                        'new_price_cny': new_amount,  # Using raw amount for now
-                        'price_original': new_price['price_original'],
+                        'old_price_cny': old_cny,
+                        'new_price_cny': new_cny,
+                        'change_amount_cny': change_amount_cny,
+                        'old_price_local': old_local,
+                        'new_price_local': new_local,
+                        'change_amount_local': change_amount_local,
+                        'change_percent': change_percent,
                         'currency': new_price['currency'],
-                        'type': 'new_plan'
+                        'price_original': new_price['monthly_original'],
+                        'type': 'price_change'
                     })
-                except (ValueError, TypeError):
-                    print(f"警告：无法解析新套餐价格 {key}: {new_price['price_original']}")
+            else:
+                # 新增的套餐
+                changes.append({
+                    'country': new_price['country'],
+                    'country_name': new_price['country_name'],
+                    'plan': new_price['plan'],
+                    'new_price_cny': new_price['price_cny'],
+                    'new_price_local': new_price['price_local'],
+                    'currency': new_price['currency'],
+                    'price_original': new_price['monthly_original'],
+                    'type': 'new_plan'
+                })
         
         # 检查删除的套餐
         for key, old_price in old_prices.items():
             if key not in new_prices:
-                try:
-                    old_amount = float(old_price['price_amount'])
-                    changes.append({
-                        'country': old_price['country'],
-                        'country_name': old_price['country_name'],
-                        'plan': old_price['plan'],
-                        'old_price_cny': old_amount,  # Using raw amount for now
-                        'price_original': old_price['price_original'],
-                        'currency': old_price['currency'],
-                        'type': 'removed_plan'
-                    })
-                except (ValueError, TypeError):
-                    print(f"警告：无法解析删除套餐价格 {key}: {old_price['price_original']}")
+                changes.append({
+                    'country': old_price['country'],
+                    'country_name': old_price['country_name'],
+                    'plan': old_price['plan'],
+                    'old_price_cny': old_price['price_cny'],
+                    'old_price_local': old_price['price_local'],
+                    'currency': old_price['currency'],
+                    'price_original': old_price['monthly_original'],
+                    'type': 'removed_plan'
+                })
         
         return changes
     
@@ -193,9 +203,9 @@ class NetflixPriceChangeDetector:
             price_increases.sort(key=lambda x: x['change_percent'], reverse=True)
             for change in price_increases:
                 content += f"- **{change['country_name']} ({change['country']}) - {change['plan']}**\n"
-                content += f"  - 原价: {change['currency']}{change['old_price_cny']:.2f} | 现价: {change['currency']}{change['new_price_cny']:.2f}\n"
-                content += f"  - 涨幅: {change['currency']}{change['change_amount']:.2f} (+{change['change_percent']:.1f}%)"
-                content += f"  - 当地价格: {change['price_original']} {change['currency']}\n\n"
+                content += f"  - 原价: ¥{change['old_price_cny']:.2f} | 现价: ¥{change['new_price_cny']:.2f}\n"
+                content += f"  - 涨幅: ¥{change['change_amount_cny']:.2f} (+{change['change_percent']:.1f}%)\n"
+                content += f"  - 当地价格: {change['currency']}{change['old_price_local']:.2f} → {change['currency']}{change['new_price_local']:.2f} (+{change['currency']}{change['change_amount_local']:.2f})\n\n"
         
         # 降价详情
         if price_decreases:
@@ -203,17 +213,17 @@ class NetflixPriceChangeDetector:
             price_decreases.sort(key=lambda x: x['change_percent'])
             for change in price_decreases:
                 content += f"- **{change['country_name']} ({change['country']}) - {change['plan']}**\n"
-                content += f"  - 原价: {change['currency']}{change['old_price_cny']:.2f} | 现价: {change['currency']}{change['new_price_cny']:.2f}\n"
-                content += f"  - 降幅: {change['currency']}{abs(change['change_amount']):.2f} ({change['change_percent']:.1f}%)"
-                content += f"  - 当地价格: {change['price_original']} {change['currency']}\n\n"
+                content += f"  - 原价: ¥{change['old_price_cny']:.2f} | 现价: ¥{change['new_price_cny']:.2f}\n"
+                content += f"  - 降幅: ¥{abs(change['change_amount_cny']):.2f} ({change['change_percent']:.1f}%)\n"
+                content += f"  - 当地价格: {change['currency']}{change['old_price_local']:.2f} → {change['currency']}{change['new_price_local']:.2f} ({change['currency']}{change['change_amount_local']:.2f})\n\n"
         
         # 新增套餐
         if new_plans:
             content += "### 🆕 新增套餐\n\n"
             for change in new_plans:
                 content += f"- **{change['country_name']} ({change['country']}) - {change['plan']}**\n"
-                content += f"  - 价格: {change['currency']}{change['new_price_cny']:.2f}\n"
-                content += f"  - 当地价格: {change['price_original']} {change['currency']}\n\n"
+                content += f"  - 价格: ¥{change['new_price_cny']:.2f}\n"
+                content += f"  - 当地价格: {change['currency']}{change['new_price_local']:.2f}\n\n"
         
         # 移除套餐
         if removed_plans:
