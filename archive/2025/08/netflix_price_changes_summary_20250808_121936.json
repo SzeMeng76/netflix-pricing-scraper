@@ -1,0 +1,47 @@
+{
+  "date": "2025-08-08 12:19:36",
+  "timestamp": "2025-08-08T12:19:36.472819",
+  "total_changes": 3,
+  "price_increases": 3,
+  "price_decreases": 0,
+  "new_plans": 0,
+  "removed_plans": 0,
+  "changes": [
+    {
+      "country": "AU",
+      "country_name": "AU",
+      "plan": "Standard",
+      "old_price_cny": 18.99,
+      "new_price_cny": 20.99,
+      "change_amount": 2.0,
+      "change_percent": 10.531858873091101,
+      "price_original": "20.99 AUD / month",
+      "currency": "AUD",
+      "type": "price_change"
+    },
+    {
+      "country": "AU",
+      "country_name": "AU",
+      "plan": "Premium",
+      "old_price_cny": 25.99,
+      "new_price_cny": 28.99,
+      "change_amount": 3.0,
+      "change_percent": 11.542901115813775,
+      "price_original": "28.99 AUD / month",
+      "currency": "AUD",
+      "type": "price_change"
+    },
+    {
+      "country": "AU",
+      "country_name": "AU",
+      "plan": "Standard with ads",
+      "old_price_cny": 7.99,
+      "new_price_cny": 9.99,
+      "change_amount": 2.0,
+      "change_percent": 25.03128911138924,
+      "price_original": "9.99 AUD / month",
+      "currency": "AUD",
+      "type": "price_change"
+    }
+  ]
+}
