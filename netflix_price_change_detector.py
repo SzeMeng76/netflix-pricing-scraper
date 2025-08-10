@@ -181,8 +181,8 @@ class NetflixPriceChangeDetector:
         content = f"## {date}\n\n"
         
         # 统计变化
-        price_increases = [c for c in changes if c['type'] == 'price_change' and c['change_amount'] > 0]
-        price_decreases = [c for c in changes if c['type'] == 'price_change' and c['change_amount'] < 0]
+        price_increases = [c for c in changes if c['type'] == 'price_change' and c['change_amount_cny'] > 0]
+        price_decreases = [c for c in changes if c['type'] == 'price_change' and c['change_amount_cny'] < 0]
         new_plans = [c for c in changes if c['type'] == 'new_plan']
         removed_plans = [c for c in changes if c['type'] == 'removed_plan']
         
@@ -307,8 +307,8 @@ class NetflixPriceChangeDetector:
             'date': date,
             'timestamp': datetime.now().isoformat(),
             'total_changes': len(changes),
-            'price_increases': len([c for c in changes if c['type'] == 'price_change' and c['change_amount'] > 0]),
-            'price_decreases': len([c for c in changes if c['type'] == 'price_change' and c['change_amount'] < 0]),
+            'price_increases': len([c for c in changes if c['type'] == 'price_change' and c['change_amount_cny'] > 0]),
+            'price_decreases': len([c for c in changes if c['type'] == 'price_change' and c['change_amount_cny'] < 0]),
             'new_plans': len([c for c in changes if c['type'] == 'new_plan']),
             'removed_plans': len([c for c in changes if c['type'] == 'removed_plan']),
             'changes': changes
