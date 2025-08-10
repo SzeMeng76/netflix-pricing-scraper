@@ -77,8 +77,8 @@ class NetflixPriceChangeDetector:
                                     'country_name': country_info.get('name_cn', country),
                                     'plan': plan['plan_name'],
                                     'price_cny': float(cny_match.group(1)),
-                                    'price_local': float(orig_match.group(1)),
-                                    'currency': orig_match.group(0).split()[0],  # 提取货币代码
+                                    'price_local': float(orig_match.group(2)),
+                                    'currency': orig_match.group(1),  # 第一个组是货币代码
                                     'monthly_original': monthly_original,
                                     'monthly_cny': monthly_cny
                                 }
@@ -107,8 +107,8 @@ class NetflixPriceChangeDetector:
                                     'country_name': country_info.get('name_cn', country),
                                     'plan': plan['plan_name'],
                                     'price_cny': float(cny_match.group(1)),
-                                    'price_local': float(orig_match.group(1)),
-                                    'currency': orig_match.group(0).split()[0],
+                                    'price_local': float(orig_match.group(2)),
+                                    'currency': orig_match.group(1),
                                     'monthly_original': monthly_original,
                                     'monthly_cny': monthly_cny
                                 }
