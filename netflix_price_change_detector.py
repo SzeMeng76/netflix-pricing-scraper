@@ -118,16 +118,16 @@ class NetflixPriceChangeDetector:
             if key in old_prices:
                 old_price = old_prices[key]
                 
-                # 比较CNY价格
+                # 比较本地价格 (不再比较CNY价格，因为汇率波动会造成误报)
                 old_cny = old_price['price_cny']
                 new_cny = new_price['price_cny']
                 old_local = old_price['price_local']
                 new_local = new_price['price_local']
                 
-                if abs(old_cny - new_cny) > 0.01:  # 价格变化超过0.01元
+                if abs(old_local - new_local) > 0.01:  # 本地价格变化超过0.01
                     change_amount_cny = new_cny - old_cny
                     change_amount_local = new_local - old_local
-                    change_percent = (change_amount_cny / old_cny) * 100 if old_cny > 0 else 0
+                    change_percent = (change_amount_local / old_local) * 100 if old_local > 0 else 0
                     
                     changes.append({
                         'country': new_price['country'],
@@ -180,9 +180,9 @@ class NetflixPriceChangeDetector:
         
         content = f"## {date}\n\n"
         
-        # 统计变化
-        price_increases = [c for c in changes if c['type'] == 'price_change' and c['change_amount_cny'] > 0]
-        price_decreases = [c for c in changes if c['type'] == 'price_change' and c['change_amount_cny'] < 0]
+        # 统计变化 (基于本地价格变化)
+        price_increases = [c for c in changes if c['type'] == 'price_change' and c['change_amount_local'] > 0]
+        price_decreases = [c for c in changes if c['type'] == 'price_change' and c['change_amount_local'] < 0]
         new_plans = [c for c in changes if c['type'] == 'new_plan']
         removed_plans = [c for c in changes if c['type'] == 'removed_plan']
         
@@ -203,9 +203,8 @@ class NetflixPriceChangeDetector:
             price_increases.sort(key=lambda x: x['change_percent'], reverse=True)
             for change in price_increases:
                 content += f"- **{change['country_name']} ({change['country']}) - {change['plan']}**\n"
-                content += f"  - 原价: ¥{change['old_price_cny']:.2f} | 现价: ¥{change['new_price_cny']:.2f}\n"
-                content += f"  - 涨幅: ¥{change['change_amount_cny']:.2f} (+{change['change_percent']:.1f}%)\n"
-                content += f"  - 当地价格: {change['currency']}{change['old_price_local']:.2f} → {change['currency']}{change['new_price_local']:.2f} (+{change['currency']}{change['change_amount_local']:.2f})\n\n"
+                content += f"  - 当地价格: {change['currency']}{change['old_price_local']:.2f} → {change['currency']}{change['new_price_local']:.2f}\n"
+                content += f"  - 涨幅: {change['currency']}{change['change_amount_local']:.2f} (+{change['change_percent']:.1f}%)\n\n"
         
         # 降价详情
         if price_decreases:
@@ -213,16 +212,14 @@ class NetflixPriceChangeDetector:
             price_decreases.sort(key=lambda x: x['change_percent'])
             for change in price_decreases:
                 content += f"- **{change['country_name']} ({change['country']}) - {change['plan']}**\n"
-                content += f"  - 原价: ¥{change['old_price_cny']:.2f} | 现价: ¥{change['new_price_cny']:.2f}\n"
-                content += f"  - 降幅: ¥{abs(change['change_amount_cny']):.2f} ({change['change_percent']:.1f}%)\n"
-                content += f"  - 当地价格: {change['currency']}{change['old_price_local']:.2f} → {change['currency']}{change['new_price_local']:.2f} ({change['currency']}{change['change_amount_local']:.2f})\n\n"
+                content += f"  - 当地价格: {change['currency']}{change['old_price_local']:.2f} → {change['currency']}{change['new_price_local']:.2f}\n"
+                content += f"  - 降幅: {change['currency']}{abs(change['change_amount_local']):.2f} ({change['change_percent']:.1f}%)\n\n"
         
         # 新增套餐
         if new_plans:
             content += "### 🆕 新增套餐\n\n"
             for change in new_plans:
                 content += f"- **{change['country_name']} ({change['country']}) - {change['plan']}**\n"
-                content += f"  - 价格: ¥{change['new_price_cny']:.2f}\n"
                 content += f"  - 当地价格: {change['currency']}{change['new_price_local']:.2f}\n\n"
         
         # 移除套餐
@@ -230,8 +227,7 @@ class NetflixPriceChangeDetector:
             content += "### ❌ 移除套餐\n\n"
             for change in removed_plans:
                 content += f"- **{change['country_name']} ({change['country']}) - {change['plan']}**\n"
-                content += f"  - 原价格: {change['currency']}{change['old_price_cny']:.2f}\n"
-                content += f"  - 当地价格: {change['price_original']} {change['currency']}\n\n"
+                content += f"  - 原当地价格: {change['currency']}{change['old_price_local']:.2f}\n\n"
         
         return content
     
@@ -307,8 +303,8 @@ class NetflixPriceChangeDetector:
             'date': date,
             'timestamp': datetime.now().isoformat(),
             'total_changes': len(changes),
-            'price_increases': len([c for c in changes if c['type'] == 'price_change' and c['change_amount_cny'] > 0]),
-            'price_decreases': len([c for c in changes if c['type'] == 'price_change' and c['change_amount_cny'] < 0]),
+            'price_increases': len([c for c in changes if c['type'] == 'price_change' and c['change_amount_local'] > 0]),
+            'price_decreases': len([c for c in changes if c['type'] == 'price_change' and c['change_amount_local'] < 0]),
             'new_plans': len([c for c in changes if c['type'] == 'new_plan']),
             'removed_plans': len([c for c in changes if c['type'] == 'removed_plan']),
             'changes': changes
