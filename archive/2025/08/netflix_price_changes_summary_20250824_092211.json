@@ -1,0 +1,131 @@
+{
+  "date": "2025-08-24 09:22:11",
+  "timestamp": "2025-08-24T09:22:11.178499",
+  "total_changes": 12,
+  "price_increases": 0,
+  "price_decreases": 0,
+  "new_plans": 3,
+  "removed_plans": 9,
+  "changes": [
+    {
+      "country": "CU",
+      "country_name": "古巴",
+      "plan": "Standard",
+      "new_price_cny": 42.92,
+      "new_price_local": 5.99,
+      "currency": "USD",
+      "price_original": "USD 5.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "CU",
+      "country_name": "古巴",
+      "plan": "Premium",
+      "new_price_cny": 57.25,
+      "new_price_local": 7.99,
+      "currency": "USD",
+      "price_original": "USD 7.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "CU",
+      "country_name": "古巴",
+      "plan": "Basic",
+      "new_price_cny": 28.59,
+      "new_price_local": 3.99,
+      "currency": "USD",
+      "price_original": "USD 3.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "plan": "Standard with ads",
+      "old_price_cny": 27.79,
+      "old_price_local": 20.9,
+      "currency": "BRL",
+      "price_original": "BRL 20.90",
+      "type": "removed_plan"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "plan": "Standard",
+      "old_price_cny": 59.71,
+      "old_price_local": 44.9,
+      "currency": "BRL",
+      "price_original": "BRL 44.90",
+      "type": "removed_plan"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "plan": "Premium",
+      "old_price_cny": 79.66,
+      "old_price_local": 59.9,
+      "currency": "BRL",
+      "price_original": "BRL 59.90",
+      "type": "removed_plan"
+    },
+    {
+      "country": "SV",
+      "country_name": "萨尔瓦多",
+      "plan": "Standard",
+      "old_price_cny": 64.57,
+      "old_price_local": 8.99,
+      "currency": "USD",
+      "price_original": "USD 8.99",
+      "type": "removed_plan"
+    },
+    {
+      "country": "SV",
+      "country_name": "萨尔瓦多",
+      "plan": "Premium",
+      "old_price_cny": 89.7,
+      "old_price_local": 12.49,
+      "currency": "USD",
+      "price_original": "USD 12.49",
+      "type": "removed_plan"
+    },
+    {
+      "country": "SV",
+      "country_name": "萨尔瓦多",
+      "plan": "Basic",
+      "old_price_cny": 43.02,
+      "old_price_local": 5.99,
+      "currency": "USD",
+      "price_original": "USD 5.99",
+      "type": "removed_plan"
+    },
+    {
+      "country": "TT",
+      "country_name": "特立尼达和多巴哥",
+      "plan": "Standard",
+      "old_price_cny": 111.25,
+      "old_price_local": 15.49,
+      "currency": "USD",
+      "price_original": "USD 15.49",
+      "type": "removed_plan"
+    },
+    {
+      "country": "TT",
+      "country_name": "特立尼达和多巴哥",
+      "plan": "Premium",
+      "old_price_cny": 143.57,
+      "old_price_local": 19.99,
+      "currency": "USD",
+      "price_original": "USD 19.99",
+      "type": "removed_plan"
+    },
+    {
+      "country": "TT",
+      "country_name": "特立尼达和多巴哥",
+      "plan": "Basic",
+      "old_price_cny": 78.93,
+      "old_price_local": 10.99,
+      "currency": "USD",
+      "price_original": "USD 10.99",
+      "type": "removed_plan"
+    }
+  ]
+}
