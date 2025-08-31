@@ -1,0 +1,71 @@
+{
+  "date": "2025-08-31 09:18:16",
+  "timestamp": "2025-08-31T09:18:16.990423",
+  "total_changes": 6,
+  "price_increases": 0,
+  "price_decreases": 0,
+  "new_plans": 3,
+  "removed_plans": 3,
+  "changes": [
+    {
+      "country": "CU",
+      "country_name": "古巴",
+      "plan": "Standard",
+      "new_price_cny": 42.71,
+      "new_price_local": 5.99,
+      "currency": "USD",
+      "price_original": "USD 5.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "CU",
+      "country_name": "古巴",
+      "plan": "Premium",
+      "new_price_cny": 56.98,
+      "new_price_local": 7.99,
+      "currency": "USD",
+      "price_original": "USD 7.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "CU",
+      "country_name": "古巴",
+      "plan": "Basic",
+      "new_price_cny": 28.45,
+      "new_price_local": 3.99,
+      "currency": "USD",
+      "price_original": "USD 3.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "PE",
+      "country_name": "秘鲁",
+      "plan": "Basic",
+      "old_price_cny": 58.3,
+      "old_price_local": 28.9,
+      "currency": "PEN",
+      "price_original": "PEN 28.90",
+      "type": "removed_plan"
+    },
+    {
+      "country": "PE",
+      "country_name": "秘鲁",
+      "plan": "Standard",
+      "old_price_cny": 82.51,
+      "old_price_local": 40.9,
+      "currency": "PEN",
+      "price_original": "PEN 40.90",
+      "type": "removed_plan"
+    },
+    {
+      "country": "PE",
+      "country_name": "秘鲁",
+      "plan": "Premium",
+      "old_price_cny": 106.72,
+      "old_price_local": 52.9,
+      "currency": "PEN",
+      "price_original": "PEN 52.90",
+      "type": "removed_plan"
+    }
+  ]
+}
