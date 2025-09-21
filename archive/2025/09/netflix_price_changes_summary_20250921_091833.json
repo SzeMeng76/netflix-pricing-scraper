@@ -1,0 +1,41 @@
+{
+  "date": "2025-09-21 09:18:33",
+  "timestamp": "2025-09-21T09:18:33.965987",
+  "total_changes": 3,
+  "price_increases": 0,
+  "price_decreases": 0,
+  "new_plans": 3,
+  "removed_plans": 0,
+  "changes": [
+    {
+      "country": "CU",
+      "country_name": "古巴",
+      "plan": "Standard",
+      "new_price_cny": 42.62,
+      "new_price_local": 5.99,
+      "currency": "USD",
+      "price_original": "USD 5.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "CU",
+      "country_name": "古巴",
+      "plan": "Premium",
+      "new_price_cny": 56.85,
+      "new_price_local": 7.99,
+      "currency": "USD",
+      "price_original": "USD 7.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "CU",
+      "country_name": "古巴",
+      "plan": "Basic",
+      "new_price_cny": 28.39,
+      "new_price_local": 3.99,
+      "currency": "USD",
+      "price_original": "USD 3.99",
+      "type": "new_plan"
+    }
+  ]
+}
