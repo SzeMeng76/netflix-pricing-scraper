@@ -1,0 +1,101 @@
+{
+  "date": "2025-09-28 09:19:53",
+  "timestamp": "2025-09-28T09:19:53.938089",
+  "total_changes": 9,
+  "price_increases": 0,
+  "price_decreases": 0,
+  "new_plans": 3,
+  "removed_plans": 6,
+  "changes": [
+    {
+      "country": "CU",
+      "country_name": "古巴",
+      "plan": "Standard",
+      "new_price_cny": 42.73,
+      "new_price_local": 5.99,
+      "currency": "USD",
+      "price_original": "USD 5.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "CU",
+      "country_name": "古巴",
+      "plan": "Premium",
+      "new_price_cny": 57.0,
+      "new_price_local": 7.99,
+      "currency": "USD",
+      "price_original": "USD 7.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "CU",
+      "country_name": "古巴",
+      "plan": "Basic",
+      "new_price_cny": 28.46,
+      "new_price_local": 3.99,
+      "currency": "USD",
+      "price_original": "USD 3.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "VE",
+      "country_name": "委内瑞拉",
+      "plan": "Standard",
+      "old_price_cny": 43.02,
+      "old_price_local": 5.99,
+      "currency": "USD",
+      "price_original": "USD 5.99",
+      "type": "removed_plan"
+    },
+    {
+      "country": "VE",
+      "country_name": "委内瑞拉",
+      "plan": "Premium",
+      "old_price_cny": 57.38,
+      "old_price_local": 7.99,
+      "currency": "USD",
+      "price_original": "USD 7.99",
+      "type": "removed_plan"
+    },
+    {
+      "country": "VE",
+      "country_name": "委内瑞拉",
+      "plan": "Basic",
+      "old_price_cny": 28.66,
+      "old_price_local": 3.99,
+      "currency": "USD",
+      "price_original": "USD 3.99",
+      "type": "removed_plan"
+    },
+    {
+      "country": "CL",
+      "country_name": "智利",
+      "plan": "Standard",
+      "old_price_cny": 71749.18,
+      "old_price_local": 9990.0,
+      "currency": "USD",
+      "price_original": "USD 9990",
+      "type": "removed_plan"
+    },
+    {
+      "country": "CL",
+      "country_name": "智利",
+      "plan": "Premium",
+      "old_price_cny": 93295.48,
+      "old_price_local": 12990.0,
+      "currency": "USD",
+      "price_original": "USD 12990",
+      "type": "removed_plan"
+    },
+    {
+      "country": "CL",
+      "country_name": "智利",
+      "plan": "Basic",
+      "old_price_cny": 51639.3,
+      "old_price_local": 7190.0,
+      "currency": "USD",
+      "price_original": "USD 7190",
+      "type": "removed_plan"
+    }
+  ]
+}
