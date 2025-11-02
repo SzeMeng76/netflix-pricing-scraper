@@ -1,0 +1,116 @@
+{
+  "date": "2025-11-02 09:19:32",
+  "timestamp": "2025-11-02T09:19:32.898804",
+  "total_changes": 9,
+  "price_increases": 3,
+  "price_decreases": 0,
+  "new_plans": 3,
+  "removed_plans": 3,
+  "changes": [
+    {
+      "country": "CU",
+      "country_name": "古巴",
+      "plan": "Standard",
+      "new_price_cny": 42.63,
+      "new_price_local": 5.99,
+      "currency": "USD",
+      "price_original": "USD 5.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "CU",
+      "country_name": "古巴",
+      "plan": "Premium",
+      "new_price_cny": 56.87,
+      "new_price_local": 7.99,
+      "currency": "USD",
+      "price_original": "USD 7.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "CU",
+      "country_name": "古巴",
+      "plan": "Basic",
+      "new_price_cny": 28.4,
+      "new_price_local": 3.99,
+      "currency": "USD",
+      "price_original": "USD 3.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "CH",
+      "country_name": "瑞士",
+      "plan": "Standard",
+      "old_price_cny": 186.1,
+      "new_price_cny": 202.43,
+      "change_amount_cny": 16.330000000000013,
+      "old_price_local": 20.9,
+      "new_price_local": 22.9,
+      "change_amount_local": 2.0,
+      "change_percent": 9.569377990430622,
+      "currency": "CHF",
+      "price_original": "CHF 22.90",
+      "type": "price_change"
+    },
+    {
+      "country": "CH",
+      "country_name": "瑞士",
+      "plan": "Premium",
+      "old_price_cny": 248.43,
+      "new_price_cny": 264.31,
+      "change_amount_cny": 15.879999999999995,
+      "old_price_local": 27.9,
+      "new_price_local": 29.9,
+      "change_amount_local": 2.0,
+      "change_percent": 7.168458781362008,
+      "currency": "CHF",
+      "price_original": "CHF 29.90",
+      "type": "price_change"
+    },
+    {
+      "country": "CH",
+      "country_name": "瑞士",
+      "plan": "Basic",
+      "old_price_cny": 114.86,
+      "new_price_cny": 131.71,
+      "change_amount_cny": 16.85000000000001,
+      "old_price_local": 12.9,
+      "new_price_local": 14.9,
+      "change_amount_local": 2.0,
+      "change_percent": 15.503875968992247,
+      "currency": "CHF",
+      "price_original": "CHF 14.90",
+      "type": "price_change"
+    },
+    {
+      "country": "EC",
+      "country_name": "厄瓜多尔",
+      "plan": "Standard",
+      "old_price_cny": 64.57,
+      "old_price_local": 8.99,
+      "currency": "USD",
+      "price_original": "USD 8.99",
+      "type": "removed_plan"
+    },
+    {
+      "country": "EC",
+      "country_name": "厄瓜多尔",
+      "plan": "Premium",
+      "old_price_cny": 86.11,
+      "old_price_local": 11.99,
+      "currency": "USD",
+      "price_original": "USD 11.99",
+      "type": "removed_plan"
+    },
+    {
+      "country": "EC",
+      "country_name": "厄瓜多尔",
+      "plan": "Basic",
+      "old_price_cny": 43.02,
+      "old_price_local": 5.99,
+      "currency": "USD",
+      "price_original": "USD 5.99",
+      "type": "removed_plan"
+    }
+  ]
+}
