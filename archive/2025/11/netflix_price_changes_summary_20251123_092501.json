@@ -1,0 +1,111 @@
+{
+  "date": "2025-11-23 09:25:01",
+  "timestamp": "2025-11-23T09:25:01.781517",
+  "total_changes": 10,
+  "price_increases": 0,
+  "price_decreases": 0,
+  "new_plans": 3,
+  "removed_plans": 7,
+  "changes": [
+    {
+      "country": "PE",
+      "country_name": "秘鲁",
+      "plan": "Basic",
+      "new_price_cny": 60.84,
+      "new_price_local": 28.9,
+      "currency": "PEN",
+      "price_original": "PEN 28.90",
+      "type": "new_plan"
+    },
+    {
+      "country": "PE",
+      "country_name": "秘鲁",
+      "plan": "Standard",
+      "new_price_cny": 86.1,
+      "new_price_local": 40.9,
+      "currency": "PEN",
+      "price_original": "PEN 40.90",
+      "type": "new_plan"
+    },
+    {
+      "country": "PE",
+      "country_name": "秘鲁",
+      "plan": "Premium",
+      "new_price_cny": 111.36,
+      "new_price_local": 52.9,
+      "currency": "PEN",
+      "price_original": "PEN 52.90",
+      "type": "new_plan"
+    },
+    {
+      "country": "LA",
+      "country_name": "老挝",
+      "plan": "Standard",
+      "old_price_cny": 56.79,
+      "old_price_local": 7.99,
+      "currency": "USD",
+      "price_original": "USD 7.99",
+      "type": "removed_plan"
+    },
+    {
+      "country": "LA",
+      "country_name": "老挝",
+      "plan": "Premium",
+      "old_price_cny": 71.0,
+      "old_price_local": 9.99,
+      "currency": "USD",
+      "price_original": "USD 9.99",
+      "type": "removed_plan"
+    },
+    {
+      "country": "LA",
+      "country_name": "老挝",
+      "plan": "Basic",
+      "old_price_cny": 28.36,
+      "old_price_local": 3.99,
+      "currency": "USD",
+      "price_original": "USD 3.99",
+      "type": "removed_plan"
+    },
+    {
+      "country": "LA",
+      "country_name": "老挝",
+      "plan": "Mobile",
+      "old_price_cny": 21.25,
+      "old_price_local": 2.99,
+      "currency": "USD",
+      "price_original": "USD 2.99",
+      "type": "removed_plan"
+    },
+    {
+      "country": "SV",
+      "country_name": "萨尔瓦多",
+      "plan": "Standard",
+      "old_price_cny": 63.89,
+      "old_price_local": 8.99,
+      "currency": "USD",
+      "price_original": "USD 8.99",
+      "type": "removed_plan"
+    },
+    {
+      "country": "SV",
+      "country_name": "萨尔瓦多",
+      "plan": "Premium",
+      "old_price_cny": 88.77,
+      "old_price_local": 12.49,
+      "currency": "USD",
+      "price_original": "USD 12.49",
+      "type": "removed_plan"
+    },
+    {
+      "country": "SV",
+      "country_name": "萨尔瓦多",
+      "plan": "Basic",
+      "old_price_cny": 42.57,
+      "old_price_local": 5.99,
+      "currency": "USD",
+      "price_original": "USD 5.99",
+      "type": "removed_plan"
+    }
+  ]
+}
