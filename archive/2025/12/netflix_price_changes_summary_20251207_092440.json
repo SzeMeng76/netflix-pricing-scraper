@@ -1,0 +1,71 @@
+{
+  "date": "2025-12-07 09:24:40",
+  "timestamp": "2025-12-07T09:24:40.769029",
+  "total_changes": 6,
+  "price_increases": 0,
+  "price_decreases": 0,
+  "new_plans": 3,
+  "removed_plans": 3,
+  "changes": [
+    {
+      "country": "PE",
+      "country_name": "秘鲁",
+      "plan": "Basic",
+      "new_price_cny": 60.79,
+      "new_price_local": 28.9,
+      "currency": "PEN",
+      "price_original": "PEN 28.90",
+      "type": "new_plan"
+    },
+    {
+      "country": "PE",
+      "country_name": "秘鲁",
+      "plan": "Standard",
+      "new_price_cny": 86.03,
+      "new_price_local": 40.9,
+      "currency": "PEN",
+      "price_original": "PEN 40.90",
+      "type": "new_plan"
+    },
+    {
+      "country": "PE",
+      "country_name": "秘鲁",
+      "plan": "Premium",
+      "new_price_cny": 111.27,
+      "new_price_local": 52.9,
+      "currency": "PEN",
+      "price_original": "PEN 52.90",
+      "type": "new_plan"
+    },
+    {
+      "country": "GY",
+      "country_name": "圭亚那",
+      "plan": "Standard",
+      "old_price_cny": 42.57,
+      "old_price_local": 5.99,
+      "currency": "USD",
+      "price_original": "USD 5.99",
+      "type": "removed_plan"
+    },
+    {
+      "country": "GY",
+      "country_name": "圭亚那",
+      "plan": "Premium",
+      "old_price_cny": 56.79,
+      "old_price_local": 7.99,
+      "currency": "USD",
+      "price_original": "USD 7.99",
+      "type": "removed_plan"
+    },
+    {
+      "country": "GY",
+      "country_name": "圭亚那",
+      "plan": "Basic",
+      "old_price_cny": 28.36,
+      "old_price_local": 3.99,
+      "currency": "USD",
+      "price_original": "USD 3.99",
+      "type": "removed_plan"
+    }
+  ]
+}
