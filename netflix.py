@@ -252,9 +252,21 @@ def extract_price_advanced(html: str, country_code: str) -> list[dict[str, Any]]
     """高级价格提取方法"""
     soup = BeautifulSoup(html, 'html.parser')
     all_plans = []
-    
+
     # 获取完整文本用于分析
     full_text = soup.get_text()
+
+    # 提取 extra member slots 信息
+    extra_member_pattern = re.compile(
+        r'extra member slots?.*?(?:can be )?added for\s+(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR|MYR|kr|Ft|Kč)\s+each\s*/\s*month',
+        re.IGNORECASE
+    )
+    extra_member_match = extra_member_pattern.search(full_text)
+    extra_member_info = None
+    if extra_member_match:
+        price = extra_member_match.group(1).strip()
+        currency = extra_member_match.group(2).strip()
+        extra_member_info = f"{price} {currency} / month"
     
     # 定义更精确的套餐和价格模式
     plan_price_patterns = [
@@ -348,12 +360,16 @@ def extract_price_advanced(html: str, country_code: str) -> list[dict[str, Any]]
                 currency = get_default_currency(country_code)
             
             price_text = f"{price_amount} {currency} / month"
-            
+
             if plan_name not in found_plans:
-                all_plans.append({
+                plan_info = {
                     'plan': plan_name,
                     'price': price_text
-                })
+                }
+                # 添加 extra member slots 信息（如果适用）
+                if extra_member_info and plan_name in ['Standard', 'Premium']:
+                    plan_info['extra_member_slots'] = extra_member_info
+                all_plans.append(plan_info)
                 found_plans.add(plan_name)
     
     return all_plans
@@ -362,7 +378,19 @@ def extract_price_advanced(html: str, country_code: str) -> list[dict[str, Any]]
 def extract_from_page_text_detailed(text_content: str, country_code: str) -> list[dict[str, Any]]:
     """从页面文本中详细提取价格信息"""
     all_plans = []
-    
+
+    # 提取 extra member slots 信息
+    extra_member_pattern = re.compile(
+        r'extra member slots?.*?(?:can be )?added for\s+(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR|MYR|kr|Ft|Kč)\s+each\s*/\s*month',
+        re.IGNORECASE
+    )
+    extra_member_match = extra_member_pattern.search(text_content)
+    extra_member_info = None
+    if extra_member_match:
+        price = extra_member_match.group(1).strip()
+        currency = extra_member_match.group(2).strip()
+        extra_member_info = f"{price} {currency} / month"
+
     # 将文本按行分割处理
     lines = text_content.split('\n')
     
@@ -428,10 +456,14 @@ def extract_from_page_text_detailed(text_content: str, country_code: str) -> lis
                                 price_text = f"${match} / month"
                             
                             if plan_name not in found_plans:
-                                found_plans[plan_name] = {
+                                plan_info = {
                                     'plan': plan_name,
                                     'price': price_text.strip()
                                 }
+                                # 添加 extra member slots 信息（如果适用）
+                                if extra_member_info and plan_name in ['Standard', 'Premium']:
+                                    plan_info['extra_member_slots'] = extra_member_info
+                                found_plans[plan_name] = plan_info
                             break
                     
                     if plan_name in found_plans:
