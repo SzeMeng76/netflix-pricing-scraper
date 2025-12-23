@@ -691,6 +691,7 @@ for country_iso, plans in data.items():
     for plan_info in plans:
         original_plan_name = plan_info.get('plan', 'Unknown Plan')
         price_text = plan_info.get('price', '')
+        extra_member_slots = plan_info.get('extra_member_slots', '')  # 获取 extra_member_slots
         if not price_text:
             print(f"  跳过计划 '{original_plan_name}' - 无价格文本。")
             continue
@@ -704,6 +705,10 @@ for country_iso, plans in data.items():
             "monthly_price_original": None, "monthly_price_cny": None,
             "annual_price_original": None, "annual_price_cny": None,
         }
+
+        # 添加 extra_member_slots 如果存在
+        if extra_member_slots:
+            plan_output["extra_member_slots"] = extra_member_slots
 
         if not final_currency_code: print(f"  警告：计划 '{standard_plan_name}' 无法检测到货币，无法进行转换。")
         else:
