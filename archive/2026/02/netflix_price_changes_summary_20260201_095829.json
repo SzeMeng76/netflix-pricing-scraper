@@ -1,0 +1,81 @@
+{
+  "date": "2026-02-01 09:58:29",
+  "timestamp": "2026-02-01T09:58:29.201141",
+  "total_changes": 7,
+  "price_increases": 0,
+  "price_decreases": 0,
+  "new_plans": 7,
+  "removed_plans": 0,
+  "changes": [
+    {
+      "country": "NP",
+      "country_name": "尼泊尔",
+      "plan": "Standard",
+      "new_price_cny": 55.54,
+      "new_price_local": 7.99,
+      "currency": "USD",
+      "price_original": "USD 7.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "NP",
+      "country_name": "尼泊尔",
+      "plan": "Premium",
+      "new_price_cny": 69.45,
+      "new_price_local": 9.99,
+      "currency": "USD",
+      "price_original": "USD 9.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "NP",
+      "country_name": "尼泊尔",
+      "plan": "Basic",
+      "new_price_cny": 27.74,
+      "new_price_local": 3.99,
+      "currency": "USD",
+      "price_original": "USD 3.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "NP",
+      "country_name": "尼泊尔",
+      "plan": "Mobile",
+      "new_price_cny": 20.79,
+      "new_price_local": 2.99,
+      "currency": "USD",
+      "price_original": "USD 2.99",
+      "type": "new_plan"
+    },
+    {
+      "country": "PE",
+      "country_name": "秘鲁",
+      "plan": "Basic",
+      "new_price_cny": 59.63,
+      "new_price_local": 28.9,
+      "currency": "PEN",
+      "price_original": "PEN 28.90",
+      "type": "new_plan"
+    },
+    {
+      "country": "PE",
+      "country_name": "秘鲁",
+      "plan": "Standard",
+      "new_price_cny": 84.39,
+      "new_price_local": 40.9,
+      "currency": "PEN",
+      "price_original": "PEN 40.90",
+      "type": "new_plan"
+    },
+    {
+      "country": "PE",
+      "country_name": "秘鲁",
+      "plan": "Premium",
+      "new_price_cny": 109.15,
+      "new_price_local": 52.9,
+      "currency": "PEN",
+      "price_original": "PEN 52.90",
+      "type": "new_plan"
+    }
+  ]
+}
