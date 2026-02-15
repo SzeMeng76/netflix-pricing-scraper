@@ -1,0 +1,5168 @@
+{
+  "US": [
+    {
+      "plan": "Standard with ads",
+      "price": "7.99 USD / month",
+      "country_code": "US",
+      "source_url": "https://help.netflix.com/en/node/24926/us"
+    },
+    {
+      "plan": "Standard",
+      "price": "17.99 USD / month",
+      "country_code": "US",
+      "source_url": "https://help.netflix.com/en/node/24926/us"
+    },
+    {
+      "plan": "Premium",
+      "price": "24.99 USD / month",
+      "country_code": "US",
+      "source_url": "https://help.netflix.com/en/node/24926/us"
+    }
+  ],
+  "CA": [
+    {
+      "plan": "Standard with ads",
+      "price": "7.99 CAD / month",
+      "country_code": "CA",
+      "source_url": "https://help.netflix.com/en/node/24926/ca"
+    },
+    {
+      "plan": "Standard",
+      "price": "18.99 CAD / month",
+      "country_code": "CA",
+      "source_url": "https://help.netflix.com/en/node/24926/ca"
+    },
+    {
+      "plan": "Premium",
+      "price": "23.99 CAD / month",
+      "country_code": "CA",
+      "source_url": "https://help.netflix.com/en/node/24926/ca"
+    }
+  ],
+  "MX": [
+    {
+      "plan": "Standard with ads",
+      "price": "119 USD / month",
+      "country_code": "MX",
+      "source_url": "https://help.netflix.com/en/node/24926/mx"
+    },
+    {
+      "plan": "Standard",
+      "price": "249 USD / month",
+      "country_code": "MX",
+      "source_url": "https://help.netflix.com/en/node/24926/mx"
+    },
+    {
+      "plan": "Premium",
+      "price": "329 USD / month",
+      "country_code": "MX",
+      "source_url": "https://help.netflix.com/en/node/24926/mx"
+    }
+  ],
+  "GT": [
+    {
+      "plan": "Standard",
+      "price": "9.99 USD / month",
+      "country_code": "GT",
+      "source_url": "https://help.netflix.com/en/node/24926/gt"
+    },
+    {
+      "plan": "Premium",
+      "price": "13.99 USD / month",
+      "country_code": "GT",
+      "source_url": "https://help.netflix.com/en/node/24926/gt"
+    },
+    {
+      "plan": "Basic",
+      "price": "6.99 USD / month",
+      "country_code": "GT",
+      "source_url": "https://help.netflix.com/en/node/24926/gt"
+    }
+  ],
+  "BZ": [
+    {
+      "plan": "Standard",
+      "price": "5.99 USD / month",
+      "country_code": "BZ",
+      "source_url": "https://help.netflix.com/en/node/24926/bz"
+    },
+    {
+      "plan": "Premium",
+      "price": "7.99 USD / month",
+      "country_code": "BZ",
+      "source_url": "https://help.netflix.com/en/node/24926/bz"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "BZ",
+      "source_url": "https://help.netflix.com/en/node/24926/bz"
+    }
+  ],
+  "SV": [
+    {
+      "plan": "Standard",
+      "price": "9.99 USD / month",
+      "country_code": "SV",
+      "source_url": "https://help.netflix.com/en/node/24926/sv"
+    },
+    {
+      "plan": "Premium",
+      "price": "13.99 USD / month",
+      "country_code": "SV",
+      "source_url": "https://help.netflix.com/en/node/24926/sv"
+    },
+    {
+      "plan": "Basic",
+      "price": "6.99 USD / month",
+      "country_code": "SV",
+      "source_url": "https://help.netflix.com/en/node/24926/sv"
+    }
+  ],
+  "HN": [
+    {
+      "plan": "Standard",
+      "price": "9.99 USD / month",
+      "country_code": "HN",
+      "source_url": "https://help.netflix.com/en/node/24926/hn"
+    },
+    {
+      "plan": "Premium",
+      "price": "13.99 USD / month",
+      "country_code": "HN",
+      "source_url": "https://help.netflix.com/en/node/24926/hn"
+    },
+    {
+      "plan": "Basic",
+      "price": "6.99 USD / month",
+      "country_code": "HN",
+      "source_url": "https://help.netflix.com/en/node/24926/hn"
+    }
+  ],
+  "NI": [
+    {
+      "plan": "Standard",
+      "price": "6.99 USD / month",
+      "country_code": "NI",
+      "source_url": "https://help.netflix.com/en/node/24926/ni"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "NI",
+      "source_url": "https://help.netflix.com/en/node/24926/ni"
+    },
+    {
+      "plan": "Basic",
+      "price": "4.99 USD / month",
+      "country_code": "NI",
+      "source_url": "https://help.netflix.com/en/node/24926/ni"
+    }
+  ],
+  "CR": [
+    {
+      "plan": "Standard",
+      "price": "14.99 USD / month",
+      "country_code": "CR",
+      "source_url": "https://help.netflix.com/en/node/24926/cr"
+    },
+    {
+      "plan": "Premium",
+      "price": "17.99 USD / month",
+      "country_code": "CR",
+      "source_url": "https://help.netflix.com/en/node/24926/cr"
+    },
+    {
+      "plan": "Basic",
+      "price": "9.99 USD / month",
+      "country_code": "CR",
+      "source_url": "https://help.netflix.com/en/node/24926/cr"
+    }
+  ],
+  "PA": [
+    {
+      "plan": "Standard",
+      "price": "9.99 USD / month",
+      "country_code": "PA",
+      "source_url": "https://help.netflix.com/en/node/24926/pa"
+    },
+    {
+      "plan": "Premium",
+      "price": "13.99 USD / month",
+      "country_code": "PA",
+      "source_url": "https://help.netflix.com/en/node/24926/pa"
+    },
+    {
+      "plan": "Basic",
+      "price": "5.99 USD / month",
+      "country_code": "PA",
+      "source_url": "https://help.netflix.com/en/node/24926/pa"
+    }
+  ],
+  "CU": [
+    {
+      "plan": "Standard",
+      "price": "5.99 USD / month",
+      "country_code": "CU",
+      "source_url": "https://help.netflix.com/en/node/24926/cu"
+    },
+    {
+      "plan": "Premium",
+      "price": "7.99 USD / month",
+      "country_code": "CU",
+      "source_url": "https://help.netflix.com/en/node/24926/cu"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "CU",
+      "source_url": "https://help.netflix.com/en/node/24926/cu"
+    }
+  ],
+  "JM": [
+    {
+      "plan": "Standard",
+      "price": "6.99 USD / month",
+      "country_code": "JM",
+      "source_url": "https://help.netflix.com/en/node/24926/jm"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "JM",
+      "source_url": "https://help.netflix.com/en/node/24926/jm"
+    },
+    {
+      "plan": "Basic",
+      "price": "4.99 USD / month",
+      "country_code": "JM",
+      "source_url": "https://help.netflix.com/en/node/24926/jm"
+    }
+  ],
+  "HT": [
+    {
+      "plan": "Standard",
+      "price": "5.99 USD / month",
+      "country_code": "HT",
+      "source_url": "https://help.netflix.com/en/node/24926/ht"
+    },
+    {
+      "plan": "Premium",
+      "price": "7.99 USD / month",
+      "country_code": "HT",
+      "source_url": "https://help.netflix.com/en/node/24926/ht"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "HT",
+      "source_url": "https://help.netflix.com/en/node/24926/ht"
+    }
+  ],
+  "DO": [
+    {
+      "plan": "Standard",
+      "price": "9.99 USD / month",
+      "country_code": "DO",
+      "source_url": "https://help.netflix.com/en/node/24926/do"
+    },
+    {
+      "plan": "Premium",
+      "price": "13.99 USD / month",
+      "country_code": "DO",
+      "source_url": "https://help.netflix.com/en/node/24926/do"
+    },
+    {
+      "plan": "Basic",
+      "price": "6.99 USD / month",
+      "country_code": "DO",
+      "source_url": "https://help.netflix.com/en/node/24926/do"
+    }
+  ],
+  "TT": [
+    {
+      "plan": "Standard",
+      "price": "15.49 USD / month",
+      "country_code": "TT",
+      "source_url": "https://help.netflix.com/en/node/24926/tt"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 USD / month",
+      "country_code": "TT",
+      "source_url": "https://help.netflix.com/en/node/24926/tt"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "TT",
+      "source_url": "https://help.netflix.com/en/node/24926/tt"
+    }
+  ],
+  "BB": [
+    {
+      "plan": "Standard",
+      "price": "15.29 USD / month",
+      "country_code": "BB",
+      "source_url": "https://help.netflix.com/en/node/24926/bb"
+    },
+    {
+      "plan": "Premium",
+      "price": "18.79 USD / month",
+      "country_code": "BB",
+      "source_url": "https://help.netflix.com/en/node/24926/bb"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.59 USD / month",
+      "country_code": "BB",
+      "source_url": "https://help.netflix.com/en/node/24926/bb"
+    }
+  ],
+  "BS": [
+    {
+      "plan": "Standard",
+      "price": "15.49 USD / month",
+      "country_code": "BS",
+      "source_url": "https://help.netflix.com/en/node/24926/bs"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 USD / month",
+      "country_code": "BS",
+      "source_url": "https://help.netflix.com/en/node/24926/bs"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "BS",
+      "source_url": "https://help.netflix.com/en/node/24926/bs"
+    }
+  ],
+  "AG": [
+    {
+      "plan": "Standard",
+      "price": "15.49 USD / month",
+      "country_code": "AG",
+      "source_url": "https://help.netflix.com/en/node/24926/ag"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 USD / month",
+      "country_code": "AG",
+      "source_url": "https://help.netflix.com/en/node/24926/ag"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "AG",
+      "source_url": "https://help.netflix.com/en/node/24926/ag"
+    }
+  ],
+  "DM": [
+    {
+      "plan": "Standard",
+      "price": "5.99 USD / month",
+      "country_code": "DM",
+      "source_url": "https://help.netflix.com/en/node/24926/dm"
+    },
+    {
+      "plan": "Premium",
+      "price": "7.99 USD / month",
+      "country_code": "DM",
+      "source_url": "https://help.netflix.com/en/node/24926/dm"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "DM",
+      "source_url": "https://help.netflix.com/en/node/24926/dm"
+    }
+  ],
+  "GD": [
+    {
+      "plan": "Standard",
+      "price": "5.99 USD / month",
+      "country_code": "GD",
+      "source_url": "https://help.netflix.com/en/node/24926/gd"
+    },
+    {
+      "plan": "Premium",
+      "price": "7.99 USD / month",
+      "country_code": "GD",
+      "source_url": "https://help.netflix.com/en/node/24926/gd"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "GD",
+      "source_url": "https://help.netflix.com/en/node/24926/gd"
+    }
+  ],
+  "KN": [
+    {
+      "plan": "Standard",
+      "price": "15.49 USD / month",
+      "country_code": "KN",
+      "source_url": "https://help.netflix.com/en/node/24926/kn"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 USD / month",
+      "country_code": "KN",
+      "source_url": "https://help.netflix.com/en/node/24926/kn"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "KN",
+      "source_url": "https://help.netflix.com/en/node/24926/kn"
+    }
+  ],
+  "LC": [
+    {
+      "plan": "Standard",
+      "price": "5.99 USD / month",
+      "country_code": "LC",
+      "source_url": "https://help.netflix.com/en/node/24926/lc"
+    },
+    {
+      "plan": "Premium",
+      "price": "7.99 USD / month",
+      "country_code": "LC",
+      "source_url": "https://help.netflix.com/en/node/24926/lc"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "LC",
+      "source_url": "https://help.netflix.com/en/node/24926/lc"
+    }
+  ],
+  "VC": [
+    {
+      "plan": "Standard",
+      "price": "5.99 USD / month",
+      "country_code": "VC",
+      "source_url": "https://help.netflix.com/en/node/24926/vc"
+    },
+    {
+      "plan": "Premium",
+      "price": "7.99 USD / month",
+      "country_code": "VC",
+      "source_url": "https://help.netflix.com/en/node/24926/vc"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "VC",
+      "source_url": "https://help.netflix.com/en/node/24926/vc"
+    }
+  ],
+  "BR": [
+    {
+      "plan": "Standard with ads",
+      "price": "20,90 BRL / month",
+      "country_code": "BR",
+      "source_url": "https://help.netflix.com/en/node/24926/br"
+    },
+    {
+      "plan": "Standard",
+      "price": "44,90 BRL / month",
+      "country_code": "BR",
+      "source_url": "https://help.netflix.com/en/node/24926/br"
+    },
+    {
+      "plan": "Premium",
+      "price": "59,90 BRL / month",
+      "country_code": "BR",
+      "source_url": "https://help.netflix.com/en/node/24926/br"
+    }
+  ],
+  "AR": [
+    {
+      "plan": "Basic",
+      "price": "8,999 ARS / month",
+      "country_code": "AR",
+      "source_url": "https://help.netflix.com/en/node/24926/ar"
+    },
+    {
+      "plan": "Standard",
+      "price": "14,999 ARS / month",
+      "country_code": "AR",
+      "source_url": "https://help.netflix.com/en/node/24926/ar"
+    },
+    {
+      "plan": "Premium",
+      "price": "19,999 ARS / month",
+      "country_code": "AR",
+      "source_url": "https://help.netflix.com/en/node/24926/ar"
+    }
+  ],
+  "CL": [
+    {
+      "plan": "Standard",
+      "price": "9,990 USD / month",
+      "country_code": "CL",
+      "source_url": "https://help.netflix.com/en/node/24926/cl"
+    },
+    {
+      "plan": "Premium",
+      "price": "12,990 USD / month",
+      "country_code": "CL",
+      "source_url": "https://help.netflix.com/en/node/24926/cl"
+    },
+    {
+      "plan": "Basic",
+      "price": "7,190 USD / month",
+      "country_code": "CL",
+      "source_url": "https://help.netflix.com/en/node/24926/cl"
+    }
+  ],
+  "CO": [
+    {
+      "plan": "Standard",
+      "price": "29,900 COP / month",
+      "extra_member_slots": "9,900 COP / month",
+      "country_code": "CO",
+      "source_url": "https://help.netflix.com/en/node/24926/co"
+    },
+    {
+      "plan": "Premium",
+      "price": "44,900 COP / month",
+      "extra_member_slots": "9,900 COP / month",
+      "country_code": "CO",
+      "source_url": "https://help.netflix.com/en/node/24926/co"
+    },
+    {
+      "plan": "Basic",
+      "price": "18,900 COP / month",
+      "country_code": "CO",
+      "source_url": "https://help.netflix.com/en/node/24926/co"
+    }
+  ],
+  "VE": [
+    {
+      "plan": "Standard",
+      "price": "5.99 USD / month",
+      "country_code": "VE",
+      "source_url": "https://help.netflix.com/en/node/24926/ve"
+    },
+    {
+      "plan": "Premium",
+      "price": "7.99 USD / month",
+      "country_code": "VE",
+      "source_url": "https://help.netflix.com/en/node/24926/ve"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "VE",
+      "source_url": "https://help.netflix.com/en/node/24926/ve"
+    }
+  ],
+  "UY": [
+    {
+      "plan": "Standard",
+      "price": "16.99 USD / month",
+      "country_code": "UY",
+      "source_url": "https://help.netflix.com/en/node/24926/uy"
+    },
+    {
+      "plan": "Premium",
+      "price": "21.99 USD / month",
+      "country_code": "UY",
+      "source_url": "https://help.netflix.com/en/node/24926/uy"
+    },
+    {
+      "plan": "Basic",
+      "price": "11.99 USD / month",
+      "country_code": "UY",
+      "source_url": "https://help.netflix.com/en/node/24926/uy"
+    }
+  ],
+  "PY": [
+    {
+      "plan": "Standard",
+      "price": "5.99 USD / month",
+      "country_code": "PY",
+      "source_url": "https://help.netflix.com/en/node/24926/py"
+    },
+    {
+      "plan": "Premium",
+      "price": "7.99 USD / month",
+      "country_code": "PY",
+      "source_url": "https://help.netflix.com/en/node/24926/py"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "PY",
+      "source_url": "https://help.netflix.com/en/node/24926/py"
+    }
+  ],
+  "EC": [
+    {
+      "plan": "Standard",
+      "price": "8.99 USD / month",
+      "country_code": "EC",
+      "source_url": "https://help.netflix.com/en/node/24926/ec"
+    },
+    {
+      "plan": "Premium",
+      "price": "11.99 USD / month",
+      "country_code": "EC",
+      "source_url": "https://help.netflix.com/en/node/24926/ec"
+    },
+    {
+      "plan": "Basic",
+      "price": "5.99 USD / month",
+      "country_code": "EC",
+      "source_url": "https://help.netflix.com/en/node/24926/ec"
+    }
+  ],
+  "PE": [
+    {
+      "plan": "Basic",
+      "price": "28.90 PEN / month",
+      "country_code": "PE",
+      "source_url": "https://help.netflix.com/en/node/24926/pe"
+    },
+    {
+      "plan": "Standard",
+      "price": "40.90 PEN / month",
+      "country_code": "PE",
+      "source_url": "https://help.netflix.com/en/node/24926/pe"
+    },
+    {
+      "plan": "Premium",
+      "price": "52.90 PEN / month",
+      "country_code": "PE",
+      "source_url": "https://help.netflix.com/en/node/24926/pe"
+    }
+  ],
+  "BO": [
+    {
+      "plan": "Standard",
+      "price": "5.99 USD / month",
+      "country_code": "BO",
+      "source_url": "https://help.netflix.com/en/node/24926/bo"
+    },
+    {
+      "plan": "Premium",
+      "price": "7.99 USD / month",
+      "country_code": "BO",
+      "source_url": "https://help.netflix.com/en/node/24926/bo"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "BO",
+      "source_url": "https://help.netflix.com/en/node/24926/bo"
+    }
+  ],
+  "GY": [
+    {
+      "plan": "Standard",
+      "price": "5.99 USD / month",
+      "country_code": "GY",
+      "source_url": "https://help.netflix.com/en/node/24926/gy"
+    },
+    {
+      "plan": "Premium",
+      "price": "7.99 USD / month",
+      "country_code": "GY",
+      "source_url": "https://help.netflix.com/en/node/24926/gy"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "GY",
+      "source_url": "https://help.netflix.com/en/node/24926/gy"
+    }
+  ],
+  "SR": [
+    {
+      "plan": "Standard",
+      "price": "5.99 USD / month",
+      "country_code": "SR",
+      "source_url": "https://help.netflix.com/en/node/24926/sr"
+    },
+    {
+      "plan": "Premium",
+      "price": "7.99 USD / month",
+      "country_code": "SR",
+      "source_url": "https://help.netflix.com/en/node/24926/sr"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "SR",
+      "source_url": "https://help.netflix.com/en/node/24926/sr"
+    }
+  ],
+  "GF": [
+    {
+      "plan": "Standard",
+      "price": "14.99 EUR / month",
+      "country_code": "GF",
+      "source_url": "https://help.netflix.com/en/node/24926/gf"
+    },
+    {
+      "plan": "Premium",
+      "price": "21.99 EUR / month",
+      "country_code": "GF",
+      "source_url": "https://help.netflix.com/en/node/24926/gf"
+    },
+    {
+      "plan": "Basic",
+      "price": "11.99 EUR / month",
+      "country_code": "GF",
+      "source_url": "https://help.netflix.com/en/node/24926/gf"
+    }
+  ],
+  "UK": [
+    {
+      "plan": "Standard with ads",
+      "price": "5.99 GBP / month",
+      "country_code": "UK",
+      "source_url": "https://help.netflix.com/en/node/24926/gb"
+    },
+    {
+      "plan": "Standard",
+      "price": "12.99 GBP / month",
+      "country_code": "UK",
+      "source_url": "https://help.netflix.com/en/node/24926/gb"
+    },
+    {
+      "plan": "Premium",
+      "price": "18.99 GBP / month",
+      "country_code": "UK",
+      "source_url": "https://help.netflix.com/en/node/24926/gb"
+    }
+  ],
+  "GB": [
+    {
+      "plan": "Standard with ads",
+      "price": "5.99 GBP / month",
+      "country_code": "GB",
+      "source_url": "https://help.netflix.com/en/node/24926/gb"
+    },
+    {
+      "plan": "Standard",
+      "price": "12.99 GBP / month",
+      "country_code": "GB",
+      "source_url": "https://help.netflix.com/en/node/24926/gb"
+    },
+    {
+      "plan": "Premium",
+      "price": "18.99 GBP / month",
+      "country_code": "GB",
+      "source_url": "https://help.netflix.com/en/node/24926/gb"
+    }
+  ],
+  "IE": [
+    {
+      "plan": "Standard",
+      "price": "16.99 EUR / month",
+      "country_code": "IE",
+      "source_url": "https://help.netflix.com/en/node/24926/ie"
+    },
+    {
+      "plan": "Premium",
+      "price": "23.99 EUR / month",
+      "country_code": "IE",
+      "source_url": "https://help.netflix.com/en/node/24926/ie"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 EUR / month",
+      "country_code": "IE",
+      "source_url": "https://help.netflix.com/en/node/24926/ie"
+    }
+  ],
+  "FR": [
+    {
+      "plan": "Standard with ads",
+      "price": "7.99 EUR / month",
+      "country_code": "FR",
+      "source_url": "https://help.netflix.com/en/node/24926/fr"
+    },
+    {
+      "plan": "Standard",
+      "price": "14.99 EUR / month",
+      "country_code": "FR",
+      "source_url": "https://help.netflix.com/en/node/24926/fr"
+    },
+    {
+      "plan": "Premium",
+      "price": "21.99 EUR / month",
+      "country_code": "FR",
+      "source_url": "https://help.netflix.com/en/node/24926/fr"
+    }
+  ],
+  "DE": [
+    {
+      "plan": "Standard with ads",
+      "price": "4.99 EUR / month",
+      "country_code": "DE",
+      "source_url": "https://help.netflix.com/en/node/24926/de"
+    },
+    {
+      "plan": "Standard",
+      "price": "13.99 EUR / month",
+      "country_code": "DE",
+      "source_url": "https://help.netflix.com/en/node/24926/de"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 EUR / month",
+      "country_code": "DE",
+      "source_url": "https://help.netflix.com/en/node/24926/de"
+    }
+  ],
+  "IT": [
+    {
+      "plan": "Standard with ads",
+      "price": "6.99 EUR / month",
+      "country_code": "IT",
+      "source_url": "https://help.netflix.com/en/node/24926/it"
+    },
+    {
+      "plan": "Standard",
+      "price": "13.99 EUR / month",
+      "country_code": "IT",
+      "source_url": "https://help.netflix.com/en/node/24926/it"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 EUR / month",
+      "country_code": "IT",
+      "source_url": "https://help.netflix.com/en/node/24926/it"
+    }
+  ],
+  "ES": [
+    {
+      "plan": "Standard with ads",
+      "price": "6.99 EUR / month",
+      "country_code": "ES",
+      "source_url": "https://help.netflix.com/en/node/24926/es"
+    },
+    {
+      "plan": "Standard",
+      "price": "13.99 EUR / month",
+      "country_code": "ES",
+      "source_url": "https://help.netflix.com/en/node/24926/es"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 EUR / month",
+      "country_code": "ES",
+      "source_url": "https://help.netflix.com/en/node/24926/es"
+    }
+  ],
+  "PT": [
+    {
+      "plan": "Standard",
+      "price": "12.99 EUR / month",
+      "extra_member_slots": "4.99 € / month",
+      "country_code": "PT",
+      "source_url": "https://help.netflix.com/en/node/24926/pt"
+    },
+    {
+      "plan": "Premium",
+      "price": "17.99 EUR / month",
+      "extra_member_slots": "4.99 € / month",
+      "country_code": "PT",
+      "source_url": "https://help.netflix.com/en/node/24926/pt"
+    },
+    {
+      "plan": "Basic",
+      "price": "8.99 EUR / month",
+      "country_code": "PT",
+      "source_url": "https://help.netflix.com/en/node/24926/pt"
+    }
+  ],
+  "NL": [
+    {
+      "plan": "Standard",
+      "price": "15.99 EUR / month",
+      "country_code": "NL",
+      "source_url": "https://help.netflix.com/en/node/24926/nl"
+    },
+    {
+      "plan": "Premium",
+      "price": "20.99 EUR / month",
+      "country_code": "NL",
+      "source_url": "https://help.netflix.com/en/node/24926/nl"
+    },
+    {
+      "plan": "Basic",
+      "price": "9.99 EUR / month",
+      "country_code": "NL",
+      "source_url": "https://help.netflix.com/en/node/24926/nl"
+    }
+  ],
+  "BE": [
+    {
+      "plan": "Standard",
+      "price": "16.99 EUR / month",
+      "country_code": "BE",
+      "source_url": "https://help.netflix.com/en/node/24926/be"
+    },
+    {
+      "plan": "Premium",
+      "price": "21.99 EUR / month",
+      "country_code": "BE",
+      "source_url": "https://help.netflix.com/en/node/24926/be"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 EUR / month",
+      "country_code": "BE",
+      "source_url": "https://help.netflix.com/en/node/24926/be"
+    }
+  ],
+  "LU": [
+    {
+      "plan": "Standard",
+      "price": "16.99 EUR / month",
+      "country_code": "LU",
+      "source_url": "https://help.netflix.com/en/node/24926/lu"
+    },
+    {
+      "plan": "Premium",
+      "price": "21.99 EUR / month",
+      "country_code": "LU",
+      "source_url": "https://help.netflix.com/en/node/24926/lu"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 EUR / month",
+      "country_code": "LU",
+      "source_url": "https://help.netflix.com/en/node/24926/lu"
+    }
+  ],
+  "AT": [
+    {
+      "plan": "Standard",
+      "price": "13.99 EUR / month",
+      "country_code": "AT",
+      "source_url": "https://help.netflix.com/en/node/24926/at"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 EUR / month",
+      "country_code": "AT",
+      "source_url": "https://help.netflix.com/en/node/24926/at"
+    },
+    {
+      "plan": "Basic",
+      "price": "8.99 EUR / month",
+      "country_code": "AT",
+      "source_url": "https://help.netflix.com/en/node/24926/at"
+    }
+  ],
+  "CH": [
+    {
+      "plan": "Standard",
+      "price": "22,90 CHF / month",
+      "country_code": "CH",
+      "source_url": "https://help.netflix.com/en/node/24926/ch"
+    },
+    {
+      "plan": "Premium",
+      "price": "29,90 CHF / month",
+      "country_code": "CH",
+      "source_url": "https://help.netflix.com/en/node/24926/ch"
+    },
+    {
+      "plan": "Basic",
+      "price": "14,90 CHF / month",
+      "country_code": "CH",
+      "source_url": "https://help.netflix.com/en/node/24926/ch"
+    }
+  ],
+  "LI": [
+    {
+      "plan": "Standard",
+      "price": "22,90 CHF / month",
+      "country_code": "LI",
+      "source_url": "https://help.netflix.com/en/node/24926/li"
+    },
+    {
+      "plan": "Premium",
+      "price": "29,90 CHF / month",
+      "country_code": "LI",
+      "source_url": "https://help.netflix.com/en/node/24926/li"
+    },
+    {
+      "plan": "Basic",
+      "price": "14,90 CHF / month",
+      "country_code": "LI",
+      "source_url": "https://help.netflix.com/en/node/24926/li"
+    }
+  ],
+  "MC": [
+    {
+      "plan": "Standard",
+      "price": "14.99 EUR / month",
+      "country_code": "MC",
+      "source_url": "https://help.netflix.com/en/node/24926/mc"
+    },
+    {
+      "plan": "Premium",
+      "price": "21.99 EUR / month",
+      "country_code": "MC",
+      "source_url": "https://help.netflix.com/en/node/24926/mc"
+    },
+    {
+      "plan": "Basic",
+      "price": "11.99 EUR / month",
+      "country_code": "MC",
+      "source_url": "https://help.netflix.com/en/node/24926/mc"
+    }
+  ],
+  "AD": [
+    {
+      "plan": "Standard",
+      "price": "13.99 EUR / month",
+      "extra_member_slots": "5.99 € / month",
+      "country_code": "AD",
+      "source_url": "https://help.netflix.com/en/node/24926/ad"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 EUR / month",
+      "extra_member_slots": "5.99 € / month",
+      "country_code": "AD",
+      "source_url": "https://help.netflix.com/en/node/24926/ad"
+    },
+    {
+      "plan": "Basic",
+      "price": "8.99 EUR / month",
+      "country_code": "AD",
+      "source_url": "https://help.netflix.com/en/node/24926/ad"
+    }
+  ],
+  "SM": [
+    {
+      "plan": "Standard with ads",
+      "price": "6.99 EUR / month",
+      "country_code": "SM",
+      "source_url": "https://help.netflix.com/en/node/24926/sm"
+    },
+    {
+      "plan": "Standard",
+      "price": "13.99 EUR / month",
+      "extra_member_slots": "4.99 € / month",
+      "country_code": "SM",
+      "source_url": "https://help.netflix.com/en/node/24926/sm"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 EUR / month",
+      "extra_member_slots": "4.99 € / month",
+      "country_code": "SM",
+      "source_url": "https://help.netflix.com/en/node/24926/sm"
+    }
+  ],
+  "VA": [
+    {
+      "plan": "Standard with ads",
+      "price": "6.99 EUR / month",
+      "country_code": "VA",
+      "source_url": "https://help.netflix.com/en/node/24926/va"
+    },
+    {
+      "plan": "Standard",
+      "price": "13.99 EUR / month",
+      "extra_member_slots": "4.99 € / month",
+      "country_code": "VA",
+      "source_url": "https://help.netflix.com/en/node/24926/va"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 EUR / month",
+      "extra_member_slots": "4.99 € / month",
+      "country_code": "VA",
+      "source_url": "https://help.netflix.com/en/node/24926/va"
+    }
+  ],
+  "SE": [
+    {
+      "plan": "Basic",
+      "price": "109 SEK / month",
+      "country_code": "SE",
+      "source_url": "https://help.netflix.com/en/node/24926/se"
+    },
+    {
+      "plan": "Standard",
+      "price": "149 SEK / month",
+      "extra_member_slots": "55 kr / month",
+      "country_code": "SE",
+      "source_url": "https://help.netflix.com/en/node/24926/se"
+    },
+    {
+      "plan": "Premium",
+      "price": "199 SEK / month",
+      "extra_member_slots": "55 kr / month",
+      "country_code": "SE",
+      "source_url": "https://help.netflix.com/en/node/24926/se"
+    }
+  ],
+  "NO": [
+    {
+      "plan": "Basic",
+      "price": "99 NOK / month",
+      "country_code": "NO",
+      "source_url": "https://help.netflix.com/en/node/24926/no"
+    },
+    {
+      "plan": "Standard",
+      "price": "129 NOK / month",
+      "country_code": "NO",
+      "source_url": "https://help.netflix.com/en/node/24926/no"
+    },
+    {
+      "plan": "Premium",
+      "price": "189 NOK / month",
+      "country_code": "NO",
+      "source_url": "https://help.netflix.com/en/node/24926/no"
+    }
+  ],
+  "DK": [
+    {
+      "plan": "Basic",
+      "price": "89 DKK / month",
+      "country_code": "DK",
+      "source_url": "https://help.netflix.com/en/node/24926/dk"
+    },
+    {
+      "plan": "Standard",
+      "price": "129 DKK / month",
+      "extra_member_slots": "39 kr / month",
+      "country_code": "DK",
+      "source_url": "https://help.netflix.com/en/node/24926/dk"
+    },
+    {
+      "plan": "Premium",
+      "price": "169 DKK / month",
+      "extra_member_slots": "39 kr / month",
+      "country_code": "DK",
+      "source_url": "https://help.netflix.com/en/node/24926/dk"
+    }
+  ],
+  "FI": [
+    {
+      "plan": "Standard",
+      "price": "13.99 EUR / month",
+      "extra_member_slots": "3.99 € / month",
+      "country_code": "FI",
+      "source_url": "https://help.netflix.com/en/node/24926/fi"
+    },
+    {
+      "plan": "Premium",
+      "price": "17.99 EUR / month",
+      "extra_member_slots": "3.99 € / month",
+      "country_code": "FI",
+      "source_url": "https://help.netflix.com/en/node/24926/fi"
+    },
+    {
+      "plan": "Basic",
+      "price": "9.49 EUR / month",
+      "country_code": "FI",
+      "source_url": "https://help.netflix.com/en/node/24926/fi"
+    }
+  ],
+  "IS": [
+    {
+      "plan": "Standard",
+      "price": "14.99 EUR / month",
+      "country_code": "IS",
+      "source_url": "https://help.netflix.com/en/node/24926/is"
+    },
+    {
+      "plan": "Premium",
+      "price": "20.99 EUR / month",
+      "country_code": "IS",
+      "source_url": "https://help.netflix.com/en/node/24926/is"
+    },
+    {
+      "plan": "Basic",
+      "price": "9.99 EUR / month",
+      "country_code": "IS",
+      "source_url": "https://help.netflix.com/en/node/24926/is"
+    }
+  ],
+  "PL": [
+    {
+      "plan": "Standard",
+      "price": "49 PLN / month",
+      "extra_member_slots": "13 PLN / month",
+      "country_code": "PL",
+      "source_url": "https://help.netflix.com/en/node/24926/pl"
+    },
+    {
+      "plan": "Premium",
+      "price": "67 PLN / month",
+      "extra_member_slots": "13 PLN / month",
+      "country_code": "PL",
+      "source_url": "https://help.netflix.com/en/node/24926/pl"
+    },
+    {
+      "plan": "Basic",
+      "price": "33 PLN / month",
+      "country_code": "PL",
+      "source_url": "https://help.netflix.com/en/node/24926/pl"
+    }
+  ],
+  "CZ": [
+    {
+      "plan": "Standard",
+      "price": "309,00 CZK / month",
+      "extra_member_slots": "99 Kč / month",
+      "country_code": "CZ",
+      "source_url": "https://help.netflix.com/en/node/24926/cz"
+    },
+    {
+      "plan": "Premium",
+      "price": "379,00 CZK / month",
+      "extra_member_slots": "99 Kč / month",
+      "country_code": "CZ",
+      "source_url": "https://help.netflix.com/en/node/24926/cz"
+    },
+    {
+      "plan": "Basic",
+      "price": "239,00 CZK / month",
+      "country_code": "CZ",
+      "source_url": "https://help.netflix.com/en/node/24926/cz"
+    }
+  ],
+  "SK": [
+    {
+      "plan": "Standard",
+      "price": "11.49 EUR / month",
+      "country_code": "SK",
+      "source_url": "https://help.netflix.com/en/node/24926/sk"
+    },
+    {
+      "plan": "Premium",
+      "price": "13.99 EUR / month",
+      "country_code": "SK",
+      "source_url": "https://help.netflix.com/en/node/24926/sk"
+    },
+    {
+      "plan": "Basic",
+      "price": "9.49 EUR / month",
+      "country_code": "SK",
+      "source_url": "https://help.netflix.com/en/node/24926/sk"
+    }
+  ],
+  "HU": [
+    {
+      "plan": "Standard",
+      "price": "3990 HUF / month",
+      "extra_member_slots": "1190 Ft / month",
+      "country_code": "HU",
+      "source_url": "https://help.netflix.com/en/node/24926/hu"
+    },
+    {
+      "plan": "Premium",
+      "price": "5090 HUF / month",
+      "extra_member_slots": "1190 Ft / month",
+      "country_code": "HU",
+      "source_url": "https://help.netflix.com/en/node/24926/hu"
+    },
+    {
+      "plan": "Basic",
+      "price": "2890 HUF / month",
+      "country_code": "HU",
+      "source_url": "https://help.netflix.com/en/node/24926/hu"
+    }
+  ],
+  "RO": [
+    {
+      "plan": "Standard",
+      "price": "10.99 EUR / month",
+      "extra_member_slots": "3.99 € / month",
+      "country_code": "RO",
+      "source_url": "https://help.netflix.com/en/node/24926/ro"
+    },
+    {
+      "plan": "Premium",
+      "price": "13.99 EUR / month",
+      "extra_member_slots": "3.99 € / month",
+      "country_code": "RO",
+      "source_url": "https://help.netflix.com/en/node/24926/ro"
+    },
+    {
+      "plan": "Basic",
+      "price": "5.99 EUR / month",
+      "country_code": "RO",
+      "source_url": "https://help.netflix.com/en/node/24926/ro"
+    }
+  ],
+  "BG": [
+    {
+      "plan": "Standard",
+      "price": "7.99 EUR / month",
+      "country_code": "BG",
+      "source_url": "https://help.netflix.com/en/node/24926/bg"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 EUR / month",
+      "country_code": "BG",
+      "source_url": "https://help.netflix.com/en/node/24926/bg"
+    },
+    {
+      "plan": "Basic",
+      "price": "4.99 EUR / month",
+      "country_code": "BG",
+      "source_url": "https://help.netflix.com/en/node/24926/bg"
+    }
+  ],
+  "HR": [
+    {
+      "plan": "Standard",
+      "price": "9.99 EUR / month",
+      "country_code": "HR",
+      "source_url": "https://help.netflix.com/en/node/24926/hr"
+    },
+    {
+      "plan": "Premium",
+      "price": "12.99 EUR / month",
+      "country_code": "HR",
+      "source_url": "https://help.netflix.com/en/node/24926/hr"
+    },
+    {
+      "plan": "Basic",
+      "price": "5.99 EUR / month",
+      "country_code": "HR",
+      "source_url": "https://help.netflix.com/en/node/24926/hr"
+    }
+  ],
+  "SI": [
+    {
+      "plan": "Standard",
+      "price": "7.99 EUR / month",
+      "country_code": "SI",
+      "source_url": "https://help.netflix.com/en/node/24926/si"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 EUR / month",
+      "country_code": "SI",
+      "source_url": "https://help.netflix.com/en/node/24926/si"
+    },
+    {
+      "plan": "Basic",
+      "price": "4.99 EUR / month",
+      "country_code": "SI",
+      "source_url": "https://help.netflix.com/en/node/24926/si"
+    }
+  ],
+  "EE": [
+    {
+      "plan": "Standard",
+      "price": "9.99 EUR / month",
+      "country_code": "EE",
+      "source_url": "https://help.netflix.com/en/node/24926/ee"
+    },
+    {
+      "plan": "Premium",
+      "price": "11.99 EUR / month",
+      "country_code": "EE",
+      "source_url": "https://help.netflix.com/en/node/24926/ee"
+    },
+    {
+      "plan": "Basic",
+      "price": "7.99 EUR / month",
+      "country_code": "EE",
+      "source_url": "https://help.netflix.com/en/node/24926/ee"
+    }
+  ],
+  "LV": [
+    {
+      "plan": "Standard",
+      "price": "9.99 EUR / month",
+      "country_code": "LV",
+      "source_url": "https://help.netflix.com/en/node/24926/lv"
+    },
+    {
+      "plan": "Premium",
+      "price": "11.99 EUR / month",
+      "country_code": "LV",
+      "source_url": "https://help.netflix.com/en/node/24926/lv"
+    },
+    {
+      "plan": "Basic",
+      "price": "7.99 EUR / month",
+      "country_code": "LV",
+      "source_url": "https://help.netflix.com/en/node/24926/lv"
+    }
+  ],
+  "LT": [
+    {
+      "plan": "Standard",
+      "price": "9.99 EUR / month",
+      "country_code": "LT",
+      "source_url": "https://help.netflix.com/en/node/24926/lt"
+    },
+    {
+      "plan": "Premium",
+      "price": "11.99 EUR / month",
+      "country_code": "LT",
+      "source_url": "https://help.netflix.com/en/node/24926/lt"
+    },
+    {
+      "plan": "Basic",
+      "price": "7.99 EUR / month",
+      "country_code": "LT",
+      "source_url": "https://help.netflix.com/en/node/24926/lt"
+    }
+  ],
+  "RS": [
+    {
+      "plan": "Standard",
+      "price": "7.99 EUR / month",
+      "country_code": "RS",
+      "source_url": "https://help.netflix.com/en/node/24926/rs"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 EUR / month",
+      "country_code": "RS",
+      "source_url": "https://help.netflix.com/en/node/24926/rs"
+    },
+    {
+      "plan": "Basic",
+      "price": "4.99 EUR / month",
+      "country_code": "RS",
+      "source_url": "https://help.netflix.com/en/node/24926/rs"
+    }
+  ],
+  "ME": [
+    {
+      "plan": "Standard",
+      "price": "7.99 EUR / month",
+      "country_code": "ME",
+      "source_url": "https://help.netflix.com/en/node/24926/me"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 EUR / month",
+      "country_code": "ME",
+      "source_url": "https://help.netflix.com/en/node/24926/me"
+    },
+    {
+      "plan": "Basic",
+      "price": "4.99 EUR / month",
+      "country_code": "ME",
+      "source_url": "https://help.netflix.com/en/node/24926/me"
+    }
+  ],
+  "BA": [
+    {
+      "plan": "Standard",
+      "price": "7.99 EUR / month",
+      "country_code": "BA",
+      "source_url": "https://help.netflix.com/en/node/24926/ba"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 EUR / month",
+      "country_code": "BA",
+      "source_url": "https://help.netflix.com/en/node/24926/ba"
+    },
+    {
+      "plan": "Basic",
+      "price": "4.99 EUR / month",
+      "country_code": "BA",
+      "source_url": "https://help.netflix.com/en/node/24926/ba"
+    }
+  ],
+  "MK": [
+    {
+      "plan": "Standard",
+      "price": "7.99 EUR / month",
+      "country_code": "MK",
+      "source_url": "https://help.netflix.com/en/node/24926/mk"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 EUR / month",
+      "country_code": "MK",
+      "source_url": "https://help.netflix.com/en/node/24926/mk"
+    },
+    {
+      "plan": "Basic",
+      "price": "4.99 EUR / month",
+      "country_code": "MK",
+      "source_url": "https://help.netflix.com/en/node/24926/mk"
+    }
+  ],
+  "AL": [
+    {
+      "plan": "Standard",
+      "price": "7.99 EUR / month",
+      "country_code": "AL",
+      "source_url": "https://help.netflix.com/en/node/24926/al"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 EUR / month",
+      "country_code": "AL",
+      "source_url": "https://help.netflix.com/en/node/24926/al"
+    },
+    {
+      "plan": "Basic",
+      "price": "4.99 EUR / month",
+      "country_code": "AL",
+      "source_url": "https://help.netflix.com/en/node/24926/al"
+    }
+  ],
+  "UA": [
+    {
+      "plan": "Standard",
+      "price": "7.49 EUR / month",
+      "extra_member_slots": "2.99 € / month",
+      "country_code": "UA",
+      "source_url": "https://help.netflix.com/en/node/24926/ua"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 EUR / month",
+      "extra_member_slots": "2.99 € / month",
+      "country_code": "UA",
+      "source_url": "https://help.netflix.com/en/node/24926/ua"
+    },
+    {
+      "plan": "Basic",
+      "price": "4.99 EUR / month",
+      "country_code": "UA",
+      "source_url": "https://help.netflix.com/en/node/24926/ua"
+    }
+  ],
+  "BY": [
+    {
+      "plan": "Standard",
+      "price": "9.99 EUR / month",
+      "country_code": "BY",
+      "source_url": "https://help.netflix.com/en/node/24926/by"
+    },
+    {
+      "plan": "Premium",
+      "price": "11.99 EUR / month",
+      "country_code": "BY",
+      "source_url": "https://help.netflix.com/en/node/24926/by"
+    },
+    {
+      "plan": "Basic",
+      "price": "7.99 EUR / month",
+      "country_code": "BY",
+      "source_url": "https://help.netflix.com/en/node/24926/by"
+    }
+  ],
+  "MD": [
+    {
+      "plan": "Standard",
+      "price": "9.99 EUR / month",
+      "country_code": "MD",
+      "source_url": "https://help.netflix.com/en/node/24926/md"
+    },
+    {
+      "plan": "Premium",
+      "price": "11.99 EUR / month",
+      "country_code": "MD",
+      "source_url": "https://help.netflix.com/en/node/24926/md"
+    },
+    {
+      "plan": "Basic",
+      "price": "7.99 EUR / month",
+      "country_code": "MD",
+      "source_url": "https://help.netflix.com/en/node/24926/md"
+    }
+  ],
+  "GE": [
+    {
+      "plan": "Standard",
+      "price": "11.79 EUR / month",
+      "country_code": "GE",
+      "source_url": "https://help.netflix.com/en/node/24926/ge"
+    },
+    {
+      "plan": "Premium",
+      "price": "13.99 EUR / month",
+      "country_code": "GE",
+      "source_url": "https://help.netflix.com/en/node/24926/ge"
+    },
+    {
+      "plan": "Basic",
+      "price": "9.39 EUR / month",
+      "country_code": "GE",
+      "source_url": "https://help.netflix.com/en/node/24926/ge"
+    }
+  ],
+  "AM": [
+    {
+      "plan": "Standard",
+      "price": "9.99 EUR / month",
+      "country_code": "AM",
+      "source_url": "https://help.netflix.com/en/node/24926/am"
+    },
+    {
+      "plan": "Premium",
+      "price": "11.99 EUR / month",
+      "country_code": "AM",
+      "source_url": "https://help.netflix.com/en/node/24926/am"
+    },
+    {
+      "plan": "Basic",
+      "price": "7.99 EUR / month",
+      "country_code": "AM",
+      "source_url": "https://help.netflix.com/en/node/24926/am"
+    }
+  ],
+  "AZ": [
+    {
+      "plan": "Standard",
+      "price": "9.99 EUR / month",
+      "country_code": "AZ",
+      "source_url": "https://help.netflix.com/en/node/24926/az"
+    },
+    {
+      "plan": "Premium",
+      "price": "11.99 EUR / month",
+      "country_code": "AZ",
+      "source_url": "https://help.netflix.com/en/node/24926/az"
+    },
+    {
+      "plan": "Basic",
+      "price": "7.99 EUR / month",
+      "country_code": "AZ",
+      "source_url": "https://help.netflix.com/en/node/24926/az"
+    }
+  ],
+  "KZ": [
+    {
+      "plan": "Standard",
+      "price": "9.99 EUR / month",
+      "country_code": "KZ",
+      "source_url": "https://help.netflix.com/en/node/24926/kz"
+    },
+    {
+      "plan": "Premium",
+      "price": "11.99 EUR / month",
+      "country_code": "KZ",
+      "source_url": "https://help.netflix.com/en/node/24926/kz"
+    },
+    {
+      "plan": "Basic",
+      "price": "7.99 EUR / month",
+      "country_code": "KZ",
+      "source_url": "https://help.netflix.com/en/node/24926/kz"
+    }
+  ],
+  "KG": [
+    {
+      "plan": "Standard",
+      "price": "9.99 EUR / month",
+      "country_code": "KG",
+      "source_url": "https://help.netflix.com/en/node/24926/kg"
+    },
+    {
+      "plan": "Premium",
+      "price": "11.99 EUR / month",
+      "country_code": "KG",
+      "source_url": "https://help.netflix.com/en/node/24926/kg"
+    },
+    {
+      "plan": "Basic",
+      "price": "7.99 EUR / month",
+      "country_code": "KG",
+      "source_url": "https://help.netflix.com/en/node/24926/kg"
+    }
+  ],
+  "TJ": [
+    {
+      "plan": "Standard",
+      "price": "11.79 EUR / month",
+      "country_code": "TJ",
+      "source_url": "https://help.netflix.com/en/node/24926/tj"
+    },
+    {
+      "plan": "Premium",
+      "price": "13.99 EUR / month",
+      "country_code": "TJ",
+      "source_url": "https://help.netflix.com/en/node/24926/tj"
+    },
+    {
+      "plan": "Basic",
+      "price": "9.39 EUR / month",
+      "country_code": "TJ",
+      "source_url": "https://help.netflix.com/en/node/24926/tj"
+    }
+  ],
+  "TM": [
+    {
+      "plan": "Standard",
+      "price": "9.99 EUR / month",
+      "country_code": "TM",
+      "source_url": "https://help.netflix.com/en/node/24926/tm"
+    },
+    {
+      "plan": "Premium",
+      "price": "11.99 EUR / month",
+      "country_code": "TM",
+      "source_url": "https://help.netflix.com/en/node/24926/tm"
+    },
+    {
+      "plan": "Basic",
+      "price": "7.99 EUR / month",
+      "country_code": "TM",
+      "source_url": "https://help.netflix.com/en/node/24926/tm"
+    }
+  ],
+  "UZ": [
+    {
+      "plan": "Standard",
+      "price": "9.99 EUR / month",
+      "country_code": "UZ",
+      "source_url": "https://help.netflix.com/en/node/24926/uz"
+    },
+    {
+      "plan": "Premium",
+      "price": "11.99 EUR / month",
+      "country_code": "UZ",
+      "source_url": "https://help.netflix.com/en/node/24926/uz"
+    },
+    {
+      "plan": "Basic",
+      "price": "7.99 EUR / month",
+      "country_code": "UZ",
+      "source_url": "https://help.netflix.com/en/node/24926/uz"
+    }
+  ],
+  "JP": [
+    {
+      "plan": "Standard",
+      "price": "1,590 JPY / month",
+      "country_code": "JP",
+      "source_url": "https://help.netflix.com/en/node/24926/jp"
+    },
+    {
+      "plan": "Premium",
+      "price": "2,290 JPY / month",
+      "country_code": "JP",
+      "source_url": "https://help.netflix.com/en/node/24926/jp"
+    },
+    {
+      "plan": "Standard with ads",
+      "price": "890 JPY / month",
+      "country_code": "JP",
+      "source_url": "https://help.netflix.com/en/node/24926/jp"
+    }
+  ],
+  "KR": [
+    {
+      "plan": "Standard with ads",
+      "price": "7,000 KRW / month",
+      "country_code": "KR",
+      "source_url": "https://help.netflix.com/en/node/24926/kr"
+    },
+    {
+      "plan": "Standard",
+      "price": "13,500 KRW / month",
+      "country_code": "KR",
+      "source_url": "https://help.netflix.com/en/node/24926/kr"
+    },
+    {
+      "plan": "Premium",
+      "price": "17,000 KRW / month",
+      "country_code": "KR",
+      "source_url": "https://help.netflix.com/en/node/24926/kr"
+    }
+  ],
+  "HK": [
+    {
+      "plan": "Standard",
+      "price": "88 HKD / month",
+      "extra_member_slots": "28 HKD / month",
+      "country_code": "HK",
+      "source_url": "https://help.netflix.com/en/node/24926/hk"
+    },
+    {
+      "plan": "Premium",
+      "price": "108 HKD / month",
+      "extra_member_slots": "28 HKD / month",
+      "country_code": "HK",
+      "source_url": "https://help.netflix.com/en/node/24926/hk"
+    },
+    {
+      "plan": "Basic",
+      "price": "73 HKD / month",
+      "country_code": "HK",
+      "source_url": "https://help.netflix.com/en/node/24926/hk"
+    }
+  ],
+  "TW": [
+    {
+      "plan": "Standard",
+      "price": "380 TWD / month",
+      "extra_member_slots": "100 TWD / month",
+      "country_code": "TW",
+      "source_url": "https://help.netflix.com/en/node/24926/tw"
+    },
+    {
+      "plan": "Premium",
+      "price": "460 TWD / month",
+      "extra_member_slots": "100 TWD / month",
+      "country_code": "TW",
+      "source_url": "https://help.netflix.com/en/node/24926/tw"
+    },
+    {
+      "plan": "Basic",
+      "price": "290 TWD / month",
+      "country_code": "TW",
+      "source_url": "https://help.netflix.com/en/node/24926/tw"
+    }
+  ],
+  "MO": [
+    {
+      "plan": "Standard",
+      "price": "9.99 USD / month",
+      "country_code": "MO",
+      "source_url": "https://help.netflix.com/en/node/24926/mo"
+    },
+    {
+      "plan": "Premium",
+      "price": "11.99 USD / month",
+      "country_code": "MO",
+      "source_url": "https://help.netflix.com/en/node/24926/mo"
+    },
+    {
+      "plan": "Basic",
+      "price": "7.99 USD / month",
+      "country_code": "MO",
+      "source_url": "https://help.netflix.com/en/node/24926/mo"
+    }
+  ],
+  "SG": [
+    {
+      "plan": "Standard",
+      "price": "22.98 SGD / month",
+      "country_code": "SG",
+      "source_url": "https://help.netflix.com/en/node/24926/sg"
+    },
+    {
+      "plan": "Premium",
+      "price": "29.98 SGD / month",
+      "country_code": "SG",
+      "source_url": "https://help.netflix.com/en/node/24926/sg"
+    },
+    {
+      "plan": "Basic",
+      "price": "15.98 SGD / month",
+      "country_code": "SG",
+      "source_url": "https://help.netflix.com/en/node/24926/sg"
+    }
+  ],
+  "MY": [
+    {
+      "plan": "Standard",
+      "price": "49.90 MYR / month",
+      "extra_member_slots": "13 MYR / month",
+      "country_code": "MY",
+      "source_url": "https://help.netflix.com/en/node/24926/my"
+    },
+    {
+      "plan": "Premium",
+      "price": "62.90 MYR / month",
+      "extra_member_slots": "13 MYR / month",
+      "country_code": "MY",
+      "source_url": "https://help.netflix.com/en/node/24926/my"
+    },
+    {
+      "plan": "Basic",
+      "price": "29.90 MYR / month",
+      "country_code": "MY",
+      "source_url": "https://help.netflix.com/en/node/24926/my"
+    },
+    {
+      "plan": "Mobile",
+      "price": "18.90 MYR / month",
+      "country_code": "MY",
+      "source_url": "https://help.netflix.com/en/node/24926/my"
+    }
+  ],
+  "TH": [
+    {
+      "plan": "Standard",
+      "price": "349 THB / month",
+      "extra_member_slots": "99 THB / month",
+      "country_code": "TH",
+      "source_url": "https://help.netflix.com/en/node/24926/th"
+    },
+    {
+      "plan": "Premium",
+      "price": "419 THB / month",
+      "extra_member_slots": "99 THB / month",
+      "country_code": "TH",
+      "source_url": "https://help.netflix.com/en/node/24926/th"
+    },
+    {
+      "plan": "Basic",
+      "price": "169 THB / month",
+      "country_code": "TH",
+      "source_url": "https://help.netflix.com/en/node/24926/th"
+    },
+    {
+      "plan": "Mobile",
+      "price": "99 THB / month",
+      "country_code": "TH",
+      "source_url": "https://help.netflix.com/en/node/24926/th"
+    }
+  ],
+  "VN": [
+    {
+      "plan": "Standard",
+      "price": "231,000 VND / month",
+      "country_code": "VN",
+      "source_url": "https://help.netflix.com/en/node/24926/vn"
+    },
+    {
+      "plan": "Premium",
+      "price": "273,000 VND / month",
+      "country_code": "VN",
+      "source_url": "https://help.netflix.com/en/node/24926/vn"
+    },
+    {
+      "plan": "Basic",
+      "price": "114,000 VND / month",
+      "country_code": "VN",
+      "source_url": "https://help.netflix.com/en/node/24926/vn"
+    },
+    {
+      "plan": "Mobile",
+      "price": "74,000 VND / month",
+      "country_code": "VN",
+      "source_url": "https://help.netflix.com/en/node/24926/vn"
+    }
+  ],
+  "PH": [
+    {
+      "plan": "Standard",
+      "price": "449 PHP / month",
+      "country_code": "PH",
+      "source_url": "https://help.netflix.com/en/node/24926/ph"
+    },
+    {
+      "plan": "Premium",
+      "price": "619 PHP / month",
+      "country_code": "PH",
+      "source_url": "https://help.netflix.com/en/node/24926/ph"
+    },
+    {
+      "plan": "Basic",
+      "price": "279 PHP / month",
+      "country_code": "PH",
+      "source_url": "https://help.netflix.com/en/node/24926/ph"
+    },
+    {
+      "plan": "Mobile",
+      "price": "169 PHP / month",
+      "country_code": "PH",
+      "source_url": "https://help.netflix.com/en/node/24926/ph"
+    }
+  ],
+  "ID": [
+    {
+      "plan": "Standard",
+      "price": "120,000 IDR / month",
+      "country_code": "ID",
+      "source_url": "https://help.netflix.com/en/node/24926/id"
+    },
+    {
+      "plan": "Premium",
+      "price": "186,000 IDR / month",
+      "country_code": "ID",
+      "source_url": "https://help.netflix.com/en/node/24926/id"
+    },
+    {
+      "plan": "Basic",
+      "price": "65,000 IDR / month",
+      "country_code": "ID",
+      "source_url": "https://help.netflix.com/en/node/24926/id"
+    },
+    {
+      "plan": "Mobile",
+      "price": "54,000 IDR / month",
+      "country_code": "ID",
+      "source_url": "https://help.netflix.com/en/node/24926/id"
+    }
+  ],
+  "BN": [
+    {
+      "plan": "Standard",
+      "price": "13.99 USD / month",
+      "country_code": "BN",
+      "source_url": "https://help.netflix.com/en/node/24926/bn"
+    },
+    {
+      "plan": "Premium",
+      "price": "17.99 USD / month",
+      "country_code": "BN",
+      "source_url": "https://help.netflix.com/en/node/24926/bn"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "BN",
+      "source_url": "https://help.netflix.com/en/node/24926/bn"
+    },
+    {
+      "plan": "Mobile",
+      "price": "6.49 USD / month",
+      "country_code": "BN",
+      "source_url": "https://help.netflix.com/en/node/24926/bn"
+    }
+  ],
+  "KH": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "KH",
+      "source_url": "https://help.netflix.com/en/node/24926/kh"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "KH",
+      "source_url": "https://help.netflix.com/en/node/24926/kh"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "KH",
+      "source_url": "https://help.netflix.com/en/node/24926/kh"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "KH",
+      "source_url": "https://help.netflix.com/en/node/24926/kh"
+    }
+  ],
+  "LA": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "LA",
+      "source_url": "https://help.netflix.com/en/node/24926/la"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "LA",
+      "source_url": "https://help.netflix.com/en/node/24926/la"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "LA",
+      "source_url": "https://help.netflix.com/en/node/24926/la"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "LA",
+      "source_url": "https://help.netflix.com/en/node/24926/la"
+    }
+  ],
+  "MM": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "MM",
+      "source_url": "https://help.netflix.com/en/node/24926/mm"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "MM",
+      "source_url": "https://help.netflix.com/en/node/24926/mm"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "MM",
+      "source_url": "https://help.netflix.com/en/node/24926/mm"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "MM",
+      "source_url": "https://help.netflix.com/en/node/24926/mm"
+    }
+  ],
+  "TL": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "TL",
+      "source_url": "https://help.netflix.com/en/node/24926/tl"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "TL",
+      "source_url": "https://help.netflix.com/en/node/24926/tl"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "TL",
+      "source_url": "https://help.netflix.com/en/node/24926/tl"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "TL",
+      "source_url": "https://help.netflix.com/en/node/24926/tl"
+    }
+  ],
+  "IN": [
+    {
+      "plan": "Mobile",
+      "price": "149 INR / month",
+      "country_code": "IN",
+      "source_url": "https://help.netflix.com/en/node/24926/in"
+    },
+    {
+      "plan": "Basic",
+      "price": "199 INR / month",
+      "country_code": "IN",
+      "source_url": "https://help.netflix.com/en/node/24926/in"
+    },
+    {
+      "plan": "Standard",
+      "price": "499 INR / month",
+      "country_code": "IN",
+      "source_url": "https://help.netflix.com/en/node/24926/in"
+    },
+    {
+      "plan": "Premium",
+      "price": "649 INR / month",
+      "country_code": "IN",
+      "source_url": "https://help.netflix.com/en/node/24926/in"
+    }
+  ],
+  "PK": [
+    {
+      "plan": "Mobile",
+      "price": "250 PKR / month",
+      "country_code": "PK",
+      "source_url": "https://help.netflix.com/en/node/24926/pk"
+    },
+    {
+      "plan": "Basic",
+      "price": "450 PKR / month",
+      "country_code": "PK",
+      "source_url": "https://help.netflix.com/en/node/24926/pk"
+    },
+    {
+      "plan": "Standard",
+      "price": "800 PKR / month",
+      "country_code": "PK",
+      "source_url": "https://help.netflix.com/en/node/24926/pk"
+    },
+    {
+      "plan": "Premium",
+      "price": "1,100 PKR / month",
+      "country_code": "PK",
+      "source_url": "https://help.netflix.com/en/node/24926/pk"
+    }
+  ],
+  "BD": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "BD",
+      "source_url": "https://help.netflix.com/en/node/24926/bd"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "BD",
+      "source_url": "https://help.netflix.com/en/node/24926/bd"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "BD",
+      "source_url": "https://help.netflix.com/en/node/24926/bd"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "BD",
+      "source_url": "https://help.netflix.com/en/node/24926/bd"
+    }
+  ],
+  "LK": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "LK",
+      "source_url": "https://help.netflix.com/en/node/24926/lk"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "LK",
+      "source_url": "https://help.netflix.com/en/node/24926/lk"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "LK",
+      "source_url": "https://help.netflix.com/en/node/24926/lk"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "LK",
+      "source_url": "https://help.netflix.com/en/node/24926/lk"
+    }
+  ],
+  "NP": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "NP",
+      "source_url": "https://help.netflix.com/en/node/24926/np"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "NP",
+      "source_url": "https://help.netflix.com/en/node/24926/np"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "NP",
+      "source_url": "https://help.netflix.com/en/node/24926/np"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "NP",
+      "source_url": "https://help.netflix.com/en/node/24926/np"
+    }
+  ],
+  "BT": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "BT",
+      "source_url": "https://help.netflix.com/en/node/24926/bt"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "BT",
+      "source_url": "https://help.netflix.com/en/node/24926/bt"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "BT",
+      "source_url": "https://help.netflix.com/en/node/24926/bt"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "BT",
+      "source_url": "https://help.netflix.com/en/node/24926/bt"
+    }
+  ],
+  "MV": [
+    {
+      "plan": "Standard",
+      "price": "13.99 USD / month",
+      "country_code": "MV",
+      "source_url": "https://help.netflix.com/en/node/24926/mv"
+    },
+    {
+      "plan": "Premium",
+      "price": "17.99 USD / month",
+      "country_code": "MV",
+      "source_url": "https://help.netflix.com/en/node/24926/mv"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "MV",
+      "source_url": "https://help.netflix.com/en/node/24926/mv"
+    },
+    {
+      "plan": "Mobile",
+      "price": "6.49 USD / month",
+      "country_code": "MV",
+      "source_url": "https://help.netflix.com/en/node/24926/mv"
+    }
+  ],
+  "AF": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "AF",
+      "source_url": "https://help.netflix.com/en/node/24926/af"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "AF",
+      "source_url": "https://help.netflix.com/en/node/24926/af"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "AF",
+      "source_url": "https://help.netflix.com/en/node/24926/af"
+    }
+  ],
+  "IR": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "IR",
+      "source_url": "https://help.netflix.com/en/node/24926/ir"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "IR",
+      "source_url": "https://help.netflix.com/en/node/24926/ir"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "IR",
+      "source_url": "https://help.netflix.com/en/node/24926/ir"
+    }
+  ],
+  "TR": [
+    {
+      "plan": "Standard",
+      "price": "289.99 TRY / month",
+      "country_code": "TR",
+      "source_url": "https://help.netflix.com/en/node/24926/tr"
+    },
+    {
+      "plan": "Premium",
+      "price": "379.99 TRY / month",
+      "country_code": "TR",
+      "source_url": "https://help.netflix.com/en/node/24926/tr"
+    },
+    {
+      "plan": "Basic",
+      "price": "189.99 TRY / month",
+      "country_code": "TR",
+      "source_url": "https://help.netflix.com/en/node/24926/tr"
+    }
+  ],
+  "SA": [
+    {
+      "plan": "Standard",
+      "price": "49 SAR / month",
+      "country_code": "SA",
+      "source_url": "https://help.netflix.com/en/node/24926/sa"
+    },
+    {
+      "plan": "Premium",
+      "price": "71 SAR / month",
+      "country_code": "SA",
+      "source_url": "https://help.netflix.com/en/node/24926/sa"
+    },
+    {
+      "plan": "Basic",
+      "price": "35 SAR / month",
+      "country_code": "SA",
+      "source_url": "https://help.netflix.com/en/node/24926/sa"
+    }
+  ],
+  "AE": [
+    {
+      "plan": "Standard",
+      "price": "49 AED / month",
+      "country_code": "AE",
+      "source_url": "https://help.netflix.com/en/node/24926/ae"
+    },
+    {
+      "plan": "Premium",
+      "price": "71 AED / month",
+      "country_code": "AE",
+      "source_url": "https://help.netflix.com/en/node/24926/ae"
+    },
+    {
+      "plan": "Basic",
+      "price": "35 AED / month",
+      "country_code": "AE",
+      "source_url": "https://help.netflix.com/en/node/24926/ae"
+    }
+  ],
+  "QA": [
+    {
+      "plan": "Standard",
+      "price": "11.99 USD / month",
+      "country_code": "QA",
+      "source_url": "https://help.netflix.com/en/node/24926/qa"
+    },
+    {
+      "plan": "Premium",
+      "price": "17.99 USD / month",
+      "country_code": "QA",
+      "source_url": "https://help.netflix.com/en/node/24926/qa"
+    },
+    {
+      "plan": "Basic",
+      "price": "8.99 USD / month",
+      "country_code": "QA",
+      "source_url": "https://help.netflix.com/en/node/24926/qa"
+    }
+  ],
+  "KW": [
+    {
+      "plan": "Standard",
+      "price": "11.99 USD / month",
+      "country_code": "KW",
+      "source_url": "https://help.netflix.com/en/node/24926/kw"
+    },
+    {
+      "plan": "Premium",
+      "price": "17.99 USD / month",
+      "country_code": "KW",
+      "source_url": "https://help.netflix.com/en/node/24926/kw"
+    },
+    {
+      "plan": "Basic",
+      "price": "8.99 USD / month",
+      "country_code": "KW",
+      "source_url": "https://help.netflix.com/en/node/24926/kw"
+    }
+  ],
+  "BH": [
+    {
+      "plan": "Standard",
+      "price": "10.49 USD / month",
+      "country_code": "BH",
+      "source_url": "https://help.netflix.com/en/node/24926/bh"
+    },
+    {
+      "plan": "Premium",
+      "price": "15.79 USD / month",
+      "country_code": "BH",
+      "source_url": "https://help.netflix.com/en/node/24926/bh"
+    },
+    {
+      "plan": "Basic",
+      "price": "7.99 USD / month",
+      "country_code": "BH",
+      "source_url": "https://help.netflix.com/en/node/24926/bh"
+    }
+  ],
+  "OM": [
+    {
+      "plan": "Standard",
+      "price": "10.49 USD / month",
+      "country_code": "OM",
+      "source_url": "https://help.netflix.com/en/node/24926/om"
+    },
+    {
+      "plan": "Premium",
+      "price": "15.79 USD / month",
+      "country_code": "OM",
+      "source_url": "https://help.netflix.com/en/node/24926/om"
+    },
+    {
+      "plan": "Basic",
+      "price": "8.39 USD / month",
+      "country_code": "OM",
+      "source_url": "https://help.netflix.com/en/node/24926/om"
+    }
+  ],
+  "JO": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "JO",
+      "source_url": "https://help.netflix.com/en/node/24926/jo"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "JO",
+      "source_url": "https://help.netflix.com/en/node/24926/jo"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "JO",
+      "source_url": "https://help.netflix.com/en/node/24926/jo"
+    }
+  ],
+  "LB": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "LB",
+      "source_url": "https://help.netflix.com/en/node/24926/lb"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "LB",
+      "source_url": "https://help.netflix.com/en/node/24926/lb"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "LB",
+      "source_url": "https://help.netflix.com/en/node/24926/lb"
+    }
+  ],
+  "IQ": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "IQ",
+      "source_url": "https://help.netflix.com/en/node/24926/iq"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "IQ",
+      "source_url": "https://help.netflix.com/en/node/24926/iq"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "IQ",
+      "source_url": "https://help.netflix.com/en/node/24926/iq"
+    }
+  ],
+  "YE": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "YE",
+      "source_url": "https://help.netflix.com/en/node/24926/ye"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "YE",
+      "source_url": "https://help.netflix.com/en/node/24926/ye"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "YE",
+      "source_url": "https://help.netflix.com/en/node/24926/ye"
+    }
+  ],
+  "IL": [
+    {
+      "plan": "Standard",
+      "price": "54.90 ILS / month",
+      "extra_member_slots": "16.90 ILS / month",
+      "country_code": "IL",
+      "source_url": "https://help.netflix.com/en/node/24926/il"
+    },
+    {
+      "plan": "Premium",
+      "price": "69.90 ILS / month",
+      "extra_member_slots": "16.90 ILS / month",
+      "country_code": "IL",
+      "source_url": "https://help.netflix.com/en/node/24926/il"
+    },
+    {
+      "plan": "Basic",
+      "price": "32.90 ILS / month",
+      "country_code": "IL",
+      "source_url": "https://help.netflix.com/en/node/24926/il"
+    }
+  ],
+  "PS": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "PS",
+      "source_url": "https://help.netflix.com/en/node/24926/ps"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "PS",
+      "source_url": "https://help.netflix.com/en/node/24926/ps"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "PS",
+      "source_url": "https://help.netflix.com/en/node/24926/ps"
+    }
+  ],
+  "CY": [
+    {
+      "plan": "Standard",
+      "price": "12.49 EUR / month",
+      "country_code": "CY",
+      "source_url": "https://help.netflix.com/en/node/24926/cy"
+    },
+    {
+      "plan": "Premium",
+      "price": "15.99 EUR / month",
+      "country_code": "CY",
+      "source_url": "https://help.netflix.com/en/node/24926/cy"
+    },
+    {
+      "plan": "Basic",
+      "price": "8.99 EUR / month",
+      "country_code": "CY",
+      "source_url": "https://help.netflix.com/en/node/24926/cy"
+    }
+  ],
+  "EG": [
+    {
+      "plan": "Standard",
+      "price": "170 EGP / month",
+      "country_code": "EG",
+      "source_url": "https://help.netflix.com/en/node/24926/eg"
+    },
+    {
+      "plan": "Premium",
+      "price": "240 EGP / month",
+      "country_code": "EG",
+      "source_url": "https://help.netflix.com/en/node/24926/eg"
+    },
+    {
+      "plan": "Basic",
+      "price": "100 EGP / month",
+      "country_code": "EG",
+      "source_url": "https://help.netflix.com/en/node/24926/eg"
+    }
+  ],
+  "LY": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "LY",
+      "source_url": "https://help.netflix.com/en/node/24926/ly"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "LY",
+      "source_url": "https://help.netflix.com/en/node/24926/ly"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "LY",
+      "source_url": "https://help.netflix.com/en/node/24926/ly"
+    }
+  ],
+  "TN": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "TN",
+      "source_url": "https://help.netflix.com/en/node/24926/tn"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "TN",
+      "source_url": "https://help.netflix.com/en/node/24926/tn"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "TN",
+      "source_url": "https://help.netflix.com/en/node/24926/tn"
+    }
+  ],
+  "DZ": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "DZ",
+      "source_url": "https://help.netflix.com/en/node/24926/dz"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "DZ",
+      "source_url": "https://help.netflix.com/en/node/24926/dz"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "DZ",
+      "source_url": "https://help.netflix.com/en/node/24926/dz"
+    }
+  ],
+  "MA": [
+    {
+      "plan": "Standard",
+      "price": "65 MAD / month",
+      "country_code": "MA",
+      "source_url": "https://help.netflix.com/en/node/24926/ma"
+    },
+    {
+      "plan": "Premium",
+      "price": "95 MAD / month",
+      "country_code": "MA",
+      "source_url": "https://help.netflix.com/en/node/24926/ma"
+    },
+    {
+      "plan": "Basic",
+      "price": "35 MAD / month",
+      "country_code": "MA",
+      "source_url": "https://help.netflix.com/en/node/24926/ma"
+    }
+  ],
+  "SD": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "SD",
+      "source_url": "https://help.netflix.com/en/node/24926/sd"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "SD",
+      "source_url": "https://help.netflix.com/en/node/24926/sd"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "SD",
+      "source_url": "https://help.netflix.com/en/node/24926/sd"
+    }
+  ],
+  "EH": [
+    {
+      "plan": "Standard",
+      "price": "9.99 USD / month",
+      "country_code": "EH",
+      "source_url": "https://help.netflix.com/en/node/24926/eh"
+    },
+    {
+      "plan": "Premium",
+      "price": "11.99 USD / month",
+      "country_code": "EH",
+      "source_url": "https://help.netflix.com/en/node/24926/eh"
+    },
+    {
+      "plan": "Basic",
+      "price": "7.99 USD / month",
+      "country_code": "EH",
+      "source_url": "https://help.netflix.com/en/node/24926/eh"
+    }
+  ],
+  "NG": [
+    {
+      "plan": "Standard",
+      "price": "6,500 NGN / month",
+      "country_code": "NG",
+      "source_url": "https://help.netflix.com/en/node/24926/ng"
+    },
+    {
+      "plan": "Premium",
+      "price": "8,500 NGN / month",
+      "country_code": "NG",
+      "source_url": "https://help.netflix.com/en/node/24926/ng"
+    },
+    {
+      "plan": "Basic",
+      "price": "4,000 NGN / month",
+      "country_code": "NG",
+      "source_url": "https://help.netflix.com/en/node/24926/ng"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2,500 NGN / month",
+      "country_code": "NG",
+      "source_url": "https://help.netflix.com/en/node/24926/ng"
+    }
+  ],
+  "GH": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "GH",
+      "source_url": "https://help.netflix.com/en/node/24926/gh"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "GH",
+      "source_url": "https://help.netflix.com/en/node/24926/gh"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "GH",
+      "source_url": "https://help.netflix.com/en/node/24926/gh"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "GH",
+      "source_url": "https://help.netflix.com/en/node/24926/gh"
+    }
+  ],
+  "SN": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "SN",
+      "source_url": "https://help.netflix.com/en/node/24926/sn"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "SN",
+      "source_url": "https://help.netflix.com/en/node/24926/sn"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "SN",
+      "source_url": "https://help.netflix.com/en/node/24926/sn"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "SN",
+      "source_url": "https://help.netflix.com/en/node/24926/sn"
+    }
+  ],
+  "ML": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "ML",
+      "source_url": "https://help.netflix.com/en/node/24926/ml"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "ML",
+      "source_url": "https://help.netflix.com/en/node/24926/ml"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "ML",
+      "source_url": "https://help.netflix.com/en/node/24926/ml"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "ML",
+      "source_url": "https://help.netflix.com/en/node/24926/ml"
+    }
+  ],
+  "BF": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "BF",
+      "source_url": "https://help.netflix.com/en/node/24926/bf"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "BF",
+      "source_url": "https://help.netflix.com/en/node/24926/bf"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "BF",
+      "source_url": "https://help.netflix.com/en/node/24926/bf"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "BF",
+      "source_url": "https://help.netflix.com/en/node/24926/bf"
+    }
+  ],
+  "NE": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "NE",
+      "source_url": "https://help.netflix.com/en/node/24926/ne"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "NE",
+      "source_url": "https://help.netflix.com/en/node/24926/ne"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "NE",
+      "source_url": "https://help.netflix.com/en/node/24926/ne"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "NE",
+      "source_url": "https://help.netflix.com/en/node/24926/ne"
+    }
+  ],
+  "GN": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "GN",
+      "source_url": "https://help.netflix.com/en/node/24926/gn"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "GN",
+      "source_url": "https://help.netflix.com/en/node/24926/gn"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "GN",
+      "source_url": "https://help.netflix.com/en/node/24926/gn"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "GN",
+      "source_url": "https://help.netflix.com/en/node/24926/gn"
+    }
+  ],
+  "SL": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "SL",
+      "source_url": "https://help.netflix.com/en/node/24926/sl"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "SL",
+      "source_url": "https://help.netflix.com/en/node/24926/sl"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "SL",
+      "source_url": "https://help.netflix.com/en/node/24926/sl"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "SL",
+      "source_url": "https://help.netflix.com/en/node/24926/sl"
+    }
+  ],
+  "LR": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "LR",
+      "source_url": "https://help.netflix.com/en/node/24926/lr"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "LR",
+      "source_url": "https://help.netflix.com/en/node/24926/lr"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "LR",
+      "source_url": "https://help.netflix.com/en/node/24926/lr"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "LR",
+      "source_url": "https://help.netflix.com/en/node/24926/lr"
+    }
+  ],
+  "CI": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "CI",
+      "source_url": "https://help.netflix.com/en/node/24926/ci"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "CI",
+      "source_url": "https://help.netflix.com/en/node/24926/ci"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "CI",
+      "source_url": "https://help.netflix.com/en/node/24926/ci"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "CI",
+      "source_url": "https://help.netflix.com/en/node/24926/ci"
+    }
+  ],
+  "GM": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "GM",
+      "source_url": "https://help.netflix.com/en/node/24926/gm"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "GM",
+      "source_url": "https://help.netflix.com/en/node/24926/gm"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "GM",
+      "source_url": "https://help.netflix.com/en/node/24926/gm"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "GM",
+      "source_url": "https://help.netflix.com/en/node/24926/gm"
+    }
+  ],
+  "GW": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "GW",
+      "source_url": "https://help.netflix.com/en/node/24926/gw"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "GW",
+      "source_url": "https://help.netflix.com/en/node/24926/gw"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "GW",
+      "source_url": "https://help.netflix.com/en/node/24926/gw"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "GW",
+      "source_url": "https://help.netflix.com/en/node/24926/gw"
+    }
+  ],
+  "CV": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "CV",
+      "source_url": "https://help.netflix.com/en/node/24926/cv"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "CV",
+      "source_url": "https://help.netflix.com/en/node/24926/cv"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "CV",
+      "source_url": "https://help.netflix.com/en/node/24926/cv"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "CV",
+      "source_url": "https://help.netflix.com/en/node/24926/cv"
+    }
+  ],
+  "MR": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "MR",
+      "source_url": "https://help.netflix.com/en/node/24926/mr"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "MR",
+      "source_url": "https://help.netflix.com/en/node/24926/mr"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "MR",
+      "source_url": "https://help.netflix.com/en/node/24926/mr"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "MR",
+      "source_url": "https://help.netflix.com/en/node/24926/mr"
+    }
+  ],
+  "TG": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "TG",
+      "source_url": "https://help.netflix.com/en/node/24926/tg"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "TG",
+      "source_url": "https://help.netflix.com/en/node/24926/tg"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "TG",
+      "source_url": "https://help.netflix.com/en/node/24926/tg"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "TG",
+      "source_url": "https://help.netflix.com/en/node/24926/tg"
+    }
+  ],
+  "BJ": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "BJ",
+      "source_url": "https://help.netflix.com/en/node/24926/bj"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "BJ",
+      "source_url": "https://help.netflix.com/en/node/24926/bj"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "BJ",
+      "source_url": "https://help.netflix.com/en/node/24926/bj"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "BJ",
+      "source_url": "https://help.netflix.com/en/node/24926/bj"
+    }
+  ],
+  "CD": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "CD",
+      "source_url": "https://help.netflix.com/en/node/24926/cd"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "CD",
+      "source_url": "https://help.netflix.com/en/node/24926/cd"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "CD",
+      "source_url": "https://help.netflix.com/en/node/24926/cd"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "CD",
+      "source_url": "https://help.netflix.com/en/node/24926/cd"
+    }
+  ],
+  "CG": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "CG",
+      "source_url": "https://help.netflix.com/en/node/24926/cg"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "CG",
+      "source_url": "https://help.netflix.com/en/node/24926/cg"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "CG",
+      "source_url": "https://help.netflix.com/en/node/24926/cg"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "CG",
+      "source_url": "https://help.netflix.com/en/node/24926/cg"
+    }
+  ],
+  "CF": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "CF",
+      "source_url": "https://help.netflix.com/en/node/24926/cf"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "CF",
+      "source_url": "https://help.netflix.com/en/node/24926/cf"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "CF",
+      "source_url": "https://help.netflix.com/en/node/24926/cf"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "CF",
+      "source_url": "https://help.netflix.com/en/node/24926/cf"
+    }
+  ],
+  "CM": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "CM",
+      "source_url": "https://help.netflix.com/en/node/24926/cm"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "CM",
+      "source_url": "https://help.netflix.com/en/node/24926/cm"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "CM",
+      "source_url": "https://help.netflix.com/en/node/24926/cm"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "CM",
+      "source_url": "https://help.netflix.com/en/node/24926/cm"
+    }
+  ],
+  "TD": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "TD",
+      "source_url": "https://help.netflix.com/en/node/24926/td"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "TD",
+      "source_url": "https://help.netflix.com/en/node/24926/td"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "TD",
+      "source_url": "https://help.netflix.com/en/node/24926/td"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "TD",
+      "source_url": "https://help.netflix.com/en/node/24926/td"
+    }
+  ],
+  "GQ": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "GQ",
+      "source_url": "https://help.netflix.com/en/node/24926/gq"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "GQ",
+      "source_url": "https://help.netflix.com/en/node/24926/gq"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "GQ",
+      "source_url": "https://help.netflix.com/en/node/24926/gq"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "GQ",
+      "source_url": "https://help.netflix.com/en/node/24926/gq"
+    }
+  ],
+  "GA": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "GA",
+      "source_url": "https://help.netflix.com/en/node/24926/ga"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "GA",
+      "source_url": "https://help.netflix.com/en/node/24926/ga"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "GA",
+      "source_url": "https://help.netflix.com/en/node/24926/ga"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "GA",
+      "source_url": "https://help.netflix.com/en/node/24926/ga"
+    }
+  ],
+  "ST": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "ST",
+      "source_url": "https://help.netflix.com/en/node/24926/st"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "ST",
+      "source_url": "https://help.netflix.com/en/node/24926/st"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "ST",
+      "source_url": "https://help.netflix.com/en/node/24926/st"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "ST",
+      "source_url": "https://help.netflix.com/en/node/24926/st"
+    }
+  ],
+  "AO": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "AO",
+      "source_url": "https://help.netflix.com/en/node/24926/ao"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "AO",
+      "source_url": "https://help.netflix.com/en/node/24926/ao"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "AO",
+      "source_url": "https://help.netflix.com/en/node/24926/ao"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "AO",
+      "source_url": "https://help.netflix.com/en/node/24926/ao"
+    }
+  ],
+  "ET": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "ET",
+      "source_url": "https://help.netflix.com/en/node/24926/et"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "ET",
+      "source_url": "https://help.netflix.com/en/node/24926/et"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "ET",
+      "source_url": "https://help.netflix.com/en/node/24926/et"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "ET",
+      "source_url": "https://help.netflix.com/en/node/24926/et"
+    }
+  ],
+  "KE": [
+    {
+      "plan": "Standard",
+      "price": "700 KES / month",
+      "country_code": "KE",
+      "source_url": "https://help.netflix.com/en/node/24926/ke"
+    },
+    {
+      "plan": "Premium",
+      "price": "1,100 KES / month",
+      "country_code": "KE",
+      "source_url": "https://help.netflix.com/en/node/24926/ke"
+    },
+    {
+      "plan": "Basic",
+      "price": "300 KES / month",
+      "country_code": "KE",
+      "source_url": "https://help.netflix.com/en/node/24926/ke"
+    },
+    {
+      "plan": "Mobile",
+      "price": "200 KES / month",
+      "country_code": "KE",
+      "source_url": "https://help.netflix.com/en/node/24926/ke"
+    }
+  ],
+  "UG": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "UG",
+      "source_url": "https://help.netflix.com/en/node/24926/ug"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "UG",
+      "source_url": "https://help.netflix.com/en/node/24926/ug"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "UG",
+      "source_url": "https://help.netflix.com/en/node/24926/ug"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "UG",
+      "source_url": "https://help.netflix.com/en/node/24926/ug"
+    }
+  ],
+  "TZ": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "TZ",
+      "source_url": "https://help.netflix.com/en/node/24926/tz"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "TZ",
+      "source_url": "https://help.netflix.com/en/node/24926/tz"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "TZ",
+      "source_url": "https://help.netflix.com/en/node/24926/tz"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "TZ",
+      "source_url": "https://help.netflix.com/en/node/24926/tz"
+    }
+  ],
+  "RW": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "RW",
+      "source_url": "https://help.netflix.com/en/node/24926/rw"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "RW",
+      "source_url": "https://help.netflix.com/en/node/24926/rw"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "RW",
+      "source_url": "https://help.netflix.com/en/node/24926/rw"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "RW",
+      "source_url": "https://help.netflix.com/en/node/24926/rw"
+    }
+  ],
+  "BI": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "BI",
+      "source_url": "https://help.netflix.com/en/node/24926/bi"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "BI",
+      "source_url": "https://help.netflix.com/en/node/24926/bi"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "BI",
+      "source_url": "https://help.netflix.com/en/node/24926/bi"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "BI",
+      "source_url": "https://help.netflix.com/en/node/24926/bi"
+    }
+  ],
+  "SO": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "SO",
+      "source_url": "https://help.netflix.com/en/node/24926/so"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "SO",
+      "source_url": "https://help.netflix.com/en/node/24926/so"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "SO",
+      "source_url": "https://help.netflix.com/en/node/24926/so"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "SO",
+      "source_url": "https://help.netflix.com/en/node/24926/so"
+    }
+  ],
+  "DJ": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "DJ",
+      "source_url": "https://help.netflix.com/en/node/24926/dj"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "DJ",
+      "source_url": "https://help.netflix.com/en/node/24926/dj"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "DJ",
+      "source_url": "https://help.netflix.com/en/node/24926/dj"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "DJ",
+      "source_url": "https://help.netflix.com/en/node/24926/dj"
+    }
+  ],
+  "ER": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "ER",
+      "source_url": "https://help.netflix.com/en/node/24926/er"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "ER",
+      "source_url": "https://help.netflix.com/en/node/24926/er"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "ER",
+      "source_url": "https://help.netflix.com/en/node/24926/er"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "ER",
+      "source_url": "https://help.netflix.com/en/node/24926/er"
+    }
+  ],
+  "SS": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "SS",
+      "source_url": "https://help.netflix.com/en/node/24926/ss"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "SS",
+      "source_url": "https://help.netflix.com/en/node/24926/ss"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "SS",
+      "source_url": "https://help.netflix.com/en/node/24926/ss"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "SS",
+      "source_url": "https://help.netflix.com/en/node/24926/ss"
+    }
+  ],
+  "MG": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "MG",
+      "source_url": "https://help.netflix.com/en/node/24926/mg"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "MG",
+      "source_url": "https://help.netflix.com/en/node/24926/mg"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "MG",
+      "source_url": "https://help.netflix.com/en/node/24926/mg"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "MG",
+      "source_url": "https://help.netflix.com/en/node/24926/mg"
+    }
+  ],
+  "MU": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "MU",
+      "source_url": "https://help.netflix.com/en/node/24926/mu"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "MU",
+      "source_url": "https://help.netflix.com/en/node/24926/mu"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "MU",
+      "source_url": "https://help.netflix.com/en/node/24926/mu"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "MU",
+      "source_url": "https://help.netflix.com/en/node/24926/mu"
+    }
+  ],
+  "SC": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "SC",
+      "source_url": "https://help.netflix.com/en/node/24926/sc"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "SC",
+      "source_url": "https://help.netflix.com/en/node/24926/sc"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "SC",
+      "source_url": "https://help.netflix.com/en/node/24926/sc"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "SC",
+      "source_url": "https://help.netflix.com/en/node/24926/sc"
+    }
+  ],
+  "KM": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "KM",
+      "source_url": "https://help.netflix.com/en/node/24926/km"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "KM",
+      "source_url": "https://help.netflix.com/en/node/24926/km"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "KM",
+      "source_url": "https://help.netflix.com/en/node/24926/km"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "KM",
+      "source_url": "https://help.netflix.com/en/node/24926/km"
+    }
+  ],
+  "YT": [
+    {
+      "plan": "Standard",
+      "price": "14.99 EUR / month",
+      "country_code": "YT",
+      "source_url": "https://help.netflix.com/en/node/24926/yt"
+    },
+    {
+      "plan": "Premium",
+      "price": "21.99 EUR / month",
+      "country_code": "YT",
+      "source_url": "https://help.netflix.com/en/node/24926/yt"
+    },
+    {
+      "plan": "Basic",
+      "price": "11.99 EUR / month",
+      "country_code": "YT",
+      "source_url": "https://help.netflix.com/en/node/24926/yt"
+    }
+  ],
+  "RE": [
+    {
+      "plan": "Standard",
+      "price": "13.49 EUR / month",
+      "country_code": "RE",
+      "source_url": "https://help.netflix.com/en/node/24926/re"
+    },
+    {
+      "plan": "Premium",
+      "price": "17.99 EUR / month",
+      "country_code": "RE",
+      "source_url": "https://help.netflix.com/en/node/24926/re"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 EUR / month",
+      "country_code": "RE",
+      "source_url": "https://help.netflix.com/en/node/24926/re"
+    }
+  ],
+  "ZA": [
+    {
+      "plan": "Standard",
+      "price": "179 ZAR / month",
+      "country_code": "ZA",
+      "source_url": "https://help.netflix.com/en/node/24926/za"
+    },
+    {
+      "plan": "Premium",
+      "price": "229 ZAR / month",
+      "country_code": "ZA",
+      "source_url": "https://help.netflix.com/en/node/24926/za"
+    },
+    {
+      "plan": "Basic",
+      "price": "99 ZAR / month",
+      "country_code": "ZA",
+      "source_url": "https://help.netflix.com/en/node/24926/za"
+    },
+    {
+      "plan": "Mobile",
+      "price": "59 ZAR / month",
+      "country_code": "ZA",
+      "source_url": "https://help.netflix.com/en/node/24926/za"
+    }
+  ],
+  "NA": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "NA",
+      "source_url": "https://help.netflix.com/en/node/24926/na"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "NA",
+      "source_url": "https://help.netflix.com/en/node/24926/na"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "NA",
+      "source_url": "https://help.netflix.com/en/node/24926/na"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "NA",
+      "source_url": "https://help.netflix.com/en/node/24926/na"
+    }
+  ],
+  "BW": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "BW",
+      "source_url": "https://help.netflix.com/en/node/24926/bw"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "BW",
+      "source_url": "https://help.netflix.com/en/node/24926/bw"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "BW",
+      "source_url": "https://help.netflix.com/en/node/24926/bw"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "BW",
+      "source_url": "https://help.netflix.com/en/node/24926/bw"
+    }
+  ],
+  "ZW": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "ZW",
+      "source_url": "https://help.netflix.com/en/node/24926/zw"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "ZW",
+      "source_url": "https://help.netflix.com/en/node/24926/zw"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "ZW",
+      "source_url": "https://help.netflix.com/en/node/24926/zw"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "ZW",
+      "source_url": "https://help.netflix.com/en/node/24926/zw"
+    }
+  ],
+  "ZM": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "ZM",
+      "source_url": "https://help.netflix.com/en/node/24926/zm"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "ZM",
+      "source_url": "https://help.netflix.com/en/node/24926/zm"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "ZM",
+      "source_url": "https://help.netflix.com/en/node/24926/zm"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "ZM",
+      "source_url": "https://help.netflix.com/en/node/24926/zm"
+    }
+  ],
+  "MW": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "MW",
+      "source_url": "https://help.netflix.com/en/node/24926/mw"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "MW",
+      "source_url": "https://help.netflix.com/en/node/24926/mw"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "MW",
+      "source_url": "https://help.netflix.com/en/node/24926/mw"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "MW",
+      "source_url": "https://help.netflix.com/en/node/24926/mw"
+    }
+  ],
+  "MZ": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "MZ",
+      "source_url": "https://help.netflix.com/en/node/24926/mz"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "MZ",
+      "source_url": "https://help.netflix.com/en/node/24926/mz"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "MZ",
+      "source_url": "https://help.netflix.com/en/node/24926/mz"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "MZ",
+      "source_url": "https://help.netflix.com/en/node/24926/mz"
+    }
+  ],
+  "SZ": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "SZ",
+      "source_url": "https://help.netflix.com/en/node/24926/sz"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "SZ",
+      "source_url": "https://help.netflix.com/en/node/24926/sz"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "SZ",
+      "source_url": "https://help.netflix.com/en/node/24926/sz"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "SZ",
+      "source_url": "https://help.netflix.com/en/node/24926/sz"
+    }
+  ],
+  "LS": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "LS",
+      "source_url": "https://help.netflix.com/en/node/24926/ls"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "LS",
+      "source_url": "https://help.netflix.com/en/node/24926/ls"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "LS",
+      "source_url": "https://help.netflix.com/en/node/24926/ls"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "LS",
+      "source_url": "https://help.netflix.com/en/node/24926/ls"
+    }
+  ],
+  "AU": [
+    {
+      "plan": "Standard",
+      "price": "20.99 AUD / month",
+      "country_code": "AU",
+      "source_url": "https://help.netflix.com/en/node/24926/au"
+    },
+    {
+      "plan": "Premium",
+      "price": "28.99 AUD / month",
+      "country_code": "AU",
+      "source_url": "https://help.netflix.com/en/node/24926/au"
+    },
+    {
+      "plan": "Standard with ads",
+      "price": "9.99 AUD / month",
+      "country_code": "AU",
+      "source_url": "https://help.netflix.com/en/node/24926/au"
+    }
+  ],
+  "NZ": [
+    {
+      "plan": "Basic",
+      "price": "17.99 NZD / month",
+      "country_code": "NZ",
+      "source_url": "https://help.netflix.com/en/node/24926/nz"
+    },
+    {
+      "plan": "Standard",
+      "price": "25.99 NZD / month",
+      "country_code": "NZ",
+      "source_url": "https://help.netflix.com/en/node/24926/nz"
+    },
+    {
+      "plan": "Premium",
+      "price": "33.99 NZD / month",
+      "country_code": "NZ",
+      "source_url": "https://help.netflix.com/en/node/24926/nz"
+    }
+  ],
+  "PG": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "PG",
+      "source_url": "https://help.netflix.com/en/node/24926/pg"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "PG",
+      "source_url": "https://help.netflix.com/en/node/24926/pg"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "PG",
+      "source_url": "https://help.netflix.com/en/node/24926/pg"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "PG",
+      "source_url": "https://help.netflix.com/en/node/24926/pg"
+    }
+  ],
+  "FJ": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "FJ",
+      "source_url": "https://help.netflix.com/en/node/24926/fj"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "FJ",
+      "source_url": "https://help.netflix.com/en/node/24926/fj"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "FJ",
+      "source_url": "https://help.netflix.com/en/node/24926/fj"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "FJ",
+      "source_url": "https://help.netflix.com/en/node/24926/fj"
+    }
+  ],
+  "SB": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "SB",
+      "source_url": "https://help.netflix.com/en/node/24926/sb"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "SB",
+      "source_url": "https://help.netflix.com/en/node/24926/sb"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "SB",
+      "source_url": "https://help.netflix.com/en/node/24926/sb"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "SB",
+      "source_url": "https://help.netflix.com/en/node/24926/sb"
+    }
+  ],
+  "VU": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "VU",
+      "source_url": "https://help.netflix.com/en/node/24926/vu"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "VU",
+      "source_url": "https://help.netflix.com/en/node/24926/vu"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "VU",
+      "source_url": "https://help.netflix.com/en/node/24926/vu"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "VU",
+      "source_url": "https://help.netflix.com/en/node/24926/vu"
+    }
+  ],
+  "NC": [
+    {
+      "plan": "Standard",
+      "price": "13.99 USD / month",
+      "country_code": "NC",
+      "source_url": "https://help.netflix.com/en/node/24926/nc"
+    },
+    {
+      "plan": "Premium",
+      "price": "17.99 USD / month",
+      "country_code": "NC",
+      "source_url": "https://help.netflix.com/en/node/24926/nc"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "NC",
+      "source_url": "https://help.netflix.com/en/node/24926/nc"
+    },
+    {
+      "plan": "Mobile",
+      "price": "6.49 USD / month",
+      "country_code": "NC",
+      "source_url": "https://help.netflix.com/en/node/24926/nc"
+    }
+  ],
+  "PF": [
+    {
+      "plan": "Standard",
+      "price": "13.99 USD / month",
+      "country_code": "PF",
+      "source_url": "https://help.netflix.com/en/node/24926/pf"
+    },
+    {
+      "plan": "Premium",
+      "price": "17.99 USD / month",
+      "country_code": "PF",
+      "source_url": "https://help.netflix.com/en/node/24926/pf"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "PF",
+      "source_url": "https://help.netflix.com/en/node/24926/pf"
+    },
+    {
+      "plan": "Mobile",
+      "price": "6.49 USD / month",
+      "country_code": "PF",
+      "source_url": "https://help.netflix.com/en/node/24926/pf"
+    }
+  ],
+  "CK": [
+    {
+      "plan": "Basic",
+      "price": "17.99 NZD / month",
+      "country_code": "CK",
+      "source_url": "https://help.netflix.com/en/node/24926/ck"
+    },
+    {
+      "plan": "Standard",
+      "price": "25.99 NZD / month",
+      "country_code": "CK",
+      "source_url": "https://help.netflix.com/en/node/24926/ck"
+    },
+    {
+      "plan": "Premium",
+      "price": "33.99 NZD / month",
+      "country_code": "CK",
+      "source_url": "https://help.netflix.com/en/node/24926/ck"
+    }
+  ],
+  "TO": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "TO",
+      "source_url": "https://help.netflix.com/en/node/24926/to"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "TO",
+      "source_url": "https://help.netflix.com/en/node/24926/to"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "TO",
+      "source_url": "https://help.netflix.com/en/node/24926/to"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "TO",
+      "source_url": "https://help.netflix.com/en/node/24926/to"
+    }
+  ],
+  "WS": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "WS",
+      "source_url": "https://help.netflix.com/en/node/24926/ws"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "WS",
+      "source_url": "https://help.netflix.com/en/node/24926/ws"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "WS",
+      "source_url": "https://help.netflix.com/en/node/24926/ws"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "WS",
+      "source_url": "https://help.netflix.com/en/node/24926/ws"
+    }
+  ],
+  "KI": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "KI",
+      "source_url": "https://help.netflix.com/en/node/24926/ki"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "KI",
+      "source_url": "https://help.netflix.com/en/node/24926/ki"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "KI",
+      "source_url": "https://help.netflix.com/en/node/24926/ki"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "KI",
+      "source_url": "https://help.netflix.com/en/node/24926/ki"
+    }
+  ],
+  "TV": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "TV",
+      "source_url": "https://help.netflix.com/en/node/24926/tv"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "TV",
+      "source_url": "https://help.netflix.com/en/node/24926/tv"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "TV",
+      "source_url": "https://help.netflix.com/en/node/24926/tv"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "TV",
+      "source_url": "https://help.netflix.com/en/node/24926/tv"
+    }
+  ],
+  "NU": [
+    {
+      "plan": "Basic",
+      "price": "17.99 NZD / month",
+      "country_code": "NU",
+      "source_url": "https://help.netflix.com/en/node/24926/nu"
+    },
+    {
+      "plan": "Standard",
+      "price": "25.99 NZD / month",
+      "country_code": "NU",
+      "source_url": "https://help.netflix.com/en/node/24926/nu"
+    },
+    {
+      "plan": "Premium",
+      "price": "33.99 NZD / month",
+      "country_code": "NU",
+      "source_url": "https://help.netflix.com/en/node/24926/nu"
+    }
+  ],
+  "PW": [
+    {
+      "plan": "Standard with ads",
+      "price": "7.99 USD / month",
+      "country_code": "PW",
+      "source_url": "https://help.netflix.com/en/node/24926/pw"
+    },
+    {
+      "plan": "Standard",
+      "price": "17.99 USD / month",
+      "country_code": "PW",
+      "source_url": "https://help.netflix.com/en/node/24926/pw"
+    },
+    {
+      "plan": "Premium",
+      "price": "24.99 USD / month",
+      "country_code": "PW",
+      "source_url": "https://help.netflix.com/en/node/24926/pw"
+    }
+  ],
+  "MH": [
+    {
+      "plan": "Standard with ads",
+      "price": "7.99 USD / month",
+      "country_code": "MH",
+      "source_url": "https://help.netflix.com/en/node/24926/mh"
+    },
+    {
+      "plan": "Standard",
+      "price": "17.99 USD / month",
+      "country_code": "MH",
+      "source_url": "https://help.netflix.com/en/node/24926/mh"
+    },
+    {
+      "plan": "Premium",
+      "price": "24.99 USD / month",
+      "country_code": "MH",
+      "source_url": "https://help.netflix.com/en/node/24926/mh"
+    }
+  ],
+  "FM": [
+    {
+      "plan": "Standard with ads",
+      "price": "7.99 USD / month",
+      "country_code": "FM",
+      "source_url": "https://help.netflix.com/en/node/24926/fm"
+    },
+    {
+      "plan": "Standard",
+      "price": "17.99 USD / month",
+      "country_code": "FM",
+      "source_url": "https://help.netflix.com/en/node/24926/fm"
+    },
+    {
+      "plan": "Premium",
+      "price": "24.99 USD / month",
+      "country_code": "FM",
+      "source_url": "https://help.netflix.com/en/node/24926/fm"
+    }
+  ],
+  "NR": [
+    {
+      "plan": "Standard",
+      "price": "13.99 USD / month",
+      "country_code": "NR",
+      "source_url": "https://help.netflix.com/en/node/24926/nr"
+    },
+    {
+      "plan": "Premium",
+      "price": "17.99 USD / month",
+      "country_code": "NR",
+      "source_url": "https://help.netflix.com/en/node/24926/nr"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "NR",
+      "source_url": "https://help.netflix.com/en/node/24926/nr"
+    },
+    {
+      "plan": "Mobile",
+      "price": "6.49 USD / month",
+      "country_code": "NR",
+      "source_url": "https://help.netflix.com/en/node/24926/nr"
+    }
+  ],
+  "GL": [
+    {
+      "plan": "Basic",
+      "price": "89 USD / month",
+      "country_code": "GL",
+      "source_url": "https://help.netflix.com/en/node/24926/gl"
+    },
+    {
+      "plan": "Standard",
+      "price": "129 USD / month",
+      "extra_member_slots": "39 kr / month",
+      "country_code": "GL",
+      "source_url": "https://help.netflix.com/en/node/24926/gl"
+    },
+    {
+      "plan": "Premium",
+      "price": "169 USD / month",
+      "extra_member_slots": "39 kr / month",
+      "country_code": "GL",
+      "source_url": "https://help.netflix.com/en/node/24926/gl"
+    }
+  ],
+  "FO": [
+    {
+      "plan": "Basic",
+      "price": "89 USD / month",
+      "country_code": "FO",
+      "source_url": "https://help.netflix.com/en/node/24926/fo"
+    },
+    {
+      "plan": "Standard",
+      "price": "129 USD / month",
+      "country_code": "FO",
+      "source_url": "https://help.netflix.com/en/node/24926/fo"
+    },
+    {
+      "plan": "Premium",
+      "price": "169 USD / month",
+      "country_code": "FO",
+      "source_url": "https://help.netflix.com/en/node/24926/fo"
+    }
+  ],
+  "AX": [
+    {
+      "plan": "Standard",
+      "price": "13.99 EUR / month",
+      "country_code": "AX",
+      "source_url": "https://help.netflix.com/en/node/24926/ax"
+    },
+    {
+      "plan": "Premium",
+      "price": "17.99 EUR / month",
+      "country_code": "AX",
+      "source_url": "https://help.netflix.com/en/node/24926/ax"
+    },
+    {
+      "plan": "Basic",
+      "price": "9.49 EUR / month",
+      "country_code": "AX",
+      "source_url": "https://help.netflix.com/en/node/24926/ax"
+    }
+  ],
+  "SJ": [
+    {
+      "plan": "Basic",
+      "price": "99 NOK / month",
+      "country_code": "SJ",
+      "source_url": "https://help.netflix.com/en/node/24926/sj"
+    },
+    {
+      "plan": "Standard",
+      "price": "129 NOK / month",
+      "country_code": "SJ",
+      "source_url": "https://help.netflix.com/en/node/24926/sj"
+    },
+    {
+      "plan": "Premium",
+      "price": "189 NOK / month",
+      "country_code": "SJ",
+      "source_url": "https://help.netflix.com/en/node/24926/sj"
+    }
+  ],
+  "BV": [
+    {
+      "plan": "Standard",
+      "price": "9.99 USD / month",
+      "country_code": "BV",
+      "source_url": "https://help.netflix.com/en/node/24926/bv"
+    },
+    {
+      "plan": "Premium",
+      "price": "11.99 USD / month",
+      "country_code": "BV",
+      "source_url": "https://help.netflix.com/en/node/24926/bv"
+    },
+    {
+      "plan": "Basic",
+      "price": "7.99 USD / month",
+      "country_code": "BV",
+      "source_url": "https://help.netflix.com/en/node/24926/bv"
+    }
+  ],
+  "HM": [
+    {
+      "plan": "Standard",
+      "price": "17.99 USD / month",
+      "country_code": "HM",
+      "source_url": "https://help.netflix.com/en/node/24926/hm"
+    },
+    {
+      "plan": "Premium",
+      "price": "24.99 USD / month",
+      "country_code": "HM",
+      "source_url": "https://help.netflix.com/en/node/24926/hm"
+    },
+    {
+      "plan": "Basic",
+      "price": "11.99 USD / month",
+      "country_code": "HM",
+      "source_url": "https://help.netflix.com/en/node/24926/hm"
+    }
+  ],
+  "NF": [
+    {
+      "plan": "Basic",
+      "price": "12.99 AUD / month",
+      "country_code": "NF",
+      "source_url": "https://help.netflix.com/en/node/24926/nf"
+    },
+    {
+      "plan": "Standard",
+      "price": "18.99 AUD / month",
+      "country_code": "NF",
+      "source_url": "https://help.netflix.com/en/node/24926/nf"
+    },
+    {
+      "plan": "Premium",
+      "price": "25.99 AUD / month",
+      "country_code": "NF",
+      "source_url": "https://help.netflix.com/en/node/24926/nf"
+    }
+  ],
+  "CX": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "CX",
+      "source_url": "https://help.netflix.com/en/node/24926/cx"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "CX",
+      "source_url": "https://help.netflix.com/en/node/24926/cx"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "CX",
+      "source_url": "https://help.netflix.com/en/node/24926/cx"
+    }
+  ],
+  "CC": [
+    {
+      "plan": "Basic",
+      "price": "12.99 AUD / month",
+      "country_code": "CC",
+      "source_url": "https://help.netflix.com/en/node/24926/cc"
+    },
+    {
+      "plan": "Standard",
+      "price": "18.99 AUD / month",
+      "country_code": "CC",
+      "source_url": "https://help.netflix.com/en/node/24926/cc"
+    },
+    {
+      "plan": "Premium",
+      "price": "25.99 AUD / month",
+      "country_code": "CC",
+      "source_url": "https://help.netflix.com/en/node/24926/cc"
+    }
+  ],
+  "TF": [
+    {
+      "plan": "Standard",
+      "price": "14.99 EUR / month",
+      "country_code": "TF",
+      "source_url": "https://help.netflix.com/en/node/24926/tf"
+    },
+    {
+      "plan": "Premium",
+      "price": "21.99 EUR / month",
+      "country_code": "TF",
+      "source_url": "https://help.netflix.com/en/node/24926/tf"
+    }
+  ],
+  "AS": [
+    {
+      "plan": "Standard with ads",
+      "price": "7.99 USD / month",
+      "country_code": "AS",
+      "source_url": "https://help.netflix.com/en/node/24926/as"
+    },
+    {
+      "plan": "Standard",
+      "price": "17.99 USD / month",
+      "country_code": "AS",
+      "source_url": "https://help.netflix.com/en/node/24926/as"
+    },
+    {
+      "plan": "Premium",
+      "price": "24.99 USD / month",
+      "country_code": "AS",
+      "source_url": "https://help.netflix.com/en/node/24926/as"
+    }
+  ],
+  "GU": [
+    {
+      "plan": "Standard with ads",
+      "price": "7.99 USD / month",
+      "country_code": "GU",
+      "source_url": "https://help.netflix.com/en/node/24926/gu"
+    },
+    {
+      "plan": "Standard",
+      "price": "17.99 USD / month",
+      "country_code": "GU",
+      "source_url": "https://help.netflix.com/en/node/24926/gu"
+    },
+    {
+      "plan": "Premium",
+      "price": "24.99 USD / month",
+      "country_code": "GU",
+      "source_url": "https://help.netflix.com/en/node/24926/gu"
+    }
+  ],
+  "MP": [
+    {
+      "plan": "Standard with ads",
+      "price": "7.99 USD / month",
+      "country_code": "MP",
+      "source_url": "https://help.netflix.com/en/node/24926/mp"
+    },
+    {
+      "plan": "Standard",
+      "price": "17.99 USD / month",
+      "country_code": "MP",
+      "source_url": "https://help.netflix.com/en/node/24926/mp"
+    },
+    {
+      "plan": "Premium",
+      "price": "24.99 USD / month",
+      "country_code": "MP",
+      "source_url": "https://help.netflix.com/en/node/24926/mp"
+    }
+  ],
+  "VI": [
+    {
+      "plan": "Standard with ads",
+      "price": "7.99 USD / month",
+      "country_code": "VI",
+      "source_url": "https://help.netflix.com/en/node/24926/vi"
+    },
+    {
+      "plan": "Standard",
+      "price": "17.99 USD / month",
+      "country_code": "VI",
+      "source_url": "https://help.netflix.com/en/node/24926/vi"
+    },
+    {
+      "plan": "Premium",
+      "price": "24.99 USD / month",
+      "country_code": "VI",
+      "source_url": "https://help.netflix.com/en/node/24926/vi"
+    }
+  ],
+  "PR": [
+    {
+      "plan": "Standard with ads",
+      "price": "7.99 USD / month",
+      "country_code": "PR",
+      "source_url": "https://help.netflix.com/en/node/24926/pr"
+    },
+    {
+      "plan": "Standard",
+      "price": "17.99 USD / month",
+      "country_code": "PR",
+      "source_url": "https://help.netflix.com/en/node/24926/pr"
+    },
+    {
+      "plan": "Premium",
+      "price": "24.99 USD / month",
+      "country_code": "PR",
+      "source_url": "https://help.netflix.com/en/node/24926/pr"
+    }
+  ],
+  "UM": [
+    {
+      "plan": "Standard",
+      "price": "17.99 USD / month",
+      "country_code": "UM",
+      "source_url": "https://help.netflix.com/en/node/24926/um"
+    },
+    {
+      "plan": "Premium",
+      "price": "24.99 USD / month",
+      "country_code": "UM",
+      "source_url": "https://help.netflix.com/en/node/24926/um"
+    },
+    {
+      "plan": "Basic",
+      "price": "11.99 USD / month",
+      "country_code": "UM",
+      "source_url": "https://help.netflix.com/en/node/24926/um"
+    }
+  ],
+  "MQ": [
+    {
+      "plan": "Standard",
+      "price": "14.99 EUR / month",
+      "country_code": "MQ",
+      "source_url": "https://help.netflix.com/en/node/24926/mq"
+    },
+    {
+      "plan": "Premium",
+      "price": "21.99 EUR / month",
+      "country_code": "MQ",
+      "source_url": "https://help.netflix.com/en/node/24926/mq"
+    },
+    {
+      "plan": "Basic",
+      "price": "11.99 EUR / month",
+      "country_code": "MQ",
+      "source_url": "https://help.netflix.com/en/node/24926/mq"
+    }
+  ],
+  "GP": [
+    {
+      "plan": "Standard",
+      "price": "14.99 EUR / month",
+      "country_code": "GP",
+      "source_url": "https://help.netflix.com/en/node/24926/gp"
+    },
+    {
+      "plan": "Premium",
+      "price": "21.99 EUR / month",
+      "country_code": "GP",
+      "source_url": "https://help.netflix.com/en/node/24926/gp"
+    },
+    {
+      "plan": "Basic",
+      "price": "11.99 EUR / month",
+      "country_code": "GP",
+      "source_url": "https://help.netflix.com/en/node/24926/gp"
+    }
+  ],
+  "BL": [
+    {
+      "plan": "Standard",
+      "price": "5.99 USD / month",
+      "country_code": "BL",
+      "source_url": "https://help.netflix.com/en/node/24926/bl"
+    },
+    {
+      "plan": "Premium",
+      "price": "7.99 USD / month",
+      "country_code": "BL",
+      "source_url": "https://help.netflix.com/en/node/24926/bl"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "BL",
+      "source_url": "https://help.netflix.com/en/node/24926/bl"
+    }
+  ],
+  "MF": [
+    {
+      "plan": "Standard",
+      "price": "5.99 USD / month",
+      "country_code": "MF",
+      "source_url": "https://help.netflix.com/en/node/24926/mf"
+    },
+    {
+      "plan": "Premium",
+      "price": "7.99 USD / month",
+      "country_code": "MF",
+      "source_url": "https://help.netflix.com/en/node/24926/mf"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "MF",
+      "source_url": "https://help.netflix.com/en/node/24926/mf"
+    }
+  ],
+  "PM": [
+    {
+      "plan": "Standard",
+      "price": "14.99 EUR / month",
+      "country_code": "PM",
+      "source_url": "https://help.netflix.com/en/node/24926/pm"
+    },
+    {
+      "plan": "Premium",
+      "price": "21.99 EUR / month",
+      "country_code": "PM",
+      "source_url": "https://help.netflix.com/en/node/24926/pm"
+    },
+    {
+      "plan": "Basic",
+      "price": "11.99 EUR / month",
+      "country_code": "PM",
+      "source_url": "https://help.netflix.com/en/node/24926/pm"
+    }
+  ],
+  "WF": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "WF",
+      "source_url": "https://help.netflix.com/en/node/24926/wf"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "WF",
+      "source_url": "https://help.netflix.com/en/node/24926/wf"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "WF",
+      "source_url": "https://help.netflix.com/en/node/24926/wf"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "WF",
+      "source_url": "https://help.netflix.com/en/node/24926/wf"
+    }
+  ],
+  "MS": [
+    {
+      "plan": "Standard",
+      "price": "15.49 USD / month",
+      "country_code": "MS",
+      "source_url": "https://help.netflix.com/en/node/24926/ms"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 USD / month",
+      "country_code": "MS",
+      "source_url": "https://help.netflix.com/en/node/24926/ms"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "MS",
+      "source_url": "https://help.netflix.com/en/node/24926/ms"
+    }
+  ],
+  "TC": [
+    {
+      "plan": "Standard",
+      "price": "15.49 USD / month",
+      "country_code": "TC",
+      "source_url": "https://help.netflix.com/en/node/24926/tc"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 USD / month",
+      "country_code": "TC",
+      "source_url": "https://help.netflix.com/en/node/24926/tc"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "TC",
+      "source_url": "https://help.netflix.com/en/node/24926/tc"
+    }
+  ],
+  "VG": [
+    {
+      "plan": "Standard",
+      "price": "15.49 USD / month",
+      "country_code": "VG",
+      "source_url": "https://help.netflix.com/en/node/24926/vg"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 USD / month",
+      "country_code": "VG",
+      "source_url": "https://help.netflix.com/en/node/24926/vg"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "VG",
+      "source_url": "https://help.netflix.com/en/node/24926/vg"
+    }
+  ],
+  "AI": [
+    {
+      "plan": "Standard",
+      "price": "15.49 USD / month",
+      "country_code": "AI",
+      "source_url": "https://help.netflix.com/en/node/24926/ai"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 USD / month",
+      "country_code": "AI",
+      "source_url": "https://help.netflix.com/en/node/24926/ai"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "AI",
+      "source_url": "https://help.netflix.com/en/node/24926/ai"
+    }
+  ],
+  "BM": [
+    {
+      "plan": "Standard",
+      "price": "15.49 USD / month",
+      "country_code": "BM",
+      "source_url": "https://help.netflix.com/en/node/24926/bm"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 USD / month",
+      "country_code": "BM",
+      "source_url": "https://help.netflix.com/en/node/24926/bm"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "BM",
+      "source_url": "https://help.netflix.com/en/node/24926/bm"
+    }
+  ],
+  "KY": [
+    {
+      "plan": "Standard",
+      "price": "15.49 USD / month",
+      "country_code": "KY",
+      "source_url": "https://help.netflix.com/en/node/24926/ky"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 USD / month",
+      "country_code": "KY",
+      "source_url": "https://help.netflix.com/en/node/24926/ky"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "KY",
+      "source_url": "https://help.netflix.com/en/node/24926/ky"
+    }
+  ],
+  "FK": [
+    {
+      "plan": "Standard",
+      "price": "17.99 USD / month",
+      "country_code": "FK",
+      "source_url": "https://help.netflix.com/en/node/24926/fk"
+    },
+    {
+      "plan": "Premium",
+      "price": "24.99 USD / month",
+      "country_code": "FK",
+      "source_url": "https://help.netflix.com/en/node/24926/fk"
+    },
+    {
+      "plan": "Basic",
+      "price": "11.99 USD / month",
+      "country_code": "FK",
+      "source_url": "https://help.netflix.com/en/node/24926/fk"
+    }
+  ],
+  "GS": [
+    {
+      "plan": "Standard",
+      "price": "17.99 USD / month",
+      "country_code": "GS",
+      "source_url": "https://help.netflix.com/en/node/24926/gs"
+    },
+    {
+      "plan": "Premium",
+      "price": "24.99 USD / month",
+      "country_code": "GS",
+      "source_url": "https://help.netflix.com/en/node/24926/gs"
+    },
+    {
+      "plan": "Basic",
+      "price": "11.99 USD / month",
+      "country_code": "GS",
+      "source_url": "https://help.netflix.com/en/node/24926/gs"
+    }
+  ],
+  "SH": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "SH",
+      "source_url": "https://help.netflix.com/en/node/24926/sh"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "SH",
+      "source_url": "https://help.netflix.com/en/node/24926/sh"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "SH",
+      "source_url": "https://help.netflix.com/en/node/24926/sh"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "SH",
+      "source_url": "https://help.netflix.com/en/node/24926/sh"
+    }
+  ],
+  "AC": [
+    {
+      "plan": "Standard",
+      "price": "15.49 USD / month",
+      "country_code": "AC",
+      "source_url": "https://help.netflix.com/en/node/24926/ag"
+    },
+    {
+      "plan": "Premium",
+      "price": "19.99 USD / month",
+      "country_code": "AC",
+      "source_url": "https://help.netflix.com/en/node/24926/ag"
+    },
+    {
+      "plan": "Basic",
+      "price": "10.99 USD / month",
+      "country_code": "AC",
+      "source_url": "https://help.netflix.com/en/node/24926/ag"
+    }
+  ],
+  "IO": [
+    {
+      "plan": "Standard",
+      "price": "7.99 USD / month",
+      "country_code": "IO",
+      "source_url": "https://help.netflix.com/en/node/24926/io"
+    },
+    {
+      "plan": "Premium",
+      "price": "9.99 USD / month",
+      "country_code": "IO",
+      "source_url": "https://help.netflix.com/en/node/24926/io"
+    },
+    {
+      "plan": "Basic",
+      "price": "3.99 USD / month",
+      "country_code": "IO",
+      "source_url": "https://help.netflix.com/en/node/24926/io"
+    },
+    {
+      "plan": "Mobile",
+      "price": "2.99 USD / month",
+      "country_code": "IO",
+      "source_url": "https://help.netflix.com/en/node/24926/io"
+    }
+  ]
+}
