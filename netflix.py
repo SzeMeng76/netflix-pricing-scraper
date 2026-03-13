@@ -344,8 +344,11 @@ def extract_price_advanced(html: str, country_code: str) -> list[dict[str, Any]]
                 
                 # 确定货币
                 if currency_prefix:
-                    currency_mapping = {'$': 'USD', 'R$': 'BRL', 'AU$': 'AUD', 'NZ$': 'NZD'}
-                    currency = currency_mapping.get(currency_prefix, currency_prefix)
+                    currency_mapping = {'R$': 'BRL', 'AU$': 'AUD', 'NZ$': 'NZD'}
+                    if currency_prefix == '$':
+                        currency = get_default_currency(country_code)
+                    else:
+                        currency = currency_mapping.get(currency_prefix, currency_prefix)
                 elif currency_suffix:
                     currency_mapping = {
                         'kr': get_default_currency(country_code),
@@ -435,7 +438,8 @@ def extract_from_page_text_detailed(text_content: str, country_code: str) -> lis
                             
                             if isinstance(match, tuple):
                                 if pattern_idx == 0:  # $XX.XX格式
-                                    price_text = f"${match[0]} / month"
+                                    default_currency = get_default_currency(country_code)
+                                    price_text = f"{match[0]} {default_currency} / month"
                                 elif pattern_idx == 1:  # AU$XX.XX, NZ$XX.XX, R$XX.XX格式
                                     currency_mapping = {'AU$': 'AUD', 'NZ$': 'NZD', 'R$': 'BRL'}
                                     currency = currency_mapping.get(match[0], match[0])
@@ -451,9 +455,11 @@ def extract_from_page_text_detailed(text_content: str, country_code: str) -> lis
                                     else:
                                         price_text = f"{match[1]} {match[0]} / month"
                                 else:
-                                    price_text = f"${match[0]} / month"
+                                    default_currency = get_default_currency(country_code)
+                                    price_text = f"{match[0]} {default_currency} / month"
                             else:
-                                price_text = f"${match} / month"
+                                default_currency = get_default_currency(country_code)
+                                price_text = f"{match} {default_currency} / month"
                             
                             if plan_name not in found_plans:
                                 plan_info = {
