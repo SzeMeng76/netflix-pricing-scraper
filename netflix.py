@@ -265,7 +265,7 @@ def extract_price_advanced(html: str, country_code: str) -> list[dict[str, Any]]
     # "extra member slots can be added for 13 MYR each / month"
     extra_member_pattern = re.compile(
         r'(?:add(?:\s+up\s+to\s+\d+|\s+\d+)?\s+extra\s+members?(?:\s+slots?)?\s+for|extra\s+members?\s+slots?.*?(?:can\s+be\s+)?added\s+for)\s+'
-        r'(?:(\$|€|£|¥|₦|₹)(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)|(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|[^\s\d/a-z]))'
+        r'(?:([A-Z]{1,3}\$?|[^\s\d])(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)|(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{2,3}|[^\s\d/a-z]))'
         r'(?:\s+each)?\s*/\s*month',
         re.IGNORECASE
     )
@@ -402,7 +402,7 @@ def extract_from_page_text_detailed(text_content: str, country_code: str) -> lis
     # "extra member slots can be added for 13 MYR each / month"
     extra_member_pattern = re.compile(
         r'(?:add(?:\s+up\s+to\s+\d+|\s+\d+)?\s+extra\s+members?(?:\s+slots?)?\s+for|extra\s+members?\s+slots?.*?(?:can\s+be\s+)?added\s+for)\s+'
-        r'(?:(\$|€|£|¥|₦|₹)(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)|(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|[^\s\d/a-z]))'
+        r'(?:([A-Z]{1,3}\$?|[^\s\d])(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)|(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{2,3}|[^\s\d/a-z]))'
         r'(?:\s+each)?\s*/\s*month',
         re.IGNORECASE
     )
