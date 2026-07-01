@@ -257,15 +257,26 @@ def extract_price_advanced(html: str, country_code: str) -> list[dict[str, Any]]
     full_text = soup.get_text()
 
     # 提取 extra member slots 信息
+    # 支持多种格式:
+    # "Add 1 extra member for $2.99 / month"          (货币符号前置)
+    # "Add up to 2 extra members for $2.99 each / month"
+    # "Add 1 extra member slot for 7.98 SGD / month"  (货币代码后置)
+    # "Add up to 2 extra member slots for 7.98 SGD each / month"
+    # "extra member slots can be added for 13 MYR each / month"
     extra_member_pattern = re.compile(
-        r'extra member slots?.*?(?:can be )?added for\s+(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR|MYR|kr|Ft|Kč)\s+each\s*/\s*month',
+        r'(?:add(?:\s+up\s+to\s+\d+|\s+\d+)?\s+extra\s+members?(?:\s+slots?)?\s+for|extra\s+members?\s+slots?.*?(?:can\s+be\s+)?added\s+for)\s+'
+        r'(?:(\$|€|£|¥|₦|₹)(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)|(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|[^\s\d/a-z]))'
+        r'(?:\s+each)?\s*/\s*month',
         re.IGNORECASE
     )
     extra_member_match = extra_member_pattern.search(full_text)
     extra_member_info = None
     if extra_member_match:
-        price = extra_member_match.group(1).strip()
-        currency = extra_member_match.group(2).strip()
+        sym_prefix, num_after_sym, num_before_code, code = extra_member_match.groups()
+        if sym_prefix:
+            price, currency = num_after_sym.strip(), sym_prefix.strip()
+        else:
+            price, currency = num_before_code.strip(), code.strip()
         extra_member_info = f"{price} {currency} / month"
     
     # 定义更精确的套餐和价格模式
@@ -383,15 +394,26 @@ def extract_from_page_text_detailed(text_content: str, country_code: str) -> lis
     all_plans = []
 
     # 提取 extra member slots 信息
+    # 支持多种格式:
+    # "Add 1 extra member for $2.99 / month"          (货币符号前置)
+    # "Add up to 2 extra members for $2.99 each / month"
+    # "Add 1 extra member slot for 7.98 SGD / month"  (货币代码后置)
+    # "Add up to 2 extra member slots for 7.98 SGD each / month"
+    # "extra member slots can be added for 13 MYR each / month"
     extra_member_pattern = re.compile(
-        r'extra member slots?.*?(?:can be )?added for\s+(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|₦|USD|GBP|EUR|CAD|JPY|¥|£|€|\$|INR|₹|KRW|NGN|Rs|PKR|MYR|kr|Ft|Kč)\s+each\s*/\s*month',
+        r'(?:add(?:\s+up\s+to\s+\d+|\s+\d+)?\s+extra\s+members?(?:\s+slots?)?\s+for|extra\s+members?\s+slots?.*?(?:can\s+be\s+)?added\s+for)\s+'
+        r'(?:(\$|€|£|¥|₦|₹)(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)|(\d{1,3}(?:[,.]?\d{3})*(?:[.,]\d{2})?)\s*([A-Z]{3}|[^\s\d/a-z]))'
+        r'(?:\s+each)?\s*/\s*month',
         re.IGNORECASE
     )
     extra_member_match = extra_member_pattern.search(text_content)
     extra_member_info = None
     if extra_member_match:
-        price = extra_member_match.group(1).strip()
-        currency = extra_member_match.group(2).strip()
+        sym_prefix, num_after_sym, num_before_code, code = extra_member_match.groups()
+        if sym_prefix:
+            price, currency = num_after_sym.strip(), sym_prefix.strip()
+        else:
+            price, currency = num_before_code.strip(), code.strip()
         extra_member_info = f"{price} {currency} / month"
 
     # 将文本按行分割处理
