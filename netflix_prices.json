@@ -570,15 +570,15 @@
   "CO": [
     {
       "plan": "Standard",
-      "price": "29,900 COP / month",
-      "extra_member_slots": "9,900 COP / month",
+      "price": "32,900 COP / month",
+      "extra_member_slots": "11,900 COP / month",
       "country_code": "CO",
       "source_url": "https://help.netflix.com/en/node/24926/co"
     },
     {
       "plan": "Premium",
-      "price": "44,900 COP / month",
-      "extra_member_slots": "9,900 COP / month",
+      "price": "50,900 COP / month",
+      "extra_member_slots": "11,900 COP / month",
       "country_code": "CO",
       "source_url": "https://help.netflix.com/en/node/24926/co"
     },
@@ -592,21 +592,21 @@
   "VE": [
     {
       "plan": "Standard",
-      "price": "5.99 USD / month",
+      "price": "6.99 USD / month",
       "extra_member_slots": "2.99 $ / month",
       "country_code": "VE",
       "source_url": "https://help.netflix.com/en/node/24926/ve"
     },
     {
       "plan": "Premium",
-      "price": "7.99 USD / month",
+      "price": "8.99 USD / month",
       "extra_member_slots": "2.99 $ / month",
       "country_code": "VE",
       "source_url": "https://help.netflix.com/en/node/24926/ve"
     },
     {
       "plan": "Basic",
-      "price": "3.99 USD / month",
+      "price": "4.99 USD / month",
       "country_code": "VE",
       "source_url": "https://help.netflix.com/en/node/24926/ve"
     }
