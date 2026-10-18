@@ -506,21 +506,21 @@
   "BR": [
     {
       "plan": "Standard with ads",
-      "price": "20,90 BRL / month",
+      "price": "25,90 BRL / month",
       "country_code": "BR",
       "source_url": "https://help.netflix.com/en/node/24926/br"
     },
     {
       "plan": "Standard",
-      "price": "44,90 BRL / month",
-      "extra_member_slots": "9,90 R$ / month",
+      "price": "51,90 BRL / month",
+      "extra_member_slots": "11,90 R$ / month",
       "country_code": "BR",
       "source_url": "https://help.netflix.com/en/node/24926/br"
     },
     {
       "plan": "Premium",
-      "price": "59,90 BRL / month",
-      "extra_member_slots": "9,90 R$ / month",
+      "price": "71,90 BRL / month",
+      "extra_member_slots": "11,90 R$ / month",
       "country_code": "BR",
       "source_url": "https://help.netflix.com/en/node/24926/br"
     }
